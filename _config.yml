@@ -8,19 +8,19 @@ theme: null
 collections:
   people:
     output: true
-    permalink: /people/:path/
+    permalink: people/:path/
   research:
     output: true
-    permalink: /research/:path/
+    permalink: research/:path/
   teaching:
     output: true
-    permalink: /teaching/:path/
+    permalink: teaching/:path/
   news:
     output: true
-    permalink: /news/:path/
+    permalink: news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: projects/:path/
 
 defaults:
   - scope:
