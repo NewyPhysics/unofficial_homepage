@@ -1,0 +1,50 @@
+title: "Physics at the University of Newcastle"
+description: "An unofficial community website for physics research, teaching and students at the University of Newcastle."
+url: ""
+baseurl: ""
+markdown: kramdown
+theme: null
+
+collections:
+  people:
+    output: true
+    permalink: /people/:path/
+  research:
+    output: true
+    permalink: /research/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: person
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "teaching"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: page

@@ -1,0 +1,98 @@
+---
+layout: default
+title: Home
+---
+<section id="hero" class="hero">
+  <div class="container">
+    <p class="eyebrow">PHYSICS · UNIVERSITY OF NEWCASTLE</p>
+    <h1>Physics at the University of Newcastle</h1>
+    <p class="lead">Research, teaching and people across the physics community.</p>
+    <p class="unofficial-inline"><strong>Unofficial community website</strong> — not an official University of Newcastle site.</p>
+    <a class="btn" href="#research">Explore our research</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>About this site</h2>
+    <p>This site is intended as a shared community resource for academics, teaching staff, HDR students, Honours students and undergraduate students associated with physics at the University of Newcastle.</p>
+    <p>It complements rather than replaces the University's official website. For official University information, please use the University's own website.</p>
+  </div>
+</section>
+
+<section id="research" class="section alt">
+  <div class="container">
+    <h2>Research</h2>
+    <p class="section-intro">A broad physics community spanning fundamental, applied, computational and observational research.</p>
+    <div class="cards">
+      {% for item in site.research %}
+      <article class="card">
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+        <p>{{ item.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="people" class="section">
+  <div class="container">
+    <h2>People</h2>
+    <div class="cards">
+      {% for person in site.people %}
+      <article class="card">
+        <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
+        <p>{{ person.role }}</p>
+        <p>{{ person.research }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="students" class="section alt">
+  <div class="container">
+    <h2>Students</h2>
+    <div class="cards">
+      <article class="card"><h3><a href="{{ '/students/hdr/' | relative_url }}">HDR students</a></h3><p>PhD and research masters students and their research projects.</p></article>
+      <article class="card"><h3><a href="{{ '/students/honours/' | relative_url }}">Honours</a></h3><p>Current Honours students and available research projects.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="teaching" class="section">
+  <div class="container">
+    <h2>Teaching</h2>
+    <div class="cards">
+      {% for item in site.teaching %}
+      <article class="card">
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+        <p>{{ item.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section alt">
+  <div class="container">
+    <h2>Student projects</h2>
+    <p>Research opportunities for third-year students, Honours students and HDR candidates.</p>
+    <a class="btn" href="{{ '/projects/third-year/' | relative_url }}">Third-year projects</a>
+    <a class="btn secondary" href="{{ '/students/honours/' | relative_url }}">Honours projects</a>
+  </div>
+</section>
+
+<section id="news" class="section">
+  <div class="container">
+    <h2>News & opportunities</h2>
+    <div class="cards">
+      {% for item in site.news limit:6 %}
+      <article class="card">
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+        <p>{{ item.excerpt | strip_html | truncate: 180 }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
