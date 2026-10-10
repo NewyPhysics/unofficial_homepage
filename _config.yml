@@ -3,7 +3,11 @@ description: "An unofficial community website for physics research, teaching and
 url: ""
 baseurl: ""
 markdown: kramdown
-theme: null
+
+# Required if hosting on GitHub Pages with a custom layout setup
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 collections:
   people:
@@ -23,28 +27,36 @@ collections:
     permalink: projects/:path/
 
 defaults:
+  # Base default for regular pages (Missing in your original file)
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  # Your collection defaults
   - scope:
       path: ""
       type: "people"
     values:
-      layout: person
+      layout: "person"
   - scope:
       path: ""
       type: "research"
     values:
-      layout: page
+      layout: "page"
   - scope:
       path: ""
       type: "teaching"
     values:
-      layout: page
+      layout: "page"
   - scope:
       path: ""
       type: "news"
     values:
-      layout: page
+      layout: "page"
   - scope:
       path: ""
       type: "projects"
     values:
-      layout: page
+      layout: "page"
+      
