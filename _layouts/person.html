@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<main class="inner-page">
+  <div class="container person-page">
+    {% if page.image %}
+      <img class="person-image" src="{{ page.image | relative_url }}" alt="{{ page.name }}">
+    {% endif %}
+    <h1>{{ page.name }}</h1>
+    <p class="lead">{{ page.role }}</p>
+    {% if page.research %}<p><strong>Research:</strong> {{ page.research }}</p>{% endif %}
+    {{ content }}
+  </div>
+</main>

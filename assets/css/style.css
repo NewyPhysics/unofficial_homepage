@@ -1,0 +1,27 @@
+/* Department-specific styles. The visual structure is intended to sit alongside Squadfree assets. */
+:root { --navy:#17324d; --light:#f7f9fb; --accent:#2b7a78; --text:#303b45; }
+body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--text); line-height:1.7; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+.container { width:min(1100px,92%); margin:auto; }
+#header { background:#fff; box-shadow:0 2px 12px rgba(0,0,0,.08); z-index:1000; }
+.logo h1 { margin:0; font-size:1.3rem; color:var(--navy); }
+.navbar ul { list-style:none; display:flex; gap:1.2rem; margin:0; padding:1rem 0; flex-wrap:wrap; }
+.unofficial-notice { margin-top:68px; padding:.7rem 1rem; background:#fff4d6; border-bottom:1px solid #ead7a0; text-align:center; font-size:.9rem; }
+.hero { padding:7rem 0 6rem; background:linear-gradient(135deg,#17324d,#315c73); color:#fff; }
+.hero h1 { font-size:clamp(2.3rem,5vw,4.5rem); line-height:1.1; max-width:850px; }
+.eyebrow { letter-spacing:.15em; font-weight:bold; }
+.unofficial-inline { max-width:800px; }
+.btn { display:inline-block; margin:.5rem .5rem .5rem 0; padding:.65rem 1.2rem; border-radius:3px; background:#fff; color:var(--navy); font-weight:bold; }
+.btn.secondary { background:transparent; color:inherit; border:1px solid currentColor; }
+.section { padding:5rem 0; }
+.section.alt { background:var(--light); }
+.section h2 { font-size:2.2rem; color:var(--navy); }
+.section-intro { max-width:760px; }
+.cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.5rem; }
+.card { background:#fff; padding:1.5rem; box-shadow:0 3px 18px rgba(0,0,0,.07); }
+.inner-page { padding:4rem 0; min-height:60vh; }
+.person-image { max-width:180px; border-radius:50%; }
+.footer { padding:2.5rem 0; background:#17324d; color:#fff; }
+.footer a { color:#fff; }
+@media(max-width:800px){ .navbar ul{gap:.6rem; font-size:.9rem;} .hero{padding-top:4rem;} }
