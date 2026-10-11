@@ -34,7 +34,7 @@ title: Home
     </div>
   </div>
 </section>
-
+<!-- 
 <section id="people" class="section">
   <div class="container">
     <h2>People</h2>
@@ -48,7 +48,76 @@ title: Home
       {% endfor %}
     </div>
   </div>
+</section> -->
+
+
+
+<section id="people" class="section">
+  <div class="container">
+    <h2>People</h2>
+    <p class="section-intro">
+      Meet the academics teaching and researching in Physics
+      at the University of Newcastle.
+    </p>
+
+    <div class="people-grid">
+      {% assign academics = site.people | sort: "name" %}
+      {% for person in academics %}
+      <article class="person-card">
+
+        <div class="person-photo">
+          {% if person.photo %}
+          <img
+            src="{{ person.photo | relative_url }}"
+            alt="Photo of {{ person.name }}"
+            loading="lazy">
+          {% else %}
+          <div class="photo-placeholder">
+            <span>{{ person.name }}</span>
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="person-info">
+          <h3>{{ person.name }}</h3>
+
+          {% if person.role %}
+          <p class="person-role">{{ person.role }}</p>
+          {% endif %}
+
+          {% if person.research %}
+          <p class="person-research">
+            <strong>Research:</strong> {{ person.research }}
+          </p>
+          {% endif %}
+
+          {% if person.courses %}
+          <p class="person-courses">
+            <strong>Courses:</strong>
+            {% for course in person.courses %}
+              <span class="course-code">{{ course }}</span>
+            {% endfor %}
+          </p>
+          {% endif %}
+
+          {% if person.official_url %}
+          <a
+            class="profile-link"
+            href="{{ person.official_url }}"
+            target="_blank"
+            rel="noopener noreferrer">
+            Official University profile
+            <span aria-hidden="true">↗</span>
+          </a>
+          {% endif %}
+        </div>
+
+      </article>
+      {% endfor %}
+    </div>
+  </div>
 </section>
+
 
 <section id="students" class="section alt">
   <div class="container">
