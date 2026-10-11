@@ -5,7 +5,7 @@ a { color:var(--uon-bright-blue); text-decoration:none; }
 a:hover { text-decoration:underline; }
 .container { width:min(1100px,92%); margin:auto; }
 #header { background:#fff; box-shadow:0 2px 12px rgba(0,0,0,.08); z-index:1000; }
-.logo h1 { margin:0; font-size:1.3rem; color:var(--navy); }
+.logo h1 { margin:0; font-size:1.3rem; color:var(--uon-blue); }
 .navbar ul { list-style:none; display:flex; gap:1.2rem; margin:0; padding:1rem 0; flex-wrap:wrap; }
 .unofficial-notice { margin-top:68px; padding:.7rem 1rem; background:#fff4d6; border-bottom:1px solid #ead7a0; text-align:center; font-size:.9rem; }
 .hero { padding:7rem 0 6rem; background:linear-gradient(135deg,#17324d,#315c73); color:#fff; }
