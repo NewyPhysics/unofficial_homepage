@@ -1,6 +1,6 @@
 
 ---
-name: "Dr Hannah Schunker
+name: "Dr Hannah Schunker"
 role: "Senior Lecturer in Physics"
 research: "Solar physics, space weather and magnetohydrodynamics"
 courses:
