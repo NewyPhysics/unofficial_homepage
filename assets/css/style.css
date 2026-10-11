@@ -16,7 +16,7 @@ a:hover { text-decoration:underline; }
 .btn.secondary { background:transparent; color:inherit; border:1px solid currentColor; }
 .section { padding:5rem 0; }
 .section.alt { background:var(--light); }
-.section h2 { font-size:2.2rem; color:var(--navy); }
+.section h2 { font-size:2.2rem; color:var(--uon-blue); }
 .section-intro { max-width:760px; }
 .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.5rem; }
 .card { background:#fff; padding:1.5rem; box-shadow:0 3px 18px rgba(0,0,0,.07); }
