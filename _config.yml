@@ -1,13 +1,9 @@
-title: "Physics at the University of Newcastle"
+title: "Unofficial University of Newcastle Physics"
 description: "An unofficial community website for physics research, teaching and students at the University of Newcastle."
-url: ""
-baseurl: ""
+url: "https://newyphysics.github.io"
+baseurl: "/unofficial_homepage"
 markdown: kramdown
 
-# Required if hosting on GitHub Pages with a custom layout setup
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
 collections:
   people:
