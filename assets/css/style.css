@@ -1,7 +1,7 @@
 /* Department-specific styles. The visual structure is intended to sit alongside Squadfree assets. */
-:root { --navy:#17324d; --light:#f7f9fb; --accent:#2b7a78; --text:#303b45; }
+:root { --navy:#17324d; --light:#f7f9fb; --accent:#2b7a78; --text:#303b45; --uon-blue: #1090D5; --uon-bright-blue: #35B0E6; --uon-dark-blue: #075985;}
 body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--text); line-height:1.7; }
-a { color:var(--accent); text-decoration:none; }
+a { color:var(--uon-bright-blue); text-decoration:none; }
 a:hover { text-decoration:underline; }
 .container { width:min(1100px,92%); margin:auto; }
 #header { background:#fff; box-shadow:0 2px 12px rgba(0,0,0,.08); z-index:1000; }
@@ -12,7 +12,7 @@ a:hover { text-decoration:underline; }
 .hero h1 { font-size:clamp(2.3rem,5vw,4.5rem); line-height:1.1; max-width:850px; }
 .eyebrow { letter-spacing:.15em; font-weight:bold; }
 .unofficial-inline { max-width:800px; }
-.btn { display:inline-block; margin:.5rem .5rem .5rem 0; padding:.65rem 1.2rem; border-radius:3px; background:#fff; color:var(--navy); font-weight:bold; }
+.btn { display:inline-block; margin:.5rem .5rem .5rem 0; padding:.65rem 1.2rem; border-radius:3px; background:#fff; color:var(--uon-blue); font-weight:bold; }
 .btn.secondary { background:transparent; color:inherit; border:1px solid currentColor; }
 .section { padding:5rem 0; }
 .section.alt { background:var(--light); }
