@@ -1,6 +1,7 @@
 ---
 name: "Dr Hannah Schunker"
-role: "Senior Lecturer in Physics"
+sort_name: "Schunker"
+role: "ARC Future Fellow"
 research: "Solar physics, space weather and magnetohydrodynamics"
 courses:
   - "PHYS3211"

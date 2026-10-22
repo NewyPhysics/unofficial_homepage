@@ -9,7 +9,7 @@ a:hover { text-decoration:underline; }
 .logo h1 { margin:0; font-size:1.3rem; color:var(--uon-blue); }
 .navbar ul { list-style:none; display:flex; gap:1.2rem; margin:0; padding:1rem 0; flex-wrap:wrap; }
 .unofficial-notice { padding:.7rem 1rem; background:#fff4d6; border-bottom:1px solid #ead7a0; text-align:center; font-size:.9rem; }
-.hero { padding:7rem 0 6rem; background:linear-gradient(135deg,#17324d,#315c73); color:#fff; }
+.hero { padding:7rem 0 6rem; background:var(--uon-blue); color:#fff; }
 .hero h1 { font-size:clamp(2.3rem,5vw,4.5rem); line-height:1.1; max-width:850px; }
 .eyebrow { letter-spacing:.15em; font-weight:bold; }
 .unofficial-inline { max-width:800px; }

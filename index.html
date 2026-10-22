@@ -61,7 +61,7 @@ title: Home
     </p>
 
     <div class="people-grid">
-      {% assign academics = site.people | sort: "name" %}
+      {% assign academics = site.people | sort: "sort_name" %}
       {% for person in academics %}
       <article class="person-card">
 
