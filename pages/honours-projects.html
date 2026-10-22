@@ -1,0 +1,59 @@
+---
+layout: page
+title: Honours and undergraduate research projects
+permalink: /projects/honours/
+---
+{% assign data = site.data.honours_projects %}
+{% assign supervisors = data.supervisors | sort: "sort_name" %}
+
+<p class="lead">Research projects on offer in the Physics discipline for {{ data.year }}.</p>
+
+<p>We encourage undergraduates to get involved in research throughout their degree. Along the way you will learn to find, assess and use scientific sources, manage a project, carry out experimental or computational research, and present your results clearly, both in writing and in person. These skills give you a strong foundation for a career in industry, business or academia.</p>
+
+<h2>Ways to get involved</h2>
+<div class="cards">
+  <article class="card">
+    <h3>Summer research projects</h3>
+    <p>Short, paid undergraduate research projects over the summer break.</p>
+  </article>
+  <article class="card">
+    <h3>SCIE3500</h3>
+    <p>A 10-unit undergraduate course built around a research project with an academic supervisor, assessed on a progress report, research notebook, final report and oral presentation. Open to third-year students who have completed at least 140 units with a cumulative GPA of at least 5.0. Offered in both semesters and the winter term.</p>
+    <p><a href="https://www.newcastle.edu.au/course/SCIE3500">SCIE3500 course details</a></p>
+  </article>
+  <article class="card">
+    <h3>Honours</h3>
+    <p>A full-year research project after completing the Bachelor of Science or another related degree, split 50% coursework and 50% research. A minimum GPA of 5.0 is required for entry.</p>
+    <p><a href="https://www.newcastle.edu.au/degrees/bachelor-of-science-honours">Bachelor of Science (Honours)</a></p>
+  </article>
+</div>
+
+<p class="callout"><strong>Talk to a supervisor first.</strong> Always discuss a potential project with the supervisor before you enrol or apply. Supervisors are listed in alphabetical order, and you're welcome to contact them by email or drop by.</p>
+
+<nav class="supervisor-index" aria-label="Supervisors">
+  {% for s in supervisors %}{% if s.projects.size > 0 %}<a href="#{{ s.sort_name | slugify }}">{{ s.name }}</a>{% endif %}{% endfor %}
+</nav>
+
+{% for s in supervisors %}
+{% if s.projects.size > 0 %}
+<section class="supervisor" id="{{ s.sort_name | slugify }}">
+  <h2>
+    {% if s.person %}<a href="{{ '/people/' | append: s.person | append: '/' | relative_url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}
+  </h2>
+  <p class="supervisor-meta">
+    {% if s.group %}<span>{{ s.group }}</span>{% endif %}
+    {% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% endif %}
+    {% if s.profile %}<a href="{{ s.profile }}" target="_blank" rel="noopener noreferrer">University profile <span aria-hidden="true">↗</span></a>{% endif %}
+  </p>
+  {% if s.intro %}<p>{{ s.intro }}</p>{% endif %}
+  {% for p in s.projects %}
+  <details class="project">
+    <summary>{{ p.title }}</summary>
+    <div class="project-body">{{ p.description | markdownify }}</div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+{% endfor %}
+
+<p class="empty-note">Project details are supplied by each supervisor and may change. Course rules and entry requirements are set by the University; check the <a href="https://handbook.newcastle.edu.au/">University Handbook</a> for current information.</p>

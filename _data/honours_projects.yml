@@ -1,0 +1,307 @@
+# Honours and undergraduate research projects, shown on /projects/honours/.
+# Supervisors appear in alphabetical order of `sort_name`.
+# Each project needs a `title` and a `description` (Markdown is allowed, including bullet lists).
+# Optional per supervisor: `email`, `profile`, `group`, `person` (the _people file name, to link their card).
+
+year: 2027
+
+supervisors:
+
+  - name: "Professor Paul Dastoor"
+    sort_name: "Dastoor"
+    person: "dastoor-paul"
+    email: "paul.dastoor@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/paul-dastoor"
+    group: "Centre for Organic Electronics"
+    projects:
+      - title: "Biosensors from Plastic Electronics"
+        description: |
+          Diabetes currently affects over 300 million people worldwide, a number that is predicted to rise to over 500 million by 2020. Diabetes sufferers are condemned to a lifetime of painful, invasive blood testing many times a day. Research in the Centre for Organic Electronics (COE) has already demonstrated that low cost glucose biosensors can be fabricated by simply incorporating bioactive materials (such as enzymes) into organic thin film transistors (OTFTs). Using soft electronic polymers as the matrix for the bioactive material eliminates the need for complex molecular surface assembly. This project will involve designing, building and characterising OTFT biosensors for diabetes management. The goal of this project is the development of a flexible and inexpensive printable biosensor. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Helium Atom Beam Microscopy: Using Quantum Mechanics to Image Delicate Surfaces"
+        description: |
+          Scanning helium atom microscopy offers the tantalising possibility of using the wave-particle nature of helium atoms to image the structure of delicate surfaces with unprecedented resolution. This project will involve developing the new ARC-funded helium beam microscope at Newcastle and producing preliminary images. This project will involve collaboration with the Cavendish Laboratory at the University of Cambridge. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Extending the Spectral Response of Organic Solar Cells"
+        description: |
+          State-of-the-art organic solar cells are limited by the wavelength response of the active semi-conducting polymer layer since these materials typically only photogenerate charges below 500–550 nm. In the natural world, plants use a range of porphyrin-based molecules (such as chlorophyll) to allow photosynthesis to occur across the solar spectrum. This project aims to develop photovoltaic devices containing novel light harvesting molecules. The goal of this project is to develop printed solar cells that generate electricity from the entire solar spectrum. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Extending the Lifetime of Organic Solar Cells"
+        description: |
+          One of the current challenges limiting the rapid uptake of organic solar cells is the limited lifetime of these devices. This project will study novel device architectures with the goal of developing extended lifetime solar cell devices. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Field Ionisation Helium Detection using Carbon Nanotubes"
+        description: |
+          Scanning helium microscopy is an emerging imaging technology that uses low energy (<50 meV) helium atom beams as a completely non-perturbing probe of nanoscale structure. However, this exciting new technology is currently limited by the lack of an effective 2D imaging system for neutral He atoms. Carbon nanotubes (CNTs) offer the possibility of acting as effective field ionisation tips for He atoms, thus allowing them to be detected. This project will aim to grow CNT arrays using the chemical vapour deposition (CVD) system in the Centre for Organic Electronics. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Large Area Printing of Organic Solar Cells"
+        description: |
+          The development of new sources of renewable energy is urgently required if the worst effects of man-made climate change are to be avoided. This project will build on the recent exciting advances made by the Centre for Organic Electronics (COE) in device fabrication to develop new methods for printing large photovoltaic arrays based on semi-conducting polymers. This project will make use of the new state-of-the-art printing system that has been recently purchased by the COE for developing organic electronic circuits. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Novel Electrodes for Organic Solar Cells"
+        description: |
+          The capability of organic solar cells to provide large scale global sustainable energy solutions will be limited by the current high costs and supply issues associated with the current electrode materials. This project will explore novel transparent conducting materials to address the issue of developing low cost electrode structures for these exciting new devices. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Novel Encapsulants for Organic Solar Cells"
+        description: |
+          State-of-the-art organic solar cells are limited by the durability and lifetime of the active layer materials in these blended devices. This project will study the role of new encapsulant materials and structures to extend the lifetime of these devices. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Phase Contrast Mechanisms in Scanning Helium Microscopy"
+        description: |
+          The aim of this multinational collaborative research project is to develop the world's first imaging detector for neutral helium atoms for use in a new surface-imaging instrument – the scanning helium microscope. Scanning helium microscopy is an emerging imaging technology that uses low energy (<50 meV) helium atom beams as a completely non-perturbing probe of nanoscale structure. Currently, there is little understanding of the mechanisms that would provide contrast in this microscopy. The ultimate goal of this project is to understand the phase contrast mechanisms that would operate in scanning helium microscopy and is motivated by recent research by Prof Dastoor and colleagues at the University of Cambridge. This project will involve modelling work with the goal of understanding the phase contrast processes. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Structure and Morphology of Conducting Polymer Blends"
+        description: |
+          Conducting polymer blends underpin all of the activities of the Centre for Organic Electronics, especially in the areas of organic solar cells and biosensors based on organic transistors. This project will study the role of structure and morphology in these blend materials as characterised by advanced synchrotron based techniques. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+      - title: "Ultra-fast Laser Spectroscopy of Organic Electronic Materials"
+        description: |
+          The charge generation and charge conduction mechanisms involved in organic electronic devices occur on extremely short timescales and as such are not well understood. This project will aim to use a state-of-the-art femtosecond laser spectroscopy system to probe these mechanisms using pump-probe spectroscopy. This project is suitable for students with backgrounds in Physics, Chemistry and Engineering.
+
+  - name: "Dr Tom Evans-Soma"
+    sort_name: "Evans-Soma"
+    person: "evans-soma-tom"
+    email: "tom.evans-soma@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/tom-evans-soma"
+    projects:
+      - title: "Atmospheric characterisation of a hot Jupiter using the James Webb Space Telescope (JWST)"
+        description: |
+          WASP-121 b is a gas giant exoplanet orbiting extremely close to its host star with an orbital period of approximately 30 hours. Temperatures in the upper atmosphere of the planet vary dramatically from ~3000 kelvin on the dayside down to ~1000 kelvin on the nightside. Using the NIRSpec instrument onboard JWST, we've observed a spectroscopic phase-curve for WASP-121 b covering the ~3–5 micron wavelength range. Various research projects related to this dataset are possible, including:
+
+          - Measuring how radiation is transmitted through the atmosphere to decipher the contrasting properties of the dayside and nightside hemispheres.
+          - Studying the morphology of the primary transit signal to search for evidence of differing atmospheric conditions at the morning and evening terminators of the planet.
+          - Detailed comparison of the emission spectra obtained at the start and end of the observation to search for evidence of variability in the atmospheric properties over ~10 hour timescales ("exo-meteorology").
+      - title: "Atmospheric characterisation of various exoplanets using the Hubble Space Telescope (HST)"
+        description: |
+          Until JWST launched in late 2021, HST had been the premier observatory for studying exoplanet atmospheres. Projects are available to analyse and interpret atmospheric spectra obtained from unpublished HST observations for a number of exoplanets:
+
+          - **HD 209458 b** is the original transiting exoplanet (an archetype of the hot Jupiter class) and remains one of the most favourable observational targets. Data are available for both the dayside emission spectrum and the atmospheric transmission spectrum.
+          - **HAT-P-18 b** is a "warm" (<1000 kelvin) Saturn-sized exoplanet orbiting an active host star. Atmospheric transmission data are available spanning the optical-to-near-infrared wavelength range. In particular, the optical data complement infrared data from JWST that have recently been published.
+          - **TOI-270 c and d** are two "temperate" (<500 kelvin) sub-Neptune exoplanets orbiting a common red dwarf star, discovered by the Transiting Exoplanet Survey Satellite (TESS). Atmospheric transmission data are available for both planets at near-infrared wavelengths.
+      - title: "Modelling exoplanet atmospheres in the JWST era"
+        description: |
+          The quality of the spectra we are now measuring for exoplanets with JWST far surpasses those that had represented the state-of-the-art until just two years ago. This project would involve modelling the transmission of radiation through exoplanet atmospheres and comparing the resulting spectra to those that have been recently acquired with JWST and published in the peer-reviewed literature. In doing so, the aim is to learn the chemical and thermal properties of the planetary atmosphere. This in turn can help us to refine our understanding of how radiative transfer, chemistry, and dynamics couple together in atmospheres that are unlike any we encounter in the solar system.
+      - title: "Exploring Survey Outcomes for the Habitable Worlds Observatory"
+        description: |
+          The Habitable Worlds Observatory (HWO) is a planned flagship NASA mission designed to directly image and characterise Earth-like planets around nearby stars, searching for signs of habitability and life beyond the solar system. While its design and target list are still being refined, HWO aims to detect reflected light from terrestrial exoplanets and measure their spectra — potentially revealing atmospheres similar to Earth's. This project will explore possible outcomes of HWO's future surveys. Using the current catalogue of potential target stars and publicly available frameworks for simulating astronomical survey yields, the project will model how different assumptions about the frequency and properties of Earth-like planets affect the number and types of worlds HWO might detect. Because the true occurrence rate of Earth twins remains highly uncertain, this project allows these parameters to be adjusted — much like tuning the terms in a Drake Equation — to see how survey expectations change. The goal is to understand how sensitive HWO's scientific return will be to key unknowns in exoplanet demographics and to identify what kinds of discoveries would be most likely under different scenarios.
+
+  - name: "Dr Stuart Gilchrist"
+    sort_name: "Gilchrist"
+    person: "gilchrist-stuart"
+    email: "stuart.gilchrist@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/stuart-gilchrist"
+    projects:
+      - title: "Modelling Solar Magnetic Fields with Physics-Informed Neural Nets"
+        description: |
+          The solar corona is the hot, extended outer atmosphere of the Sun, whose structure and dynamics are governed by the coronal magnetic field. Explosive reconfigurations of the coronal field give rise to solar activity such as solar flares and coronal mass ejections. However, direct observation of the coronal magnetic field is challenging. Instead, it is typically inferred — or extrapolated — from spectro-polarimetric observations taken in the denser, cooler solar photosphere. This extrapolation process involves solving a three-dimensional nonlinear boundary-value problem, which traditional computational methods often struggle to handle efficiently and accurately.
+
+          Physics-Informed Neural Networks (PINNs) are a recently developed approach to solving such challenging problems in computational physics. PINNs leverage neural networks — a form of machine learning — to find solutions to systems of differential equations. This method offers several advantages: it is more robust to noisy data than conventional numerical techniques and also allows for flexible implementation, making it easier to test different boundary conditions and physical models.
+
+          This project focuses on developing and experimenting with PINNs to perform Nonlinear Force-Free Field (NLFFF) extrapolations of the solar coronal magnetic field. The work will involve machine learning, Python, physics, and numerical and computational methods.
+      - title: "Validation of solar coronal magnetic field models"
+        description: |
+          Explosive reconfigurations of the solar coronal magnetic field give rise to solar activity such as flares and coronal mass ejections, which directly impact Earth. Understanding these events, with the ultimate goal of predicting them, is a long-term objective of heliophysics. Unfortunately, studying these events is challenging because the solar coronal magnetic field is poorly observed, i.e. it is difficult to constrain via remote sensing methods. Quantitative information on the strength, direction, and structure of the field is particularly difficult to infer, and this limitation constrains the study of coronal physics.
+
+          In the absence of direct observations, it is necessary to rely on data-driven modelling, which combines physical models with observations of the magnetic field at the photosphere. These coronal field "extrapolations" have become a fundamental tool for investigating the corona. However, constructing the three-dimensional field via extrapolation is non-trivial, and the accuracy of these methods is not well understood because the basic ground truth — the coronal magnetic field — is unavailable for comparison.
+
+          Can we really trust the magnetic fields produced by extrapolation models? This is the question that model validation seeks to answer. In this project, we will use state-of-the-art observations of the Sun in X-ray and Extreme Ultraviolet (EUV), along with optical spectro-polarimetric data, to explore what we can — and cannot — learn about the corona through extrapolations. The project offers scope for theory, modelling, observations, and statistical analysis.
+
+  - name: "Dr Jonathan Goodwin"
+    sort_name: "Goodwin"
+    email: "jonathan.goodwin@health.nsw.gov.au"
+    profile: "https://www.newcastle.edu.au/profile/jonathan-goodwin"
+    group: "Medical Physics Research Group"
+    projects:
+      - title: "CIMBA-B: APT-CEST Imaging for Metabolic Assessment in Brain Tumours"
+        description: |
+          Treatment response assessment in brain tumours has always been challenging and is increasingly being seen as important due to advances in personalised medicine. It has been evident for some time that there is a discordance between functional and morphological findings of both imaging and histopathology. Multi-parametric MRI, using a combination of different MRI sequences, is used as a surrogate for treatment response, with evidence indicating a benefit in some tumours, including brain tumours. However, direct measurement of tumour metabolism has been challenging due to the need for invasive procedures to access tumour tissues. Non-invasive metabolic imaging with MRI is therefore another attractive option. Amide Proton Transfer Chemical Exchange Saturation Transfer (APT-CEST) MRI is an emerging imaging technique to obtain functional information about the tumour microenvironment and is a potential biomarker for response assessment needing further evaluation.
+      - title: "Deep learning enabled gold fiducial detection for MRI-only prostate treatment planning"
+        description: |
+          Gold seed fiducial markers are routinely implanted in the prostate to assist with image guidance during radiotherapy. On CT and kV imaging, these markers are clearly visualised, allowing accurate localisation during simulation and treatment delivery. However, in MRI-only treatment planning, visualisation is more challenging due to the hypointense appearance of both gold seeds and prostatic calcifications resulting from their negative magnetic susceptibility. This creates potential ambiguity for fiducial segmentation in patients with intraprostatic calcifications, which can compromise MRI-only workflows. To address this issue and improve the simulation-treatment pipeline for MRI-only prostate radiotherapy, a deep-learning model trained to detect gold seeds on T1-weighted GRE images was implemented as a software container on the MRI system using OpenRecon to provide inline segmented images that can be exported directly to the treatment-planning system. This project continues to look at ways of improving the technique for clinical implementation.
+      - title: "Functional avoidance in liver radiation therapy planning"
+        description: |
+          Radiation-induced toxicity in liver cancer patients has been linked to reduced quality of life and poor prognosis. Incorporating regions of relatively higher liver function as avoidance structures during radiation treatment planning may lead to improved patient outcomes. In this study we explore novel MRI-based methods for generating functional liver maps for incorporating into radiation treatment planning.
+      - title: "Synthetic CT for abdomen and lung"
+        description: |
+          While MRI offers superior soft tissue contrast for contouring tumour targets and defining organs at risk, CT is typically required for dose calculation. However, co-registration of CT and MRI images during radiation treatment can lead to anatomical mismatch for anatomies such as liver and lung. In this study we are working with Siemens Healthineers, CSIRO and Liverpool Hospital to develop AI-generated synthetic CT images, which would enable an MRI-only workflow for abdomen and lung patients.
+
+  - name: "Associate Professor Renee Goreham"
+    sort_name: "Goreham"
+    person: "goreham-renee"
+    email: "renee.goreham@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/renee-goreham"
+    projects:
+      - title: "Aptasensor Platforms Using Nanoparticles"
+        description: |
+          Aptamers offer highly selective binding to extracellular vesicles (EVs) and cancer-associated biomarkers, making them ideal recognition elements for biosensing. When combined with nanomaterials such as quantum dots (QDs) and gold nanoparticles (AuNPs), which provide optical and electrochemical transduction respectively, these bioconjugates can be engineered into highly sensitive, low-cost diagnostic tools. Integrating aptamers with QDs and AuNPs aligns with the Goreham Group's focus on developing breath and EV-based diagnostics. This project involves engineering and comparing QD- and AuNP-based aptasensor formats for a selected target — such as an EV surface protein or model analyte — and evaluating their analytical performance. Students will quantify binding affinity and specificity, determine limits of detection, and assess sensor stability, regeneration, and tolerance to complex matrices such as biological buffers or model biofluids.
+
+          **Summary:** Students will develop and compare QD- and AuNP-based aptasensor systems, optimise bioconjugation methods, and produce a validated, reproducible protocol for sensitive biomarker detection compatible with existing Goreham Group diagnostic workflows.
+      - title: "Understanding Aptamer Binding with Neutron Beams"
+        description: |
+          Neutron specular reflectometry (SR) and small-angle neutron scattering (SANS) provide powerful techniques for resolving nanoscale interfacial structures and understanding biomolecular binding in situ. This project focuses on using these methods to model and interpret data from the Goreham Group's existing experimental studies rather than conducting new beamtime experiments. Students will develop and refine structural models describing how aptamers and nanoparticles interact with surfaces or membrane mimics, using parameters such as layer thickness, roughness, solvent contrast, and density distribution. By comparing these models to the group's benchtop electrochemical and fluorescence binding data, students will gain insight into the mechanisms of aptamer–nanoparticle interaction and the factors influencing biosensor performance.
+
+          **Summary:** Students will analyse and model existing SR and SANS data to interpret aptamer and nanoparticle binding behaviour, contributing to a deeper understanding of nanoscale sensor interfaces and guiding future biosensor design.
+      - title: "Engineering Tissue-Like Phantoms for Optical Tomography"
+        description: |
+          Optical tomography and diffuse optical imaging require well-characterised tissue-mimicking phantoms that replicate the scattering and absorption properties of biological tissues. This project involves designing, fabricating, and characterising solid or gel-based phantoms with tunable optical properties in the red to near-infrared range (630–900 nm). Students will use agarose, gelatin, or PDMS matrices combined with Intralipid as a scattering agent and India ink or haemoglobin analogues as absorbers. The phantoms will be tested for optical stability and reproducibility using transmittance, reflectance, or integrating sphere measurements. Optional inclusions may be embedded to simulate tumour-like or vascular regions, providing realistic calibration samples for optical imaging systems.
+
+          **Summary:** Students will create and characterise reproducible tissue-like phantoms to support the calibration and validation of optical tomography systems, generating a set of reference materials and data useful for ongoing imaging research in the group.
+      - title: "Synthesis & Characterisation of QDs and AuNPs"
+        description: |
+          Producing nanoparticles in-house provides precise control over their size, surface chemistry, and optical or electrochemical properties, enabling consistent performance across biosensing and imaging applications. This project focuses on developing reproducible syntheses for gold nanoparticles (AuNPs) and cadmium-free quantum dots (QDs), such as InP/ZnS systems. Students will explore ligand exchange and surface functionalisation strategies compatible with aptamer attachment, including thiolated or carboxyl-terminated linkers. Comprehensive characterisation will be carried out using UV–Vis absorption, fluorescence spectroscopy, dynamic light scattering (DLS), zeta potential measurements, and electrochemical analysis. The resulting data will be compiled into a "property library" linking synthesis parameters to key functional outcomes, such as emission wavelength, charge, and colloidal stability.
+
+          **Summary:** Students will synthesise and characterise AuNPs and QDs, establishing standardised protocols and property correlations that will feed directly into future aptasensor and imaging developments within the Goreham Group.
+      - title: "Characterising Aptamer–Protein Interactions by Molecular Dynamics"
+        description: |
+          Understanding how aptamers interact with their target proteins at the molecular level is essential for improving diagnostic performance. This project uses molecular dynamics (MD) simulations to explore the structural stability and binding mechanisms of aptamers with EV-associated proteins such as CD63 and CD44. Students will perform all-atom MD simulations in explicit solvent using the Amber99SB-ILDN force field and analyse trajectory data to identify structural features contributing to binding strength and selectivity. Key analyses will include root mean square deviation (RMSD), radius of gyration (Rg), hydrogen bonding patterns, and interfacial contact mapping.
+
+          **Summary:** Students will gain experience in computational biophysics, performing MD simulations and structural analyses to identify key residues and conformational states responsible for high-affinity aptamer binding.
+      - title: "Proteomic Exploration of Lung Cancer EV Biomarkers"
+        description: |
+          Identifying universal and disease-specific EV biomarkers is vital for early cancer detection. This project involves mining public proteomic datasets to identify consistent protein signatures present in lung cancer-derived EVs. Using databases such as Vesiclepedia and UniProt, students will curate datasets, perform differential expression analysis, and visualise protein interaction networks to highlight potential aptamer targets.
+
+          **Summary:** Students will compile a biomarker reference list for lung cancer EVs, supporting future aptamer design and validation efforts within the breath diagnostics program.
+
+  - name: "Conjoint Professor Peter Greer"
+    sort_name: "Greer"
+    person: "greer-peter"
+    email: "peter.greer@health.nsw.gov.au"
+    profile: "https://www.newcastle.edu.au/profile/peter-greer"
+    group: "Medical Physics Research Group"
+    projects:
+      - title: "Improvement and international investigation of stereotactic radiosurgery treatments"
+        description: |
+          We have formed an international consortium of centres in Australia, the United States and Europe to investigate and standardise dose calculations for complex brain treatments where multiple small lesions are treated to very high doses using intensity modulated beams. This project will investigate a novel virtual three-dimensional dose measurement technique using a flat-panel imager for these treatments, and remotely assess and compare dose delivery accuracy at each centre in the consortium.
+      - title: "Multiplexed dosimetry and imaging system for radiation oncology"
+        description: |
+          Currently, flat-panel imagers used to form patient images with the treatment beam are designed purely for imaging and perform poorly for dosimetry due to the high atomic number of the phosphor scintillator, which introduces an extreme energy-dependence of the signal, requiring complex algorithms and corrections to obtain dose. TOPAS Monte Carlo studies have shown that a grid or chequerboard optical filter that alternately blocks or passes the optical photons from the scintillator can produce interleaved imaging and dosimetry signals. This project will further assess and optimise the design and investigate its suitability for linac beam dose measurements.
+      - title: "Development of a method for real-time in-patient dose reconstruction during patient treatments"
+        description: |
+          We have developed the world's first real-time treatment verification system in radiation oncology. The current Watchdog system calculates a predicted image set with a physics model and in real time compares the measured image frames, after the treatment beam has passed through the patient, to the predicted images. This project will extend this to deriving dose in the patient model in real time in a transit dosimetry situation, and compare predicted to measured doses within the patient in real time.
+
+  - name: "Conjoint Professor Joerg Lehmann"
+    sort_name: "Lehmann"
+    person: "lehmann-joerg"
+    email: "joerg.lehmann@health.nsw.gov.au"
+    profile: "https://www.newcastle.edu.au/profile/joerg-lehmann"
+    group: "Medical Physics Research Group"
+    projects:
+      - title: "Real-time measurement and verification of breast position during radiation therapy"
+        description: |
+          The LEILA study has developed a system for measurement of real-time breast position during treatment using MV imaging with the treatment beam. This can be used to ensure treatment accuracy for deep-inspiration breath-hold treatments, which spare heart dose, and also to compare positioning techniques. It includes a multi-centre study collecting data on treatment positioning. This project will analyse breast-positioning data collected during treatment.
+      - title: "Dosimetry audits and SEAFARER"
+        description: |
+          The SEAFARER Cancer Australia project is the investigation of the sensitivity and specificity of dosimetry measurements performed throughout Australia to check treatment plan dose calculations and treatment delivery accuracy. Data from over 40 national and international centres is being collected for different types of treatments. We are building a cloud-based platform to perform studies of international practices to assist with standardisation of radiation oncology practice and to assist low and middle-income countries and clinical trials. This project will investigate dosimetry accuracy and audit patterns in different countries.
+      - title: "Reference dosimetry for kV x-ray systems used for cell and small animal irradiations"
+        description: |
+          Dosimetry for cell and small animal irradiations for radiation oncology research is complex and difficult, with currently high uncertainties. This project will investigate the accuracy of existing models and also perform Monte Carlo simulations and measurements.
+
+  - name: "Professor David Pontin"
+    sort_name: "Pontin"
+    person: "pontin-david"
+    email: "david.pontin@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/david-pontin"
+    projects:
+      - title: "Analysing flows on the Sun's surface to untangle the problem of coronal heating"
+        description: |
+          Observations of the Sun reveal that its outer atmosphere ("corona") is around 1000 times hotter than its surface, a fact that has defied explanation since it was first realised nearly 80 years ago. Recent promising results suggest a resolution to this problem, involving tangling/braiding of the magnetic field lines in the corona by plasma flows on the surface. However, current methods for extracting these flows from observational data have severe shortcomings. In this project the aim is to use data from the latest NASA missions to better measure the surface flows and the vector components of the surface magnetic field during the braiding of coronal field lines, to better constrain this proposed mechanism for atmospheric heating. This project could focus either on data analysis and processing, or on mathematical models and measures of complexity, depending on the student's interest. It is suitable for students with interests in Physics or Mathematics.
+      - title: "The structure of the Sun's magnetic field and implications for understanding the solar wind"
+        description: |
+          The solar wind is a stream of plasma coming from the Sun in which the Earth is embedded. Its conditions around the Earth are called "space weather", and understanding/predicting this space weather is economically important due to its ability to disrupt communications, endanger astronauts, and damage power systems and satellites. The goal of this project is to analyse magnetic field structures in the Sun's atmosphere that are thought to be source regions for the slow, unsteady component of the solar wind that is poorly understood. This will involve working with new, high-resolution observations of the Sun's surface magnetic field from the latest NASA space missions. Using this data, the goal is to extrapolate to find the magnetic field in the Sun's atmosphere (which can't be measured directly), and then to analyse the structures present in this magnetic field. This will be a computational project that will involve writing codes/modifying existing codes to analyse and visualise these structures using, e.g., Python.
+      - title: "Understanding energy conversion in turbulent, magnetised plasmas"
+        description: |
+          Magnetic and velocity fields in plasmas exhibit a turbulent behaviour on a wide range of scales, from galaxies to the Sun to laboratory plasmas on Earth. Turbulence appears inherently messy/chaotic, but one path to understanding the energy conversion in such plasmas is to study the spatial distribution of different magnetic field structures. The aim of this project is to develop algorithms that compare the correlations between structures present in the magnetic field and measures of energy conversion. This will provide insight into the fundamental phenomenon of plasma turbulence – relevant for understanding plasmas in space, the Earth's atmosphere, and lab fusion devices.
+
+          This project could focus either on data analysis and processing, or on mathematical/statistical analysis, depending on the student's interest. It is suitable for students with interests in Physics or Mathematics.
+      - title: "Properties of elementary heating events in solar coronal loops"
+        description: |
+          One of the leading theories for how the plasma in "coronal loops" reaches such high temperatures is by a so-called "braiding" process where the surface motions cause a tangling of the magnetic field lines in the loops. This in turn leads to the formation of intense electric currents, which are required to convert stored magnetic energy to heat. The idea of this project would be to explore how these elementary heating events work in new, high-resolution simulations. This will involve developing algorithms to quantify the properties of the electric current "sheets" in the simulation data, and then looking at what the signatures of these processes would be in solar observations. This project is suitable for students with interests in Physics or Mathematics.
+      - title: "Exploring the complexity of stellar magnetic fields"
+        description: |
+          In recent years techniques have been developed to measure the magnetic field on the surfaces of stars. These magnetic fields are crucial for driving a range of phenomena like winds and flares that can affect the habitability of orbiting planets. The goal of this project would be to take the computational tools that we use for analysing the complexity of the Sun's magnetic field, and apply them to these stellar magnetic field data. This project is suitable for students with interests in Physics or Mathematics.
+
+  - name: "Dr Lachlan Rogers"
+    sort_name: "Rogers"
+    person: "rogers-lachlan"
+    email: "lachlan.rogers@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/lachlan-rogers"
+    projects:
+      - title: "Stretching quantum interactions in diamond to the limit"
+        description: |
+          Tiny glowing artificial atoms in diamond, called colour centres, can be used to store and process quantum information through manipulation with laser light and microwaves. Important aspects of these physical interactions are dictated by the exact colour centre shape, which in turn is strongly influenced by the surrounding diamond crystal. This project aims to explore the changes in colour centre properties that arise from mechanical deformation of the crystal. The results will fit into the development of strain-engineering as a novel approach to improve quantum memories in diamond. This experimental project will involve measuring glowing diamonds in a fluorescence microscope, optical spectroscopy, and data analysis in Python.
+      - title: "Quantum \"optics\" of heat in diamond"
+        description: |
+          Photons "bunch", or arrive simultaneously in groups, for thermal light, but they do the opposite ("antibunch") when emitted by a single-photon emitter. Atomic impurities in diamond, called colour centres, are excellent single-photon sources. Diamond is also a solid-state crystal and so hosts quantum vibrations called phonons, which are essentially heat energy. This project will use various laser wavelengths to excite colour centres so that information about the phonons can be obtained by optical measurements of photons from the glowing diamonds.
+      - title: "Counting quantum emitters"
+        description: |
+          Single quantum emitters are important building blocks for quantum computing, quantum communication, and quantum information technologies. Most such emitters are much smaller than can be resolved in a microscope, and so it is important to have techniques that can reliably identify when one is isolated on its own. Photon timing gives the clue, because a single emitter cannot emit two photons exactly simultaneously! This project will use Bayesian probability theory to develop new analysis techniques for the photon statistics to enable more reliable identification of the number of emitters. It will involve simulations and inference development in Python.
+      - title: "Looking for quantum emitters in 2-D diamond"
+        description: |
+          Graphene is well-known as a 2-D carbon material, and it has different chemical bonds to those in diamond. Joining two layers together with diamond carbon bonds creates "diamene" – a kind of 2-D material that looks like graphene but acts like diamond! This project aims to do spectroscopy on diamene samples to search for colour centres analogous to those studied in diamond. It will involve laser spectroscopy, confocal fluorescence microscopy, and can also involve sample growth and preparation.
+
+  - name: "Dr Hannah Schunker"
+    sort_name: "Schunker"
+    person: "schunker-hannah"
+    email: "hannah.schunker@newcastle.edu.au"
+    profile: "https://profiles.newcastle.edu.au/Hannah-Schunker"
+    projects:
+      - title: "The average three-dimensional supergranule in numerical simulations"
+        description: |
+          Supergranulation is one of the Sun's dominant convective patterns, but its subsurface extent remains unknown. In this project, you will analyse pre-computed 3D hydrodynamic simulations of near-surface solar convection to reconstruct an average supergranule and track its evolution with depth. By identifying, aligning, and averaging a number of simulated cells, you will uncover the hidden subsurface structure of supergranulation: how its characteristic outflows change with depth. You will work with large simulation datasets, develop statistical and visualisation techniques, and compare your results with helioseismic observations of the Sun. This project offers a chance to investigate a fundamental open question in solar physics using modern computational tools, and would suit a physics, maths or engineering student.
+      - title: "Modelling stellar light curves: how well can we measure a star's rotation?"
+        description: |
+          The European Space Agency's PLATO mission will measure the rotation of thousands of Sun-like stars from the periodic dimming caused by starspots. But a light curve does not reveal a starspot's latitude or the star's inclination, creating an ambiguity in the inferred rotation rate. In this project, you will generate synthetic stellar light curves while varying starspot latitude, size, and lifetime, along with stellar inclination and limb darkening. By recovering the rotation period and comparing it with the known input, you will determine the bias and uncertainty in surface-rotation measurements — and assess how reliably PLATO can constrain the rotation of Sun-like stars. You will also visualise the rotating stellar surface alongside its light curve, making the source of the ambiguity clear. The project provides hands-on experience in Python, forward modelling, parameter recovery, and stellar-rotation physics, with direct relevance to the interpretation of PLATO observations and the internal rotation of Sun-like stars, and would suit a physics, maths or engineering student.
+      - title: "Space weather forecasting: modelling an ensemble of active region evolution"
+        description: |
+          Solar active regions power space weather, but their evolution — and the flares and eruptions they produce — remains difficult to predict. Surface convection continually reshapes the magnetic fields, with different flow patterns producing different outcomes even from the same initial state. In this project, you will write your own numerical code to advect magnetic fields through prescribed surface flows. By running ensembles of advection for different flow maps, you will quantify how uncertainty in the flows affects the evolution of polarity separation, tilt angle, and flux cancellation — and identify the fundamental limits of active-region forecasting. You will gain hands-on experience in numerical modelling, scientific programming, ensemble methods, and uncertainty quantification, with the opportunity to compare your results with observations of real solar active regions. This project would suit a physics, maths or engineering student.
+      - title: "Measuring the rotation of Sun-like stars"
+        description: |
+          Stellar rotation provides a window into magnetic activity, stellar age, and the transport of angular momentum inside stars. ESA's PLATO mission will observe thousands of stars, creating an unprecedented opportunity to measure how rotation varies across Sun-like stars. In this project, you will obtain PLATO light curves for FGK-type stars and develop a Python pipeline to measure their rotation periods using the Lomb–Scargle periodogram. You will identify significant periodic signals, assess their reliability, and investigate how the measured rotation periods depend on stellar type, activity, and data quality. Where possible, you will compare the results with independent rotation measurements and examine the distribution of rotation rates across the sample. The project will provide hands-on experience with astronomical time-series data, Fourier and Lomb–Scargle methods, statistical significance testing, and scientific programming. The resulting rotation catalogue will help characterise the magnetic and rotational evolution of Sun-like stars.
+
+  - name: "Dr Levi Tegg"
+    sort_name: "Tegg"
+    person: "tegg-levi"
+    email: "levi.tegg@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/levi-tegg"
+    projects:
+      - title: "Synthesis and characterisation of copper-nickel-manganese alloys"
+        description: |
+          Cu, Ni and Mn can, in theory, be melted and cooled into a solid solution over a wide range of compositions, a unique property among ternary metal systems. Such an alloy is useful for structural applications in corrosive environments, situations requiring very high mechanical damping, and in the preparation of nanoporous metals. In practice, improper cooling results in segregation of elements into dendritic microstructures, which affect subsequent processing steps and applications. This project will optimise the induction-furnace-based synthesis of Cu-Ni-Mn alloys, in collaboration with the School of Engineering. The researcher will weigh and mix reagents, explore furnace operating parameters and environments to optimise melting and mixing, and characterise the resultant alloys using X-ray diffraction and scanning electron microscopy. This project is well-suited to a researcher with an interest or background in materials science, engineering, chemistry, or physics.
+      - title: "Optimised dealloying conditions for robust nanoporous copper"
+        description: |
+          Nanoporous metals consist of a bi-continuous network of nanoscale ligaments and pores. They can have enormous specific surface area, and metallic electrical and thermal conductivity, giving uses in catalysis, as supercapacitors, and in other energy applications. Nanoporous metals are easily prepared by dealloying, where the more reactive metal from a binary alloy is selectively removed. Nanoporous copper can be prepared by dealloying copper-manganese alloys using dilute mineral acids, but there has been little optimisation of the procedure. In this project, the researcher will explore the effect of the dealloying conditions (time, concentration, etc.) on the resulting material composition, nanopore geometry, and mechanical robustness. The experiments will be performed in a wet laboratory fume hood, involve handling acids and bulk samples, and will involve characterisation using X-ray diffraction and scanning electron microscopy. This project is well-suited to a researcher with an interest or background in chemistry, physics, or nanomaterials.
+      - title: "Simulating the optical properties of nanostructured metals"
+        description: |
+          Nanostructured materials can have optical properties vastly different from the bulk equivalent. For metals, additional optical absorption and scattering can result from surface plasmon resonances, which are exploited in catalysis, chemical sensing, and more. Recent experiments have shown strong surface plasmon excitation in nanoporous copper, despite copper traditionally being unsuitable for plasmons due to unfavourable optical properties. This project will use simulation to understand the microstructure and conditions under which selected metals and alloys can exhibit surface plasmons. The researcher will use existing MATLAB simulation software to calculate the optical responses of various metal nanostructures, with and without oxide layers, and compare that to previously-collected optical properties data. This project is well-suited to a researcher with an interest or background in physics, nanomaterials, and programming.
+      - title: "Full-spectrum analysis of atom probe tomography mass-to-charge-ratio spectra"
+        description: |
+          Atom probe tomography combines a field ion microscope with a time-of-flight mass spectroscopy system to provide 3D, near-atomic-scale microanalysis of solid samples. Specimen chemistry is found by summing ranges around peaks in the mass-to-charge ratio spectrum. This involves arbitrary decisions about peak extent, leading to different measured compositions depending on the protocol used, and disagreement in the community about best practices. Inspired by analysis of X-ray diffraction patterns, this project will analyse the peaks in atom probe mass-to-charge ratio spectra to develop (a) a useful peak-shape model, and (b) a full-spectrum fit to provide very accurate compositional measurements. The researcher will primarily be writing code (in Python, or a language of their choice) to apply to existing datasets, but there is opportunity to collect new atom probe data at the University of Sydney. This project is well-suited to a researcher with a background in physics, programming, and mathematics.
+
+  - name: "Dr Xiaojing Zhou"
+    sort_name: "Zhou"
+    person: "zhou-xiaojing"
+    email: "xiaojing.zhou@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/xiaojing-zhou"
+    intro: "Organic semiconducting materials are very versatile, with a wide scope of applications in transistors, light-emitting diodes, photovoltaics and bio-compatible interfaces for medical devices. My research explores all aspects of these areas."
+    projects:
+      - title: "Organic Transistors"
+        description: |
+          A transistor made from an organic semiconducting material is called an organic transistor. Organic transistors are conventionally fabricated in a nitrogen glovebox to eliminate any absorption of oxygen and water molecules. My goal is to develop air-compatible organic transistors that can be manufactured and tested in air.
+      - title: "Graphene Electrodes"
+        description: |
+          Graphene is an emerging nanomaterial with versatile applications. This project is to investigate experimentally and theoretically the growth mechanisms of graphene from different carbon sources, and explore the potential of graphene as a transparent and conductive electrode for organic photovoltaics or photo-catalytic reaction cells. This project suits students from chemistry, physics or chemical engineering disciplines.
+      - title: "Electrodeposition of Functional Metal Nanoparticles on Graphene Electrodes"
+        description: |
+          Electrodeposition is an easy and low-cost method to manufacture metal nanoparticles. Different electrode materials play an important role in controlling the formation of those nanoparticles in size, shape and chemical composition. This project is to investigate copper nanoparticle formation using different electrodes, from gold and silicon to carbon-based graphene electrodes. The growth mechanisms will be examined to elucidate the effects of surface morphology and surface energy of the electrodes on nanoparticle formation.
+      - title: "Non-enzymatic Biosensors"
+        description: |
+          Conventional biosensors are based on enzymes as the sensing elements to provide selectivity. Enzymes are biological catalysts. However, enzymes can only survive in a restricted, biologically suitable environment, and most commercially available enzymes are very expensive, which limits biosensors' accessibility due to their cost. This project is to explore user-friendly and cost-efficient disposable biosensors without involving enzymes.
+
+  - name: "Dr Ben Zwan"
+    sort_name: "Zwan"
+    email: "benjamin.zwan@health.nsw.gov.au"
+    profile: "https://www.newcastle.edu.au/profile/ben-zwan"
+    group: "Medical Physics Research Group"
+    projects:
+      - title: "Four-dimensional dose reconstruction in a virtual motion phantom"
+        description: |
+          Respiratory tumour motion can significantly impact the delivered radiation dose during radiotherapy and result in poor treatment outcomes for patients. We have developed a novel method to verify the dose received by tumours undergoing respiratory motion. This method relies on megavoltage images acquired using an electronic portal imaging device (EPID). In-house software is employed to reconstruct the delivered dose in a "virtual" motion phantom using the EPID images. The resultant 4D dose can then be compared to the intended dose to verify the accuracy of the dose delivery with motion. This project will focus on (1) making improvements to the existing methodology to incorporate more complex tumour motion and (2) retrospectively analysing past liver and lung cancer treatments using the method.
+      - title: "Treatment Verification for Ultra-Hypofractionated Breast Radiotherapy"
+        description: |
+          Standard practice in breast cancer radiotherapy is rapidly evolving. Previously, radiation dose was administered in smaller amounts spread over 15 to 25 sessions – referred to as fractions. This "fractionation" approach reduces the negative effects of radiation on healthy tissue and results in a safer treatment. Recently, practice has changed to treat breast cancer patients with a higher dose per session and in only five fractions, referred to as ultra-hypofractionation. While there are key advantages to this faster treatment regime, there may be detrimental effects if the radiation is not accurately targeting the breast tissue and avoiding key healthy tissue – for example, the heart. As part of an ethically approved study, we are collecting X-ray images during five-fraction breast cancer radiotherapy treatments. This project will utilise previously developed research software to automatically extract anatomical features from the X-ray images, to measure the accuracy of the deliveries and ensure patient safety.
+      - title: "Real-time Error Detection using Machine Learning"
+        description: |
+          We have previously developed software to detect treatment delivery errors for routine linear accelerator quality assurance. This system, QUAVER, utilises electronic portal imaging device (EPID) images acquired in real time during complex radiotherapy deliveries to assess the accuracy of the beam collimation system and dose output. QUAVER has been applied offline (without the presence of a patient) at Central Coast Cancer Centre, Gosford and Calvary Mater Newcastle. Further work is required to develop this system to be applied in real time during patient treatments, to allow errors to be detected before they can cause potential harm to patients. This project will leverage existing image analysis techniques combined with novel machine learning methods to perform these checks in real time.
+      - title: "Evaluation of a New Radiotherapy Technique: RapidArc Dynamic"
+        description: |
+          In collaboration with industry partner Varian Medical Systems, we will be evaluating the performance of a new commercial radiotherapy delivery technique, RapidArc Dynamic. This new technique is the most complex commercially available technique worldwide on standard linear accelerators. It allows rotating beam collimation and enables complex beam fluences to be delivered both through rotating gantry angles and from fixed angles in a single delivery. This project will focus on evaluating the clinical benefits of this novel technique, including (a) quantifying radiation dose benefits within the patient, (b) assessing whether treatment time is increased or decreased and (c) verifying that dose is delivered accurately to the patient.
