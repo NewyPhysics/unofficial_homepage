@@ -14,6 +14,8 @@ a:hover { text-decoration:underline; }
 .eyebrow { letter-spacing:.15em; font-weight:bold; }
 .unofficial-inline { max-width:800px; }
 .hero .lead { max-width:760px; font-size:1.15rem; }
+.hero-note { max-width:760px; opacity:.9; }
+.hero a:not(.btn) { color:#fff; text-decoration:underline; }
 .btn { display:inline-block; margin:.5rem .5rem .5rem 0; padding:.65rem 1.2rem; border-radius:3px; background:#fff; color:var(--uon-blue); font-weight:bold; }
 .btn.secondary { background:transparent; color:inherit; border:1px solid currentColor; }
 .section { padding:5rem 0; }
