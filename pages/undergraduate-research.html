@@ -28,7 +28,10 @@ permalink: /projects/undergraduate-research/
   </article>
 </div>
 
-<p class="callout"><strong>Talk to a supervisor first.</strong> Always discuss a potential project with the supervisor before you enrol or apply. Supervisors are listed in alphabetical order, and you're welcome to contact them by email or drop by.</p>
+<div class="callout">
+  <p><strong>These projects are a starting point, not a fixed list.</strong> Any of the topics below can be shaped around your interests and adapted for a third-year (SCIE3500), summer or Honours project. They are here to give a flavour of what each supervisor works on, and we'd be happy to discuss your preferences with you.</p>
+  <p><strong>Talk to a supervisor first.</strong> Always discuss a potential project with the supervisor before you enrol or apply. Supervisors are listed in alphabetical order, and you're welcome to contact them by email or drop by.</p>
+</div>
 
 <nav class="supervisor-index" aria-label="Supervisors">
   {% for s in supervisors %}{% unless forloop.first %} <span class="sep" aria-hidden="true">·</span> {% endunless %}<a href="#{{ s.sort_name | slugify }}">{{ s.name }}</a>{% endfor %}

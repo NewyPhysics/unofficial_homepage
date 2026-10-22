@@ -150,7 +150,7 @@ h1, h2, h3, .logo h1 {
 }
 
 /* Honours and undergraduate research projects page */
-.callout { background:#e8f5fc; border-left:4px solid var(--uon-blue); padding:1rem 1.2rem; margin:2rem 0; }
+.callout { background:#e8f5fc; border-left:4px solid var(--uon-blue); padding:.2rem 1.2rem; margin:2rem 0; }
 .supervisor-index { margin:1.5rem 0 2.5rem; line-height:2; }
 .supervisor-index a { color:var(--uon-dark-blue); white-space:nowrap; }
 .sep { color:#9aa7b1; margin:0 .35rem; }
