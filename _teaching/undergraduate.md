@@ -4,9 +4,13 @@ summary: A physics major built on core fundamental physics, taken through the Ba
 ---
 Undergraduate physics at Newcastle concentrates on the core of the subject: classical mechanics, electromagnetism, thermodynamics, quantum mechanics and modern physics, alongside laboratory and computational skills, with a small number of electives in later years. The aim is a strong grounding in fundamental physics that prepares students for Honours and research, and for careers that rely on quantitative problem solving.
 
-## A small discipline with close support
+## Personal attention from day one
 
 Physics at Newcastle is a small discipline, which means small classes and a low student-to-staff ratio. Students are taught by the same academics who lead our research, and get to know them well over the course of their degree. The discipline is known for high-quality teaching and for the care it takes of its students.
+
+## Come and talk to us
+
+Current and prospective students are always welcome to drop by and talk to us about studying physics, choosing courses or where a physics degree can lead. You can also contact any of [our academics]({{ '/#people' | relative_url }}) by email; addresses are on their official University profiles.
 
 ## How to study physics
 
