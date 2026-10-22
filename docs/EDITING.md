@@ -4,9 +4,9 @@
 
 Create `_people/surname-firstname.md` using `_people/example-academic.md` as a template. Delete the `published: false` line in your copy, or the profile won't appear. Put the photo path in `photo:`, and the surname in `sort_name:` so the People grid stays in alphabetical order.
 
-## Add HDR or Honours students
+## Add research students
 
-Add an entry to `_data/hdr_students.yml` or `_data/honours_students.yml`, following the commented example at the top of each file.
+Add an entry to `_data/research_students.yml`, following the commented example at the top of the file. Set `status` to `current` or `past`.
 
 ## Add a research area
 

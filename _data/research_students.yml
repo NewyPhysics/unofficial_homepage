@@ -1,0 +1,11 @@
+# Current and past research students, shown on /students/.
+# Copy the example below for each student, remove the leading "# ", and delete the "[]" at the bottom.
+#
+# - name: "Student Name"
+#   degree: "PhD"            # PhD, MPhil or Honours
+#   status: "current"        # current or past
+#   years: "2024–"           # e.g. "2024–" for current students, "2019–2023" for past students
+#   supervisors: "Dr Supervisor Name"
+#   project: "Thesis or project title"
+
+[]

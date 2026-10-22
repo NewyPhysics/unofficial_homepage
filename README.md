@@ -15,7 +15,7 @@ This repository is the website for the Physics discipline (our equivalent of a d
 - `assets/` — CSS, JavaScript, images and the Squadfree template assets
 - `_includes/` — reusable navigation, footer and notices
 - `_layouts/` — page templates
-- `_data/` — student lists (`hdr_students.yml`, `honours_students.yml`) and site settings
+- `_data/` — research students (`research_students.yml`), research projects and site settings
 
 ## Editing
 

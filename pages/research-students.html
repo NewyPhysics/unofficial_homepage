@@ -1,0 +1,44 @@
+---
+layout: page
+title: Current and past research students
+permalink: /students/
+---
+<p>PhD and Honours students who have carried out their research in the Physics discipline.</p>
+
+{% assign students = site.data.research_students %}
+{% assign current = students | where: "status", "current" | sort: "name" %}
+{% assign past = students | where: "status", "past" | sort: "years" | reverse %}
+
+<h2>Current students</h2>
+{% if current.size > 0 %}
+<div class="cards">
+  {% for s in current %}
+  <article class="card">
+    <h3>{{ s.name }}</h3>
+    <p class="student-meta">{{ s.degree }}{% if s.years %} · {{ s.years }}{% endif %}</p>
+    {% if s.project %}<p>{{ s.project }}</p>{% endif %}
+    {% if s.supervisors %}<p><strong>Supervisor(s):</strong> {{ s.supervisors }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<p class="empty-note">Coming soon.</p>
+{% endif %}
+
+<h2>Past students</h2>
+{% if past.size > 0 %}
+<div class="cards">
+  {% for s in past %}
+  <article class="card">
+    <h3>{{ s.name }}</h3>
+    <p class="student-meta">{{ s.degree }}{% if s.years %} · {{ s.years }}{% endif %}</p>
+    {% if s.project %}<p>{{ s.project }}</p>{% endif %}
+    {% if s.supervisors %}<p><strong>Supervisor(s):</strong> {{ s.supervisors }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<p class="empty-note">Coming soon.</p>
+{% endif %}
+
+<p>Interested in joining them? See <a href="{{ '/teaching/honours/' | relative_url }}">Honours</a>, <a href="{{ '/teaching/hdr/' | relative_url }}">Higher Degree by Research</a> and our <a href="{{ '/projects/undergraduate-research/' | relative_url }}">undergraduate research projects</a>.</p>

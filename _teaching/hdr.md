@@ -43,6 +43,6 @@ Your potential supervisor can advise you on the funding options that suit your s
 - [PhD scholarships and opportunities](https://www.newcastle.edu.au/study/research/phd-scholarships): RTP and other scholarships, plus advertised funded projects
 - [Costs](https://www.newcastle.edu.au/study/research/future-students/costs): fees and the RTP fee offset
 - [HDR FAQs](https://www.newcastle.edu.au/study/research/hdr-faqs): common questions about research degrees
-- [Current HDR students]({{ '/students/hdr/' | relative_url }}) in the Physics discipline
+- [Current and past research students]({{ '/students/' | relative_url }}) in the Physics discipline
 
 *This page is an unofficial overview. The University of Newcastle's Graduate Research pages are the authoritative source for eligibility, scholarships and applications.*
