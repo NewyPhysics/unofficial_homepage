@@ -32,6 +32,7 @@ Degree structures, course codes and prerequisites change from year to year. Alwa
 - [Bachelor of Science (Advanced)](https://www.newcastle.edu.au/degrees/bachelor-of-science-advanced)
 - [Combined degrees](https://www.newcastle.edu.au/study/combined-degrees): including the Engineering / Science combinations
 - [Bachelor of Mathematics / Bachelor of Science](https://www.newcastle.edu.au/degrees/bachelor-of-mathematics-science)
+- [Undergraduate research projects]({{ '/projects/undergraduate-research/' | relative_url }}): summer, SCIE3500 and Honours projects in the Physics discipline
 - [University Handbook](https://handbook.newcastle.edu.au/): current course codes, descriptions and prerequisites
 
 *This page is an unofficial overview. The University of Newcastle website and Handbook are the authoritative sources for degree and enrolment information.*

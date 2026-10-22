@@ -1,4 +1,4 @@
-# Honours and undergraduate research projects, shown on /projects/honours/.
+# Undergraduate research projects (summer, SCIE3500 and Honours), shown on /projects/undergraduate-research/.
 # Supervisors appear in alphabetical order of `sort_name`.
 # Each project needs a `title` and a `description` (Markdown is allowed, including bullet lists).
 # Optional per supervisor: `email`, `profile`, `group`, `person` (the _people file name, to link their card).
