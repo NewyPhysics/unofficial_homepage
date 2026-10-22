@@ -11,17 +11,17 @@
 #
 # When someone finishes, change status to past and they move to Alumni automatically.
 
-- name: "Angie Waszewski"
+- name: "Dr Angie Waszewski"
   role: postdoc
   status: current
   supervisors: [schunker-hannah]
 
-- name: "Sahel Dey"
+- name: "Dr Sahel Dey"
   role: postdoc
   status: current
   supervisors: [pontin-david]
 
-- name: "Axel Raboonik"
+- name: "Dr Axel Raboonik"
   role: postdoc
   status: current
   supervisors: [pontin-david]
