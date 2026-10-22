@@ -13,16 +13,110 @@ A physics degree doesn't lead to just one job. It trains you to understand how t
 - **Experimental skills:** designing measurements, working with instruments and lasers, and understanding uncertainty.
 - **Communication:** explaining technical work clearly in reports, presentations and conversations.
 
-## Where physics graduates work
+## Where our graduates are now
 
-- **Research and academia:** after Honours and a PhD, many graduates do research at universities, or at research organisations such as CSIRO, ANSTO, the Bureau of Meteorology and the Defence Science and Technology Group.
+Graduates of our physics (and former photonics) Bachelor and Honours programs work in a remarkable range of jobs. Here are some of the roles they have gone on to, with approximate Australian salaries for each area.
+
+<div class="careers" markdown="1">
+
+<div class="career-area" markdown="1">
+### Government and research
+- Meteorologist and senior hydrologist, Bureau of Meteorology
+- Research officer, Space Weather Services (Bureau of Meteorology)
+- Researcher in solar energy, CSIRO Newcastle
+- Research scientist, Defence Science and Technology
+- Deputy Director and radiation hazard management, Department of Defence
+- Australian Safeguards and Non-Proliferation Office (Department of Foreign Affairs and Trade)
+- Research and development officer, Australian Public Service
+
+<p class="salary">Graduate meteorologists at the Bureau of Meteorology start at about $66,000 plus superannuation while training, rising with experience.</p>
+</div>
+
+<div class="career-area" markdown="1">
+### Engineering and industry
+- Exploration geoscientist, Shell and Woodside Energy (Perth, the Netherlands, the UK)
+- Optical engineer, Australian Astronomical Optics (Macquarie University)
+- Production and instrumentation design engineer, Finisar
+- Laser service engineer, Lastek
+- Acoustics engineer and manager, RCA Australia, GHD and UGL Rail
+- Geotechnical engineer, Martens and Associates
+- Engineering consultant to the Australian Defence Force, QinetiQ
+- Electrical design team leader, Power Solutions (Newcastle)
+- Production engineer, Cook Medical
+- Supply chain manager, Thales (Germany)
+
+<p class="salary">Acoustics engineers typically earn about $71,000–$103,000; senior and management roles earn more.</p>
+</div>
+
+<div class="career-area" markdown="1">
+### Data science, finance and insurance
+- Data scientist, Department of Defence, GreenSync and Insight Perspective Technologies (Germany)
+- Data analyst, nib, Commonwealth Bank, Mine Super and McCrindle Research
+- Data engineer, Westpac
+- Actuarial analyst, nib and Allianz
+- Data specialist, Australian Bureau of Statistics
+- Marketing data scientist, RDA Research
+- Catalogue scientist, University of Leicester (UK)
+
+<p class="salary">Graduate data scientists start at about $65,000–$76,000. Experienced data scientists in Sydney typically earn $110,000–$190,000.</p>
+</div>
+
+<div class="career-area" markdown="1">
+### Software, IT and business
+- Software engineer and developer, Maptek, Minlog and Noggin
+- Chief Technology Officer, OPTIM Controls (Newcastle)
+- Business and systems analyst, Ericsson, NBN Co, Bis Industries and BT Financial
+- Technology consultant, Servian; senior consultant, KPMG
+- Apple
+
+<p class="salary">Advertised software engineering roles average roughly $100,000–$130,000, depending on the industry.</p>
+</div>
+
+<div class="career-area" markdown="1">
+### Spatial data and mapping
+- GIS specialist, Spatial Services NSW
+- Senior spatial analyst, NSW Office of Environment and Heritage
+- Regional planning analyst, Roads and Maritime Services
+- Survey analyst, Land and Property Information NSW
+
+<p class="salary">GIS analysts typically earn about $59,000–$107,000.</p>
+</div>
+
+<div class="career-area" markdown="1">
+### Education
+- High school mathematics and science teacher, after a postgraduate teaching qualification
+
+<p class="salary">NSW public school teachers start at about $93,000 and rise to about $133,000 with experience.</p>
+</div>
+
+<div class="career-area" markdown="1">
+### Patents and intellectual property
+- Senior associate, Phillips Ormonde Fitzpatrick
+- Patent examiner, IP Australia
+
+<p class="salary">Physics graduates can go on to qualify as patent attorneys, a well-paid specialist career.</p>
+</div>
+
+<div class="career-area" markdown="1">
+### And more
+- F/A-18 flying instructor, Royal Australian Air Force (Williamtown)
+- Director and flight instructor, Altocap flight school
+- Principal physicist, ADT Construction Data Solutions
+- Solar technician, Autonomous Energy
+- Laboratory technician, Coffey International
+- Service coordinator, Hitachi
+</div>
+
+</div>
+
+<p class="salary-note">Salaries are approximate full-time annual figures in Australian dollars, before tax, and vary with experience, employer and location. They come from the NSW Department of Education, Bureau of Meteorology job advertisements, SEEK, Morgan McKinley and PayScale (2025–2026).</p>
+
+## Growing areas for physicists
+
 - **Medical physics:** working in hospitals on radiation therapy, imaging and radiation safety. Becoming a clinical medical physicist usually involves further postgraduate study and clinical training. Our own medical physics research group works alongside the radiation oncology team at Calvary Mater Newcastle.
-- **Data science, software and finance:** physicists' modelling, coding and statistics skills transfer directly to data science, software development, machine learning, and quantitative roles in banking and insurance.
-- **Engineering and industry:** energy and renewables, mining and resources, manufacturing, electronics, and instrumentation, including in the Hunter region.
 - **Space and quantum technology:** fast-growing Australian industries, from satellites and space weather to quantum sensing and computing.
-- **Teaching:** physics teachers are in high demand in schools. Graduates can become secondary teachers through a postgraduate teaching qualification.
-- **Government and policy:** science advice, defence, meteorology, energy and environmental policy, and regulation.
-- **Starting something new:** some graduates found their own companies, turning research ideas into products.
+- **Renewable energy:** solar, storage and grid technologies, in the Hunter region and beyond.
+- **Research:** after Honours and a PhD, graduates do research at universities and at organisations such as CSIRO, ANSTO and the Bureau of Meteorology.
 
 ## Getting started
 
@@ -33,4 +127,4 @@ The best preparation is to make the most of your degree. Get involved in [underg
 - [The Careers Service](https://www.newcastle.edu.au/current-students/careers/the-careers-service): career advice, events and job listings for University of Newcastle students
 - [Australian Institute of Physics jobs](https://aip.org.au/Jobs): physics jobs in Australia
 
-**Are you a Newcastle physics graduate?** We'd love to hear where physics has taken you. Get in touch with any of [our academics]({{ '/#people' | relative_url }}).
+**Are you a Newcastle physics graduate?** We'd love to add your story. Tell us where physics has taken you. Get in touch with any of [our academics]({{ '/#people' | relative_url }}).

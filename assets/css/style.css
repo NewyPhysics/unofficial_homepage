@@ -176,3 +176,12 @@ h1, h2, h3, .logo h1 {
 .project-body { padding:.2rem 1rem .6rem; }
 
 .student-meta { color:#5b6670; font-size:.95rem; margin-top:-.4rem; }
+
+/* Careers page */
+.careers { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem; margin:1.5rem 0; }
+.career-area { background:#fff; border:1px solid #e1e8ed; border-radius:10px; padding:1.2rem 1.4rem; display:flex; flex-direction:column; }
+.career-area h3 { margin-top:0; font-size:1.15rem; color:var(--uon-blue); }
+.career-area ul { padding-left:1.1rem; margin:0 0 .8rem; }
+.career-area li { margin:.25rem 0; }
+.salary { margin-top:auto; background:#e8f5fc; border-radius:6px; padding:.6rem .8rem; font-size:.92rem; color:#075985; }
+.salary-note { font-size:.85rem; color:#5b6670; font-style:italic; }
