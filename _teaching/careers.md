@@ -131,7 +131,7 @@ Engineers start a few thousand dollars ahead, but those figures don't tell the w
 - **The gap closes.** Within three years, the share of science graduates in full-time work rises by about 25 percentage points, and many physics graduates move into data science, finance and software, where salaries often overtake engineering.
 - **Starting pay goes further in the Hunter.** Graduate salaries here are similar to Sydney's, and the cost of living is lower.
 
-<p class="salary-note">Salary and employment figures are from the 2024 Graduate Outcomes Survey (QILT) for undergraduate graduates. To compare University of Newcastle graduates by field, see <a href="https://www.compared.edu.au">ComparED</a>.</p>
+<p class="salary-note">Salary and employment figures are from the 2024 Graduate Outcomes Survey (QILT) for undergraduate graduates. For University of Newcastle figures, see <a href="https://www.compared.edu.au/institution/university-of-newcastle/study-area/science-mathematics/undergraduate">graduate outcomes for Newcastle science and mathematics graduates on ComparED</a>.</p>
 
 ## Growing areas for physicists
 
