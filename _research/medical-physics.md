@@ -8,7 +8,8 @@ summary: Physics applied to medicine, imaging, radiation, dosimetry and related 
 
 ## People
 
-Add relevant academics and students here.
+- [Conjoint Professor Peter Greer]({{ '/people/greer-peter/' | relative_url }}): radiation therapy and MRI-guided radiotherapy
+- [Conjoint Professor Joerg Lehmann]({{ '/people/lehmann-joerg/' | relative_url }}): radiotherapy quality assurance and dosimetry
 
 ## Projects
 
