@@ -48,14 +48,14 @@ title: Home
             referrerpolicy="no-referrer"
             loading="lazy">
           {% else %}
-          <div class="photo-placeholder">
-            <span>{{ person.name }}</span>
-          </div>
+          {% assign name_parts = person.name | split: " " %}
+          {% assign first_index = name_parts.size | minus: 2 %}
+          <span class="photo-placeholder" aria-hidden="true">{{ name_parts[first_index] | slice: 0 }}{{ name_parts.last | slice: 0 }}</span>
           {% endif %}
         </div>
 
         <div class="person-info">
-          <h3>{{ person.name }}</h3>
+          <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
 
           {% if person.role %}
           <p class="person-role">{{ person.role }}</p>
@@ -86,7 +86,7 @@ title: Home
             href="{{ person.official_url }}"
             target="_blank"
             rel="noopener noreferrer">
-            Official University profile
+            University profile
             <span aria-hidden="true">↗</span>
           </a>
           {% endif %}

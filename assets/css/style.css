@@ -32,35 +32,37 @@ section[id] { scroll-margin-top:80px; }
 .empty-note { color:#5b6670; font-style:italic; }
 .footer a { color:#fff; }
 @media(max-width:800px){ .navbar ul{gap:.6rem; font-size:.9rem;} .hero{padding-top:4rem;} }
-/* Academic profile grid */
+/* Academic profile grid: compact cards */
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: 14px;
+  margin-top: 24px;
 }
 
 .person-card {
   background: #fff;
   border: 1px solid #e1e8ed;
   border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   display: flex;
-  flex-direction: column;
+  gap: 14px;
+  padding: 14px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .person-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
 .person-photo {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  background: #eef5f9;
+  flex: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
   overflow: hidden;
+  background: #e8f5fc;
 }
 
 .person-photo img {
@@ -77,32 +79,40 @@ section[id] { scroll-margin-top:80px; }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   color: #075985;
-  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: .03em;
 }
 
 .person-info {
-  padding: 20px;
   display: flex;
   flex-direction: column;
+  min-width: 0;
   flex: 1;
 }
 
 .person-info h3 {
-  font-size: 1.2rem;
-  margin: 0 0 8px;
+  font-size: 1rem;
+  line-height: 1.3;
+  margin: 0 0 2px;
 }
+
+.person-info h3 a { color: var(--text); }
+.person-info h3 a:hover { color: var(--uon-dark-blue); }
 
 .person-role {
   color: #555;
-  margin-bottom: 12px;
+  font-size: .9rem;
+  line-height: 1.4;
+  margin: 0 0 4px;
 }
 
 .person-position {
   color: #555;
-  font-size: 0.95rem;
-  margin: -6px 0 12px;
+  font-size: .85rem;
+  line-height: 1.4;
+  margin: 0 0 4px;
 }
 
 .person-position a {
@@ -111,26 +121,27 @@ section[id] { scroll-margin-top:80px; }
 
 .person-research,
 .person-courses {
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  margin: 2px 0;
 }
 
 .course-code {
   display: inline-block;
   background: #e8f5fc;
   color: #075985;
-  padding: 3px 8px;
-  margin: 3px 3px 3px 0;
+  padding: 1px 6px;
+  margin: 2px 2px 2px 0;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .profile-link {
   display: inline-block;
-  margin-top: auto;
-  padding-top: 16px;
+  margin-top: 6px;
   color: #075985;
   font-weight: 600;
+  font-size: .85rem;
   text-decoration: none;
 }
 
@@ -138,19 +149,6 @@ section[id] { scroll-margin-top:80px; }
   text-decoration: underline;
 }
 
-/* Tablet */
-@media (max-width: 900px) {
-  .people-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* Mobile */
-@media (max-width: 560px) {
-  .people-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* Headings use Arial Black, the University's fallback for its Fuse V.2 Display typeface.
    Devices without Arial Black (e.g. Android, Linux) get heavy Arial/Helvetica instead. */
