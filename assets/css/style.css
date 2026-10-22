@@ -185,3 +185,26 @@ h1, h2, h3, .logo h1 {
 .career-area li { margin:.25rem 0; }
 .salary { margin-top:auto; background:#e8f5fc; border-radius:6px; padding:.6rem .8rem; font-size:.92rem; color:#075985; }
 .salary-note { font-size:.85rem; color:#5b6670; font-style:italic; }
+
+/* Graduate destination charts */
+.grad-charts { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr)); align-items:start; gap:1.5rem; margin:1.5rem 0 .5rem; }
+.grad-chart { margin:0; background:#fff; border:1px solid #e1e8ed; border-radius:10px; padding:1.4rem; }
+.grad-chart figcaption { margin-top:1rem; font-size:.95rem; color:#5b6670; }
+.grad-chart-title { margin:0 0 1rem; font-size:1.15rem; color:var(--text); }
+.grad-hero { display:flex; align-items:baseline; gap:.8rem; margin-bottom:1.2rem; }
+.grad-hero-number { font-family:"Arial Black","Arial Bold",Arial,sans-serif; font-weight:900; font-size:3.6rem; line-height:1; color:#184f95; }
+.grad-hero-text { font-size:1.05rem; color:var(--text); }
+.grad-stack { display:flex; gap:2px; height:28px; border-radius:4px; overflow:hidden; }
+.grad-seg { min-width:4px; }
+.grad-loc-1 { background:#184f95; } .grad-loc-2 { background:#2a78d6; } .grad-loc-3 { background:#5598e7; } .grad-loc-4 { background:#86b6ef; }
+.grad-legend { list-style:none; padding:0; margin:.9rem 0 0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.4rem 1rem; font-size:.92rem; color:var(--text); }
+.grad-legend li { display:flex; align-items:center; gap:.45rem; }
+.grad-legend strong { margin-left:auto; }
+.grad-swatch { width:12px; height:12px; border-radius:3px; flex:none; }
+.grad-bar-row { display:grid; grid-template-columns:9.5rem 1fr 2.6rem; align-items:center; gap:.6rem; padding:3px 0; font-size:.9rem; }
+.grad-bar-row:hover { background:#f2f8fc; }
+.grad-bar-label { color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.grad-bar-track { height:12px; }
+.grad-bar { display:block; height:100%; min-width:3px; background:#1090D5; border-radius:0 4px 4px 0; }
+.grad-bar-value { text-align:right; color:#5b6670; font-variant-numeric:tabular-nums; }
+@media (max-width:420px) { .grad-bar-row { grid-template-columns:8.6rem 1fr 2.4rem; font-size:.86rem; } .grad-bar-label { white-space:normal; } .grad-legend { grid-template-columns:1fr; } .grad-hero-number { font-size:2.8rem; } }

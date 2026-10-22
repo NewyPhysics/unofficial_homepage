@@ -1,0 +1,47 @@
+# Graduate destination charts on the careers page (/teaching/careers/).
+# Values are percentages of graduates. They were read off the original pie charts,
+# so they are approximate; replace them with exact figures when available.
+# Location is listed from nearest to furthest (the chart colours follow this order).
+
+location:
+  - label: "Hunter / local"
+    value: 62
+  - label: "Elsewhere in NSW"
+    value: 10
+  - label: "Interstate"
+    value: 14
+  - label: "International"
+    value: 14
+
+# Sectors, largest first.
+sectors:
+  - label: "Education"
+    value: 39
+  - label: "High tech"
+    value: 11
+  - label: "Manufacturing"
+    value: 11
+  - label: "Finance"
+    value: 6
+  - label: "Telecommunications"
+    value: 6
+  - label: "Medical"
+    value: 5
+  - label: "Engineering"
+    value: 4
+  - label: "Arts"
+    value: 3
+  - label: "Construction"
+    value: 3
+  - label: "Consumer goods"
+    value: 3
+  - label: "Energy"
+    value: 3
+  - label: "Healthcare"
+    value: 3
+  - label: "Legal"
+    value: 1
+  - label: "Media"
+    value: 1
+  - label: "Non-profit"
+    value: 1

@@ -15,7 +15,9 @@ A physics degree doesn't lead to just one job. It trains you to understand how t
 
 ## Where our graduates are now
 
-Graduates of our physics (and former photonics) Bachelor and Honours programs work in a remarkable range of jobs. Here are some of the roles they have gone on to, with approximate Australian salaries for each area.
+Graduates of our physics (and former photonics) Bachelor and Honours programs work in a remarkable range of jobs. Here is where they are and what sectors they work in, followed by some of the roles they have gone on to and approximate Australian salaries for each area.
+
+{% include graduate-charts.html %}
 
 <div class="careers" markdown="1">
 

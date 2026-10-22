@@ -1,0 +1,36 @@
+{% assign stats = site.data.graduate_stats %}
+{% assign local = stats.location | first %}
+{% assign max_sector = stats.sectors | first %}
+<div class="grad-charts">
+
+  <figure class="grad-chart">
+    <div class="grad-hero">
+      <span class="grad-hero-number">{{ local.value }}%</span>
+      <span class="grad-hero-text">of our graduates build their careers right here in the Hunter</span>
+    </div>
+    <div class="grad-stack" role="img" aria-label="Where our graduates work: {% for l in stats.location %}{{ l.label }} {{ l.value }}%{% unless forloop.last %}, {% endunless %}{% endfor %}">
+      {% for l in stats.location %}<span class="grad-seg grad-loc-{{ forloop.index }}" style="flex-grow: {{ l.value }}" title="{{ l.label }}: {{ l.value }}%"></span>{% endfor %}
+    </div>
+    <ul class="grad-legend">
+      {% for l in stats.location %}<li><span class="grad-swatch grad-loc-{{ forloop.index }}"></span>{{ l.label }} <strong>{{ l.value }}%</strong></li>{% endfor %}
+    </ul>
+    <figcaption>Most of our graduates stay and work in the Hunter, but plenty take their physics interstate and around the world.</figcaption>
+  </figure>
+
+  <figure class="grad-chart">
+    <h3 class="grad-chart-title">Which sectors they work in</h3>
+    <div class="grad-bars" role="img" aria-label="Sectors our graduates work in: {% for s in stats.sectors %}{{ s.label }} {{ s.value }}%{% unless forloop.last %}, {% endunless %}{% endfor %}">
+      {% for s in stats.sectors %}
+      {% assign width = s.value | times: 100.0 | divided_by: max_sector.value %}
+      <div class="grad-bar-row" title="{{ s.label }}: {{ s.value }}%">
+        <span class="grad-bar-label">{{ s.label }}</span>
+        <span class="grad-bar-track"><span class="grad-bar" style="width: {{ width }}%"></span></span>
+        <span class="grad-bar-value">{{ s.value }}%</span>
+      </div>
+      {% endfor %}
+    </div>
+    <figcaption>Teaching is the single biggest destination, but our graduates work across {{ stats.sectors.size }} different sectors, from high tech and manufacturing to finance, medicine and the arts.</figcaption>
+  </figure>
+
+</div>
+<p class="salary-note">Percentages are approximate, based on known destinations of graduates from our physics Bachelor and Honours programs.</p>
