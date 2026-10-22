@@ -2,7 +2,11 @@
 
 ## Add an academic
 
-Create `_people/surname-firstname.md` using the example file as a template.
+Create `_people/surname-firstname.md` using `_people/example-academic.md` as a template. Delete the `published: false` line in your copy, or the profile won't appear. Put the photo path in `photo:`.
+
+## Add HDR or Honours students
+
+Add an entry to `_data/hdr_students.yml` or `_data/honours_students.yml`, following the commented example at the top of each file.
 
 ## Add a research area
 

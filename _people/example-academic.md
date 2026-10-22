@@ -2,7 +2,12 @@
 name: "Example Academic"
 role: "Academic / Researcher"
 research: "Research area or expertise"
-image: "/assets/img/people/example-academic.jpg"
+photo: "/assets/img/people/example-academic.jpg"
+courses:
+  - "PHYS0000"
+official_url: "https://profiles.newcastle.edu.au/"
+# Template only: delete the next line in your own copy so the profile appears on the site.
+published: false
 ---
 ## Research
 

@@ -156,7 +156,8 @@ title: Home
   <div class="container">
     <h2>Seminars and Special Events</h2>
     <div class="cards">
-      {% for item in site.news limit:6 %}
+      {% assign news_items = site.news | sort: "date" | reverse %}
+      {% for item in news_items limit:6 %}
       <article class="card">
         <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
         <p>{{ item.excerpt | strip_html | truncate: 180 }}</p>

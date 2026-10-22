@@ -3,6 +3,20 @@ layout: page
 title: Third-year projects
 permalink: /projects/third-year/
 ---
-A shared list of third-year physics project opportunities.
+<p>A shared list of third-year physics project opportunities.</p>
 
-Add projects as Markdown files under `_projects/third-year/`.
+{% assign projects = site.projects | where_exp: "p", "p.path contains 'third-year'" | sort: "title" %}
+{% if projects.size > 0 %}
+<div class="cards">
+  {% for project in projects %}
+  <article class="card">
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
+    {% if project.supervisor %}<p><strong>Supervisor:</strong> {{ project.supervisor }}</p>{% endif %}
+    {% if project.status %}<p><strong>Status:</strong> {{ project.status }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<p class="empty-note">No projects have been listed yet. Add them as Markdown files under <code>_projects/third-year/</code>.</p>
+{% endif %}

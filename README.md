@@ -7,8 +7,6 @@ This repository is designed as a shared departmental/community site using the vi
 ## Structure
 
 - `_people/` — academic and teaching staff profiles
-- `_students/hdr/` — HDR/PhD and research masters profiles
-- `_students/honours/` — Honours students and projects
 - `_projects/third-year/` — third-year project opportunities
 - `_research/` — research areas/groups
 - `_teaching/` — teaching information
@@ -17,11 +15,11 @@ This repository is designed as a shared departmental/community site using the vi
 - `assets/` — CSS, JavaScript, images and the Squadfree template assets
 - `_includes/` — reusable navigation, footer and notices
 - `_layouts/` — page templates
-- `data/` — optional structured data for future automation
+- `_data/` — student lists (`hdr_students.yml`, `honours_students.yml`) and site settings
 
 ## Editing
 
-Most people should only need to edit a Markdown file in `_people`, `_research`, `_teaching`, `_students`, or `_projects`.
+Most people should only need to edit a Markdown file in `_people`, `_research`, `_teaching`, `_news` or `_projects`, or a student list in `_data`.
 
 1. Open the relevant file on GitHub.
 2. Click the pencil/edit button.

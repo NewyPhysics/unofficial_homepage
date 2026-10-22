@@ -1,14 +1,23 @@
 ---
 layout: default
 ---
+{% assign person_photo = page.photo | default: page.image %}
 <main class="inner-page">
   <div class="container person-page">
-    {% if page.image %}
-      <img class="person-image" src="{{ page.image | relative_url }}" alt="{{ page.name }}">
+    {% if person_photo %}
+      <img class="person-image" src="{{ person_photo | relative_url }}" alt="Photo of {{ page.name }}">
     {% endif %}
     <h1>{{ page.name }}</h1>
-    <p class="lead">{{ page.role }}</p>
+    {% if page.role %}<p class="lead">{{ page.role }}</p>{% endif %}
     {% if page.research %}<p><strong>Research:</strong> {{ page.research }}</p>{% endif %}
+    {% if page.courses %}
+      <p class="person-courses"><strong>Courses:</strong>
+        {% for course in page.courses %}<span class="course-code">{{ course }}</span>{% endfor %}
+      </p>
+    {% endif %}
+    {% if page.official_url %}
+      <p><a class="profile-link" href="{{ page.official_url }}" target="_blank" rel="noopener noreferrer">Official University profile <span aria-hidden="true">↗</span></a></p>
+    {% endif %}
     {{ content }}
   </div>
 </main>

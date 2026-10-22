@@ -3,10 +3,19 @@ layout: page
 title: HDR students
 permalink: /students/hdr/
 ---
-{% assign students = site.data.hdr_students %}
-{% for student in students %}
-### {{ student.name }}
-**Supervisor(s):** {{ student.supervisors }}  
-**Research:** {{ student.research }}
+<p>PhD and research masters students, their supervisors and their research.</p>
 
-{% endfor %}
+{% assign students = site.data.hdr_students %}
+{% if students and students.size > 0 %}
+<div class="cards">
+  {% for student in students %}
+  <article class="card">
+    <h3>{{ student.name }}</h3>
+    {% if student.supervisors %}<p><strong>Supervisor(s):</strong> {{ student.supervisors }}</p>{% endif %}
+    {% if student.research %}<p><strong>Research:</strong> {{ student.research }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<p class="empty-note">No HDR students have been listed yet. Add them to <code>_data/hdr_students.yml</code>.</p>
+{% endif %}
