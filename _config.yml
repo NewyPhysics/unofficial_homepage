@@ -3,6 +3,8 @@ description: "An unofficial website for the Physics discipline at the University
 url: "https://newyphysics.github.io"
 baseurl: "/unofficial_homepage"
 markdown: kramdown
+# Publish items dated in the future, such as upcoming events
+future: true
 
 
 collections:
