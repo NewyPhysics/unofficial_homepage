@@ -2,8 +2,6 @@
 title: Astrophysics
 summary: The Sun and stars, space and plasma physics, space weather, exoplanets and evolved stars.
 ---
-**Placeholder:** Replace this text with a concise description of the research area, key questions, facilities, collaborations and links to relevant people and projects.
-
 Topics include the solar interior, surface and atmosphere, solar magnetic fields and activity, the solar wind and space weather, space plasmas and magnetohydrodynamics, exoplanet atmospheres, and evolved stars and their surroundings.
 
 ## People
@@ -16,4 +14,4 @@ Topics include the solar interior, surface and atmosphere, solar magnetic fields
 
 ## Projects
 
-Add current projects and opportunities here.
+Browse our [undergraduate research projects]({{ '/projects/undergraduate-research/' | relative_url }}) for summer, SCIE3500 and Honours projects in this area. For PhD opportunities, contact any of the people above; see [Higher Degree by Research]({{ '/teaching/hdr/' | relative_url }}) for details.

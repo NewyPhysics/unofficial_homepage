@@ -2,7 +2,7 @@
 title: Quantum Technology
 summary: Quantum optics, spectroscopy and colour centres in diamond for quantum technologies.
 ---
-**Placeholder:** Replace this text with a concise description of the research area, key questions, facilities, collaborations and links to relevant people and projects.
+Research in this area covers quantum optics, spectroscopy and colour centres in diamond for quantum technologies.
 
 ## People
 
@@ -10,4 +10,4 @@ summary: Quantum optics, spectroscopy and colour centres in diamond for quantum 
 
 ## Projects
 
-Add current projects and opportunities here.
+Browse our [undergraduate research projects]({{ '/projects/undergraduate-research/' | relative_url }}) for summer, SCIE3500 and Honours projects in this area. For PhD opportunities, contact any of the people above; see [Higher Degree by Research]({{ '/teaching/hdr/' | relative_url }}) for details.
