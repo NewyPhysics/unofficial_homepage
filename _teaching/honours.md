@@ -3,7 +3,7 @@ title: Honours
 order: 2
 summary: A year of research after your degree, and the best way to find out whether a PhD is for you.
 ---
-Honours is an extra year of advanced study taken after you finish your Bachelor of Science (known as "end-on" Honours). It is your chance to try out real research: you work on your own project with an academic supervisor, write a thesis, and take advanced physics coursework alongside it.
+Honours is an extra year of advanced study taken after you finish your Bachelor of Science (known as "end-on" Honours). It is your chance to try out real research: you work on your own project with an academic supervisor, write a thesis, and take advanced physics coursework alongside it. Think of it as a test drive for a research career, with your supervisor in the passenger seat.
 
 Honours is also the usual pathway into a research degree. It shows you, and future supervisors, whether research suits you before you commit to a PhD, and a strong Honours result is the standard route to PhD entry and scholarships. Many Honours graduates go straight into a PhD; others take their research, analysis and communication skills into industry, government or teaching.
 

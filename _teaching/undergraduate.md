@@ -3,15 +3,15 @@ title: Undergraduate Physics
 order: 1
 summary: A physics major built on core fundamental physics, taken through the Bachelor of Science or a combined degree.
 ---
-Undergraduate physics at Newcastle concentrates on the core of the subject: classical mechanics, electromagnetism, thermodynamics, quantum mechanics and modern physics, alongside laboratory and computational skills, with a small number of electives in later years. The aim is a strong grounding in fundamental physics that prepares students for Honours and research, and for careers that rely on quantitative problem solving.
+Undergraduate physics at Newcastle concentrates on the core of the subject: classical mechanics, electromagnetism, thermodynamics, quantum mechanics and modern physics, alongside laboratory and computational skills, with a small number of electives in later years. Expect lasers, telescopes, a healthy amount of calculus and the occasional existential question about the nature of reality. The aim is a strong grounding in fundamental physics that prepares students for Honours and research, and for careers that rely on quantitative problem solving.
 
 ## Personal attention from day one
 
-Physics at Newcastle is a small discipline, which means small classes and a low student-to-staff ratio. Students are taught by the same academics who lead our research, and get to know them well over the course of their degree. The discipline is known for high-quality teaching and for the care it takes of its students.
+Physics at Newcastle is a small discipline, which means small classes and a low student-to-staff ratio. Students are taught by the same academics who lead our research, and get to know them well over the course of their degree. The discipline is known for high-quality teaching and for the care it takes of its students. We'll know your name, and quite possibly your favourite equation.
 
-## Come and talk to us
+## Come and say hello
 
-Current and prospective students are always welcome to drop by the Physics building on the Callaghan campus (our offices are upstairs) and talk to us about studying physics, choosing courses or where a physics degree can lead. You can also contact any of [our academics]({{ '/#people' | relative_url }}) by email; addresses are on their official University profiles.
+Current and prospective students are always welcome to drop by the Physics building on the Callaghan campus (our offices are upstairs) and talk to us about studying physics, choosing courses or where a physics degree can lead. We don't bite. You can also contact any of [our academics]({{ '/#people' | relative_url }}) by email; addresses are on their official University profiles.
 
 ## How to study physics
 

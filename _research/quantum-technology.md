@@ -2,7 +2,7 @@
 title: Quantum Technology
 summary: Quantum optics, spectroscopy and colour centres in diamond for quantum technologies.
 ---
-Research in this area covers quantum optics, spectroscopy and colour centres in diamond for quantum technologies.
+Diamonds are a physicist's best friend. Research in this area covers quantum optics, spectroscopy and colour centres in diamond: tiny, glowing "artificial atoms" that could become the building blocks of quantum technologies.
 
 ## People
 

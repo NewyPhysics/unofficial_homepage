@@ -3,7 +3,7 @@ title: Higher Degree by Research (PhD)
 order: 3
 summary: Doing a PhD in physics at Newcastle, scholarships, and how to find a supervisor.
 ---
-A PhD is your opportunity to make an original contribution to physics. You work closely with a supervisor on a substantial research project, develop expertise in your field, and write a thesis based on your own research. Our PhD candidates work across all of the discipline's [research areas]({{ '/#research' | relative_url }}).
+A PhD is your opportunity to make an original contribution to physics, and to become the world's leading expert on something wonderfully specific. You work closely with a supervisor on a substantial research project, develop expertise in your field, and write a thesis based on your own research. Our PhD candidates work across all of the discipline's [research areas]({{ '/#research' | relative_url }}).
 
 ## What the PhD involves
 

@@ -6,7 +6,7 @@ title: Home
   <div class="container">
     <p class="eyebrow">PHYSICS · UNIVERSITY OF NEWCASTLE</p>
     <h1>Physics at the University of Newcastle, Australia</h1>
-    <p class="lead">The Physics discipline is part of the School of Science in the College of Engineering, Science and Environment at the University of Newcastle, Australia. This unofficial website brings together an overview of our research and teaching in one place.</p>
+    <p class="lead">The Physics discipline is part of the School of Science in the College of Engineering, Science and Environment at the University of Newcastle, Australia. This unofficial website brings together our research and teaching in one place, so you can spend less time searching and more time doing physics.</p>
     <p class="hero-note">For official University information, please visit the <a href="https://www.newcastle.edu.au/">University of Newcastle website</a>.</p>
     <a class="btn" href="#research">Explore our research</a>
     <a class="btn secondary" href="#study">Study with us</a>
@@ -16,7 +16,7 @@ title: Home
 <section id="research" class="section alt">
   <div class="container">
     <h2>Research</h2>
-    <p class="section-intro">Research in the Physics discipline spans fundamental, applied, computational, theoretical and observational physics.</p>
+    <p class="section-intro">Research in the Physics discipline spans fundamental, applied, computational, theoretical and observational physics, from the inside of the Sun to the inside of a diamond.</p>
     <div class="cards">
       {% for item in site.research %}
       <article class="card">
@@ -31,8 +31,8 @@ title: Home
   <div class="container">
     <h2>People</h2>
     <p class="section-intro">
-      Meet the academics teaching and researching in Physics
-      at the University of Newcastle.
+      Meet the academics teaching and researching physics at Newcastle.
+      We're a friendly bunch, and most of us can be found within orbiting distance of the coffee machine.
     </p>
 
     <div class="people-grid">
@@ -103,6 +103,7 @@ title: Home
 <section id="study" class="section alt">
   <div class="container">
     <h2>Study Physics at Newcastle</h2>
+    <p class="section-intro">Everything you need to know, from your first lecture to your final thesis, and where it can all lead.</p>
     <div class="cards">
       {% assign teaching_pages = site.teaching | sort: "order" %}
       {% for item in teaching_pages %}
@@ -118,7 +119,7 @@ title: Home
 <section id="projects" class="section">
   <div class="container">
     <h2>Undergraduate research</h2>
-    <p>Get involved in research during your degree through summer research projects, SCIE3500 or Honours. Browse the projects on offer across the Physics discipline.</p>
+    <p>Why wait until you graduate to discover something new? Get involved in research during your degree through summer research projects, SCIE3500 or Honours. Browse the projects on offer across the Physics discipline.</p>
     <a class="btn" href="{{ 'projects/undergraduate-research/' | relative_url }}">Undergraduate research projects</a>
   </div>
 </section>
@@ -126,7 +127,7 @@ title: Home
 <section id="students" class="section alt">
   <div class="container">
     <h2>Research students</h2>
-    <p class="section-intro">Meet the PhD and Honours students who carry out research in the Physics discipline, now and in the past.</p>
+    <p class="section-intro">Meet the PhD and Honours students who keep our labs humming and our supervisors on their toes, now and in the past.</p>
     <a class="btn" href="{{ 'students/' | relative_url }}">Current and past research students</a>
   </div>
 </section>

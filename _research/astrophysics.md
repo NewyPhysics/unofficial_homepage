@@ -2,7 +2,7 @@
 title: Astrophysics
 summary: The Sun and stars, space and plasma physics, space weather, exoplanets and evolved stars.
 ---
-Topics include the solar interior, surface and atmosphere, solar magnetic fields and activity, the solar wind and space weather, space plasmas and magnetohydrodynamics, exoplanet atmospheres, and evolved stars and their surroundings.
+From the churning interior of our nearest star to the skies of planets around other stars, our astrophysicists cover a lot of ground (and quite a lot of not-ground). Topics include the solar interior, surface and atmosphere, solar magnetic fields and activity, the solar wind and space weather, space plasmas and magnetohydrodynamics, exoplanet atmospheres, and evolved stars and their surroundings.
 
 ## People
 
