@@ -27,24 +27,6 @@ title: Home
     </div>
   </div>
 </section>
-<!-- 
-<section id="people" class="section">
-  <div class="container">
-    <h2>People</h2>
-    <div class="cards">
-      {% for person in site.people %}
-      <article class="card">
-        <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
-        <p>{{ person.role }}</p>
-        <p>{{ person.research }}</p>
-      </article>
-      {% endfor %}
-    </div>
-  </div>
-</section> -->
-
-
-
 <section id="people" class="section">
   <div class="container">
     <h2>People</h2>
@@ -118,15 +100,7 @@ title: Home
 </section>
 
 
-<section id="students" class="section alt">
-  <div class="container">
-    <h2>Research students</h2>
-    <p class="section-intro">Meet the PhD and Honours students who carry out research in the Physics discipline, now and in the past.</p>
-    <a class="btn" href="{{ 'students/' | relative_url }}">Current and past research students</a>
-  </div>
-</section>
-
-<section id="study" class="section">
+<section id="study" class="section alt">
   <div class="container">
     <h2>Study Physics at Newcastle</h2>
     <div class="cards">
@@ -141,11 +115,19 @@ title: Home
   </div>
 </section>
 
-<section id="projects" class="section alt">
+<section id="projects" class="section">
   <div class="container">
     <h2>Undergraduate research</h2>
     <p>Get involved in research during your degree through summer research projects, SCIE3500 or Honours. Browse the projects on offer across the Physics discipline.</p>
     <a class="btn" href="{{ 'projects/undergraduate-research/' | relative_url }}">Undergraduate research projects</a>
+  </div>
+</section>
+
+<section id="students" class="section alt">
+  <div class="container">
+    <h2>Research students</h2>
+    <p class="section-intro">Meet the PhD and Honours students who carry out research in the Physics discipline, now and in the past.</p>
+    <a class="btn" href="{{ 'students/' | relative_url }}">Current and past research students</a>
   </div>
 </section>
 
