@@ -216,3 +216,8 @@ h1, h2, h3, .logo h1 {
 .team-card p { margin:.3rem 0; font-size:.95rem; }
 .team-meta, .team-now { color:#5b6670; }
 .team-supervisors a { color:var(--uon-dark-blue); }
+
+/* News and events */
+.news-date { margin:0 0 .3rem; font-size:.85rem; font-weight:700; color:var(--uon-dark-blue); text-transform:uppercase; letter-spacing:.04em; }
+.event-details { background:#e8f5fc; border-left:4px solid var(--uon-blue); padding:.8rem 1.1rem; }
+.news-poster { display:block; width:100%; max-width:480px; height:auto; margin:1.5rem 0; border-radius:8px; box-shadow:0 3px 18px rgba(0,0,0,.1); }

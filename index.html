@@ -138,6 +138,7 @@ title: Home
       {% assign news_items = site.news | sort: "date" | reverse %}
       {% for item in news_items limit:6 %}
       <article class="card">
+        <p class="news-date">{{ item.date | date: "%A %-d %B %Y" }}{% if item.event_time %} · {{ item.event_time }}{% endif %}{% if item.event_place %} · {{ item.event_place }}{% endif %}</p>
         <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
         <p>{{ item.excerpt | strip_html | truncate: 180 }}</p>
       </article>
