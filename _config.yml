@@ -18,9 +18,6 @@ collections:
   news:
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
 
 defaults:
   # Base default for regular pages (Missing in your original file)
@@ -48,11 +45,6 @@ defaults:
   - scope:
       path: ""
       type: "news"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "projects"
     values:
       layout: "page"
       

@@ -4,7 +4,7 @@ title: Undergraduate research projects
 permalink: /projects/undergraduate-research/
 ---
 {% assign data = site.data.research_projects %}
-{% assign supervisors = data.supervisors | sort: "sort_name" %}
+{% assign supervisors = data.supervisors | where_exp: "s", "s.projects.size > 0" | sort: "sort_name" %}
 
 <p class="lead">Research projects on offer in the Physics discipline for {{ data.year }}, for summer research, SCIE3500 and Honours students.</p>
 
@@ -31,19 +31,19 @@ permalink: /projects/undergraduate-research/
 <p class="callout"><strong>Talk to a supervisor first.</strong> Always discuss a potential project with the supervisor before you enrol or apply. Supervisors are listed in alphabetical order, and you're welcome to contact them by email or drop by.</p>
 
 <nav class="supervisor-index" aria-label="Supervisors">
-  {% for s in supervisors %}{% if s.projects.size > 0 %}<a href="#{{ s.sort_name | slugify }}">{{ s.name }}</a>{% endif %}{% endfor %}
+  {% for s in supervisors %}{% unless forloop.first %} <span class="sep" aria-hidden="true">·</span> {% endunless %}<a href="#{{ s.sort_name | slugify }}">{{ s.name }}</a>{% endfor %}
 </nav>
 
 {% for s in supervisors %}
-{% if s.projects.size > 0 %}
 <section class="supervisor" id="{{ s.sort_name | slugify }}">
   <h2>
     {% if s.person %}<a href="{{ '/people/' | append: s.person | append: '/' | relative_url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}
   </h2>
+  {% if s.group %}<p class="supervisor-group">{{ s.group }}</p>{% endif %}
   <p class="supervisor-meta">
-    {% if s.group %}<span>{{ s.group }}</span>{% endif %}
     {% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% endif %}
-    {% if s.profile %}<a href="{{ s.profile }}" target="_blank" rel="noopener noreferrer">University profile <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if s.email and s.profile %} <span class="sep" aria-hidden="true">·</span> {% endif %}
+    {% if s.profile %}<a href="{{ s.profile }}" target="_blank" rel="noopener noreferrer">Official University profile <span aria-hidden="true">↗</span></a>{% endif %}
   </p>
   {% if s.intro %}<p>{{ s.intro }}</p>{% endif %}
   {% for p in s.projects %}
@@ -53,7 +53,6 @@ permalink: /projects/undergraduate-research/
   </details>
   {% endfor %}
 </section>
-{% endif %}
 {% endfor %}
 
 <p class="empty-note">Project details are supplied by each supervisor and may change. Course rules and entry requirements are set by the University; check the <a href="https://handbook.newcastle.edu.au/">University Handbook</a> for current information.</p>

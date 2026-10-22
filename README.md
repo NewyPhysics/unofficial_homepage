@@ -7,7 +7,7 @@ This repository is the website for the Physics discipline (our equivalent of a d
 ## Structure
 
 - `_people/` — academic and teaching staff profiles
-- `_projects/third-year/` — third-year project opportunities
+- `_data/research_projects.yml` — undergraduate research projects (summer, SCIE3500, Honours)
 - `_research/` — research areas/groups
 - `_teaching/` — teaching information
 - `_news/` — news and announcements

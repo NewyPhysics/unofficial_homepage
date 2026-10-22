@@ -151,13 +151,14 @@ h1, h2, h3, .logo h1 {
 
 /* Honours and undergraduate research projects page */
 .callout { background:#e8f5fc; border-left:4px solid var(--uon-blue); padding:1rem 1.2rem; margin:2rem 0; }
-.supervisor-index { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.5rem 0 2.5rem; }
-.supervisor-index a { background:#fff; border:1px solid #cfe3ef; border-radius:999px; padding:.3rem .8rem; font-size:.9rem; color:var(--uon-dark-blue); }
-.supervisor-index a:hover { background:#e8f5fc; text-decoration:none; }
+.supervisor-index { margin:1.5rem 0 2.5rem; line-height:2; }
+.supervisor-index a { color:var(--uon-dark-blue); white-space:nowrap; }
+.sep { color:#9aa7b1; margin:0 .35rem; }
 .supervisor { padding-top:1.5rem; margin-top:1.5rem; border-top:1px solid #e1e8ed; }
 .supervisor h2 { font-size:1.5rem; margin-bottom:.3rem; }
 .supervisor h2 a { color:var(--uon-blue); }
-.supervisor-meta { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; font-size:.95rem; color:#5b6670; margin-top:0; }
+.supervisor-group { font-size:.95rem; color:#5b6670; margin:0; }
+.supervisor-meta { font-size:.95rem; margin-top:.2rem; }
 .project { background:#fff; border:1px solid #e1e8ed; border-radius:8px; margin:.6rem 0; }
 .project summary { cursor:pointer; padding:.8rem 1rem; font-weight:700; color:var(--text); }
 .project summary:hover { color:var(--uon-dark-blue); }

@@ -12,9 +12,9 @@ Add an entry to `_data/hdr_students.yml` or `_data/honours_students.yml`, follow
 
 Create `_research/short-name.md`.
 
-## Add a third-year project
+## Add an undergraduate research project
 
-Create `_projects/third-year/project-name.md`.
+Add it to `_data/research_projects.yml` under the supervisor, following the existing entries. The list appears on the Undergraduate research projects page.
 
 ## Add a news item
 
