@@ -4,8 +4,6 @@ summary: "Short description of the project."
 supervisor: "Academic Name"
 status: "Available"
 ---
-# Example Third-Year Project
-
 **Supervisor:** Academic Name  
 **Status:** Available
 

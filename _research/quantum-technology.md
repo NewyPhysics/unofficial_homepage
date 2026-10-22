@@ -2,8 +2,6 @@
 title: Quantum Technology
 summary: Quantum optics, spectroscopy and colour centres in diamond for quantum technologies.
 ---
-# Quantum Technology
-
 **Placeholder:** Replace this text with a concise description of the research area, key questions, facilities, collaborations and links to relevant people and projects.
 
 ## People

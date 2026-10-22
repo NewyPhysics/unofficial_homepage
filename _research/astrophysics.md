@@ -2,8 +2,6 @@
 title: Astrophysics
 summary: The Sun and stars, space and plasma physics, space weather, exoplanets and evolved stars.
 ---
-# Astrophysics
-
 **Placeholder:** Replace this text with a concise description of the research area, key questions, facilities, collaborations and links to relevant people and projects.
 
 Topics include the solar interior, surface and atmosphere, solar magnetic fields and activity, the solar wind and space weather, space plasmas and magnetohydrodynamics, exoplanet atmospheres, and evolved stars and their surroundings.
