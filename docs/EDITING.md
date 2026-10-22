@@ -4,9 +4,9 @@
 
 Create `_people/surname-firstname.md` using `_people/example-academic.md` as a template. Delete the `published: false` line in your copy, or the profile won't appear. Put the photo path in `photo:`, and the surname in `sort_name:` so the People grid stays in alphabetical order.
 
-## Add research students
+## Add postdocs, research students and alumni
 
-Add an entry to `_data/research_students.yml`, following the commented example at the top of the file. Set `status` to `current` or `past`.
+Add an entry to `_data/team.yml`, following the instructions at the top of the file. Set `role` to `postdoc`, `phd` or `honours`, and `status` to `current` or `past` (alumni).
 
 ## Add a research area
 

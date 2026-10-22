@@ -1,0 +1,52 @@
+# Postdocs, PhD students, Honours students and alumni, shown on the Research team page (/team/).
+#
+# One entry per person:
+#   name:        full name
+#   role:        postdoc, phd or honours
+#   status:      current, or past for alumni
+#   supervisors: list of supervisor file names from _people (e.g. schunker-hannah), so they link to their cards
+#   years:       optional, e.g. "2023–" or "2019–2023"
+#   project:     optional, a short project or thesis title
+#   now:         optional, for alumni: where they are now
+#
+# When someone finishes, change status to past and they move to Alumni automatically.
+
+- name: "Angie Waszewski"
+  role: postdoc
+  status: current
+  supervisors: [schunker-hannah]
+
+- name: "Sahel Dey"
+  role: postdoc
+  status: current
+  supervisors: [pontin-david]
+
+- name: "Axel Raboonik"
+  role: postdoc
+  status: current
+  supervisors: [pontin-david]
+
+- name: "Asha Lakshmi KV"
+  role: phd
+  status: current
+  supervisors: [schunker-hannah]
+
+- name: "Lorenzo Martinelli"
+  role: phd
+  status: current
+  supervisors: [schunker-hannah]
+
+- name: "Ellen Lu"
+  role: phd
+  status: current
+  supervisors: [schunker-hannah]
+
+- name: "Chloe Wilkins"
+  role: phd
+  status: past
+  supervisors: [pontin-david]
+
+- name: "William Roland-Batty"
+  role: phd
+  status: past
+  supervisors: [schunker-hannah]

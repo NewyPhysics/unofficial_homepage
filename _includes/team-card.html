@@ -1,0 +1,17 @@
+{% assign m = include.member %}
+<article class="team-card">
+  <h3>{{ m.name }}</h3>
+  {% if include.alumni %}
+    {% case m.role %}{% when "postdoc" %}{% assign label = "Postdoc" %}{% when "phd" %}{% assign label = "PhD" %}{% when "honours" %}{% assign label = "Honours" %}{% else %}{% assign label = "" %}{% endcase %}
+    <p class="team-meta">{{ label }}{% if m.years %} · {{ m.years }}{% endif %}</p>
+  {% elsif m.years %}
+    <p class="team-meta">{{ m.years }}</p>
+  {% endif %}
+  {% if m.project %}<p>{{ m.project }}</p>{% endif %}
+  {% if m.supervisors %}
+  <p class="team-supervisors">{% if m.role == "postdoc" %}Working with{% else %}Supervised by{% endif %}
+    {% for slug in m.supervisors %}{% assign target = "/people/" | append: slug | append: "/" %}{% assign sup = nil %}{% for p in site.people %}{% if p.url == target %}{% assign sup = p %}{% endif %}{% endfor %}{% if sup %}<a href="{{ sup.url | relative_url }}">{{ sup.name }}</a>{% else %}{{ slug }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+  </p>
+  {% endif %}
+  {% if m.now %}<p class="team-now">Now: {{ m.now }}</p>{% endif %}
+</article>

@@ -1,0 +1,30 @@
+---
+layout: page
+title: Research team
+permalink: /team/
+---
+<p class="lead">The postdocs and students who make the research happen, and the alumni who have gone on to bigger and better things.</p>
+
+{% assign team = site.data.team %}
+{% assign groups = "postdoc|Postdoctoral researchers,phd|PhD students,honours|Honours students" | split: "," %}
+
+{% for g in groups %}
+  {% assign parts = g | split: "|" %}
+  {% assign members = team | where: "role", parts[0] | where: "status", "current" | sort: "name" %}
+  {% if members.size > 0 %}
+  <h2>{{ parts[1] }}</h2>
+  <div class="team-grid">
+    {% for m in members %}{% include team-card.html member=m %}{% endfor %}
+  </div>
+  {% endif %}
+{% endfor %}
+
+{% assign alumni = team | where: "status", "past" | sort: "name" %}
+{% if alumni.size > 0 %}
+<h2>Alumni</h2>
+<div class="team-grid">
+  {% for m in alumni %}{% include team-card.html member=m alumni=true %}{% endfor %}
+</div>
+{% endif %}
+
+<p>Fancy joining them? See <a href="{{ '/teaching/honours/' | relative_url }}">Honours</a>, <a href="{{ '/teaching/hdr/' | relative_url }}">Higher Degree by Research</a> and our <a href="{{ '/projects/undergraduate-research/' | relative_url }}">undergraduate research projects</a>.</p>

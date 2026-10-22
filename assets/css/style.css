@@ -208,3 +208,11 @@ h1, h2, h3, .logo h1 {
 .grad-bar { display:block; height:100%; min-width:3px; background:#1090D5; border-radius:0 4px 4px 0; }
 .grad-bar-value { text-align:right; color:#5b6670; font-variant-numeric:tabular-nums; }
 @media (max-width:420px) { .grad-bar-row { grid-template-columns:8.6rem 1fr 2.4rem; font-size:.86rem; } .grad-bar-label { white-space:normal; } .grad-legend { grid-template-columns:1fr; } .grad-hero-number { font-size:2.8rem; } }
+
+/* Research team page */
+.team-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(240px,100%),1fr)); gap:1rem; margin-bottom:2.5rem; }
+.team-card { background:#fff; border:1px solid #e1e8ed; border-radius:10px; padding:1rem 1.2rem; }
+.team-card h3 { margin:0 0 .3rem; font-size:1.1rem; }
+.team-card p { margin:.3rem 0; font-size:.95rem; }
+.team-meta, .team-now { color:#5b6670; }
+.team-supervisors a { color:var(--uon-dark-blue); }
