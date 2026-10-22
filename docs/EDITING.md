@@ -22,7 +22,7 @@ Create `_news/YYYY-MM-DD-title.md`.
 
 ## Images
 
-Put profile and research images under `assets/img/`. Keep filenames simple and use web-sized images.
+Put profile and research images under `assets/img/` and set `photo: "/assets/img/your-file.jpg"`. A full web address (`https://...`) also works, but a copy in the repo won't break if the other site moves it. Keep filenames simple and use web-sized images.
 
 ## Recommended workflow
 

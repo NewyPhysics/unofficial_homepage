@@ -5,7 +5,8 @@ layout: default
 <main class="inner-page">
   <div class="container person-page">
     {% if person_photo %}
-      <img class="person-image" src="{{ person_photo | relative_url }}" alt="Photo of {{ page.name }}">
+      {% if person_photo contains "://" %}{% assign photo_src = person_photo %}{% else %}{% assign photo_src = person_photo | relative_url %}{% endif %}
+      <img class="person-image" src="{{ photo_src }}" alt="Photo of {{ page.name }}" referrerpolicy="no-referrer">
     {% endif %}
     <h1>{{ page.name }}</h1>
     {% if page.role %}<p class="lead">{{ page.role }}</p>{% endif %}

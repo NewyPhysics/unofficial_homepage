@@ -67,9 +67,11 @@ title: Home
 
         <div class="person-photo">
           {% if person.photo %}
+          {% if person.photo contains "://" %}{% assign photo_src = person.photo %}{% else %}{% assign photo_src = person.photo | relative_url %}{% endif %}
           <img
-            src="{{ person.photo | relative_url }}"
+            src="{{ photo_src }}"
             alt="Photo of {{ person.name }}"
+            referrerpolicy="no-referrer"
             loading="lazy">
           {% else %}
           <div class="photo-placeholder">
