@@ -1,5 +1,7 @@
 ---
 title: Medical Physics
+icon: beam
+accent: "#d55181"
 summary: Physics applied to medicine, imaging, radiation, dosimetry and related technologies.
 ---
 Medical physics research at Newcastle focuses on making radiation therapy for cancer more accurate and safer. The Medical Physics Research Group works closely with the Department of Radiation Oncology at Calvary Mater Newcastle, so research moves quickly from the lab into clinical practice.

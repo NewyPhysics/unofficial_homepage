@@ -1,5 +1,7 @@
 ---
 title: Where can physics take you?
+icon: compass
+accent: "#eb6834"
 order: 4
 summary: The careers our graduates go on to, and the skills that make physicists so employable.
 ---
@@ -121,7 +123,6 @@ It's a fair question, and the answer is: not by as much as you might think. Here
 |---|---|---|
 | Engineering | $80,000 | 86% |
 | Science and mathematics | $72,400 | 64% |
-| Science and mathematics, University of Newcastle | $67,300 | 66% |
 | All fields | $75,000 | 74% |
 {: .salary-table}
 
@@ -132,7 +133,7 @@ Engineers start a few thousand dollars ahead, but those figures don't tell the w
 - **The gap closes.** Within three years, the share of science graduates in full-time work rises by about 25 percentage points, and many physics graduates move into data science, finance and software, where salaries often overtake engineering.
 - **Starting pay goes further in the Hunter.** Graduate salaries here are similar to Sydney's, and the cost of living is lower.
 
-<p class="salary-note">National figures are from the 2024 Graduate Outcomes Survey (QILT) for undergraduate graduates; University of Newcastle figures are the latest shown on ComparED. For University of Newcastle figures, see <a href="https://www.compared.edu.au/institution/university-of-newcastle/study-area/science-mathematics/undergraduate">graduate outcomes for Newcastle science and mathematics graduates on ComparED</a>.</p>
+<p class="salary-note">National figures are from the 2024 Graduate Outcomes Survey (QILT) for undergraduate graduates. For University of Newcastle figures, see <a href="https://www.compared.edu.au/institution/university-of-newcastle/study-area/science-mathematics/undergraduate">graduate outcomes for Newcastle science and mathematics graduates on ComparED</a>.</p>
 
 ## Growing areas for physicists
 

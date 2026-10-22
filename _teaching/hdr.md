@@ -1,5 +1,7 @@
 ---
 title: Higher Degree by Research (PhD)
+icon: cap
+accent: "#6250d6"
 order: 3
 summary: Doing a PhD in physics at Newcastle, scholarships, and how to find a supervisor.
 ---

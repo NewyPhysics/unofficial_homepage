@@ -1,5 +1,7 @@
 ---
 title: Nanomaterials & Organic Electronics
+icon: nano
+accent: "#199e70"
 summary: Nanomaterials, organic semiconductors, printed solar cells, biosensors, surface physics and advanced microscopy.
 ---
 Think small. Really, really small. Research in this area covers nanomaterials, organic semiconductors, printed solar cells, biosensors, surface physics and advanced microscopy, including imaging surfaces with beams of helium atoms.

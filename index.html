@@ -19,7 +19,8 @@ title: Home
     <p class="section-intro">Research in the Physics discipline spans fundamental, applied, computational, theoretical and observational physics, from the core of the Sun to the centre of a diamond.</p>
     <div class="cards">
       {% for item in site.research %}
-      <article class="card">
+      <article class="card card-accent" style="--accent: {{ item.accent | default: '#1090D5' }}">
+        <span class="card-icon">{% include icon.html name=item.icon %}</span>
         <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
         <p>{{ item.summary }}</p>
       </article>
@@ -106,7 +107,8 @@ title: Home
     <div class="cards">
       {% assign teaching_pages = site.teaching | sort: "order" %}
       {% for item in teaching_pages %}
-      <article class="card">
+      <article class="card card-accent" style="--accent: {{ item.accent | default: '#1090D5' }}">
+        <span class="card-icon">{% include icon.html name=item.icon %}</span>
         <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
         <p>{{ item.summary }}</p>
       </article>

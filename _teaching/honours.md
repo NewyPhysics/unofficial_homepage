@@ -1,5 +1,7 @@
 ---
 title: Honours
+icon: flask
+accent: "#199e70"
 order: 2
 summary: A year of research after your degree, and the best way to find out whether a PhD is for you.
 ---
