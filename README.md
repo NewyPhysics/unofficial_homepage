@@ -1,8 +1,8 @@
 # Physics at the University of Newcastle — unofficial website
 
-**This is an unofficial, community-maintained website. It is not an official University of Newcastle website and is not endorsed by, operated by, or speaking on behalf of the University.**
+**This is an unofficial website maintained by members of the Physics discipline. It is not an official University of Newcastle website and is not endorsed by, operated by, or speaking on behalf of the University.**
 
-This repository is designed as a shared departmental/community site using the visual language of the BootstrapMade **Squadfree** template.
+This repository is the website for the Physics discipline (our equivalent of a department), built using the visual language of the BootstrapMade **Squadfree** template.
 
 ## Structure
 
@@ -43,7 +43,7 @@ https://bootstrapmade.com/license/
 
 Use wording such as:
 
-> This is an unofficial, community-maintained website for physics researchers, teachers and students associated with the University of Newcastle. It is not an official University of Newcastle website and is not endorsed by or operated by the University.
+> This is an unofficial website for the Physics discipline at the University of Newcastle, maintained by its staff. It is not an official University of Newcastle website and is not endorsed by or operated by the University.
 
 Do not use the University's official logo or imply institutional endorsement unless you have permission.
 
