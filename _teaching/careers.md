@@ -113,6 +113,26 @@ Graduates of our physics (and former photonics) Bachelor and Honours programs wo
 
 <p class="salary-note">Salaries are approximate full-time annual figures in Australian dollars, before tax, and vary with experience, employer and location. They come from the NSW Department of Education, Bureau of Meteorology job advertisements, SEEK, Morgan McKinley and PayScale (2025–2026).</p>
 
+## Physics or engineering: which pays more?
+
+It's a fair question, and the answer is: not by as much as you might think. Here are national figures for 2024 graduates, about four to six months after finishing their degree:
+
+| | Median starting salary | In full-time work |
+|---|---|---|
+| Engineering | $80,000 | 86% |
+| Science and mathematics | $72,400 | 64% |
+| All fields | $75,000 | 74% |
+{: .salary-table}
+
+Engineers start a few thousand dollars ahead, but those figures don't tell the whole story for physics:
+
+- **Physics is grouped with all the sciences.** The national figures lump physics in with fields that typically pay less; physics on its own isn't reported.
+- **Many physics graduates are still studying.** Lots of them go straight into Honours or a PhD, so they don't count as employed in the first few months.
+- **The gap closes.** Within three years, the share of science graduates in full-time work rises by about 25 percentage points, and many physics graduates move into data science, finance and software, where salaries often overtake engineering.
+- **Starting pay goes further in the Hunter.** Graduate salaries here are similar to Sydney's, and the cost of living is lower.
+
+<p class="salary-note">Salary and employment figures are from the 2024 Graduate Outcomes Survey (QILT) for undergraduate graduates. To compare University of Newcastle graduates by field, see <a href="https://www.compared.edu.au">ComparED</a>.</p>
+
 ## Growing areas for physicists
 
 - **Medical physics:** working in hospitals on radiation therapy, imaging and radiation safety. Becoming a clinical medical physicist usually involves further postgraduate study and clinical training. Our own medical physics research group works alongside the radiation oncology team at Calvary Mater Newcastle.

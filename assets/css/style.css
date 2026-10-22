@@ -219,3 +219,10 @@ h1, h2, h3, .logo h1 {
 .news-date { margin:0 0 .3rem; font-size:.85rem; font-weight:700; color:var(--uon-dark-blue); text-transform:uppercase; letter-spacing:.04em; }
 .event-details { background:#e8f5fc; border-left:4px solid var(--uon-blue); padding:.8rem 1.1rem; }
 .news-poster { display:block; width:100%; max-width:480px; height:auto; margin:1.5rem 0; border-radius:8px; box-shadow:0 3px 18px rgba(0,0,0,.1); }
+
+/* Simple data tables */
+.salary-table { border-collapse:collapse; margin:1rem 0; min-width:min(520px,100%); font-size:.95rem; }
+.salary-table th, .salary-table td { padding:.5rem .9rem; border-bottom:1px solid #e1e8ed; text-align:left; }
+.salary-table th { color:#5b6670; font-weight:700; }
+.salary-table td:nth-child(n+2), .salary-table th:nth-child(n+2) { text-align:right; font-variant-numeric:tabular-nums; }
+.salary-table tr:last-child td { color:#5b6670; }
