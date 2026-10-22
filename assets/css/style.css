@@ -138,3 +138,10 @@ section[id] { scroll-margin-top:80px; }
     grid-template-columns: 1fr;
   }
 }
+
+/* Headings use Arial Black, the University's fallback for its Fuse V.2 Display typeface.
+   Devices without Arial Black (e.g. Android, Linux) get heavy Arial/Helvetica instead. */
+h1, h2, h3, .logo h1 {
+  font-family: "Arial Black", "Arial Bold", Gadget, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
