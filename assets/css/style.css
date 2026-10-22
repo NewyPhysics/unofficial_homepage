@@ -99,6 +99,16 @@ section[id] { scroll-margin-top:80px; }
   margin-bottom: 12px;
 }
 
+.person-position {
+  color: #555;
+  font-size: 0.95rem;
+  margin: -6px 0 12px;
+}
+
+.person-position a {
+  color: #075985;
+}
+
 .person-research,
 .person-courses {
   font-size: 0.95rem;

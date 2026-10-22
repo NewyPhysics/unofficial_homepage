@@ -10,6 +10,7 @@ layout: default
     {% endif %}
     <h1>{{ page.name }}</h1>
     {% if page.role %}<p class="lead">{{ page.role }}</p>{% endif %}
+    {% for pos in page.positions %}<p class="person-position">{{ pos.title }}, {% if pos.url %}<a href="{{ pos.url }}" target="_blank" rel="noopener noreferrer">{{ pos.name }}</a>{% else %}{{ pos.name }}{% endif %}</p>{% endfor %}
     {% if page.research %}<p><strong>Research:</strong> {{ page.research }}</p>{% endif %}
     {% if page.courses %}
       <p class="person-courses"><strong>Courses:</strong>

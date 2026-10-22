@@ -80,6 +80,10 @@ title: Home
           <p class="person-role">{{ person.role }}</p>
           {% endif %}
 
+          {% for pos in person.positions %}
+          <p class="person-position">{{ pos.title }}, {% if pos.url %}<a href="{{ pos.url }}" target="_blank" rel="noopener noreferrer">{{ pos.name }}</a>{% else %}{{ pos.name }}{% endif %}</p>
+          {% endfor %}
+
           {% if person.research %}
           <p class="person-research">
             <strong>Research:</strong> {{ person.research }}
