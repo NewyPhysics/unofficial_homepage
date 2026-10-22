@@ -41,12 +41,12 @@
   status: current
   supervisors: [schunker-hannah]
 
-- name: "Chloe Wilkins"
+- name: "Dr Chloe Wilkins"
   role: phd
   status: past
   supervisors: [pontin-david]
 
-- name: "William Roland-Batty"
+- name: "Dr William Roland-Batty"
   role: phd
   status: past
   supervisors: [schunker-hannah]
