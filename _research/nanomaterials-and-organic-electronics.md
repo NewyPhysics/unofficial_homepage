@@ -1,8 +1,8 @@
 ---
-title: Materials & Nanophysics
-summary: Materials physics, surfaces, nanostructures and emergent physical phenomena.
+title: Nanomaterials & Organic Electronics
+summary: Nanomaterials, organic semiconductors, printed solar cells, biosensors, surface physics and advanced microscopy.
 ---
-# Materials & Nanophysics
+# Nanomaterials & Organic Electronics
 
 **Placeholder:** Replace this text with a concise description of the research area, key questions, facilities, collaborations and links to relevant people and projects.
 
