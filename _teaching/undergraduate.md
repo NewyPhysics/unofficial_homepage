@@ -11,7 +11,7 @@ Physics at Newcastle is a small discipline, which means small classes and a low 
 
 ## Come and say hello
 
-Current and prospective students are always welcome to drop by the Physics building on the Callaghan campus (our offices are upstairs) and talk to us about studying physics, choosing courses or where a physics degree can lead. We don't bite. You can also contact any of [our academics]({{ '/#people' | relative_url }}) by email; addresses are on their official University profiles.
+Current and prospective students are always welcome to drop by the Physics building on the Callaghan campus (our offices are upstairs) and talk to us about studying physics, choosing courses or where a physics degree can lead. You can also contact any of [our academics]({{ '/#people' | relative_url }}) by email; addresses are on their official University profiles.
 
 ## How to study physics
 
