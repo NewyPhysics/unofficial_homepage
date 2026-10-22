@@ -130,7 +130,8 @@ title: Home
   <div class="container">
     <h2>Study Physics at Newcastle</h2>
     <div class="cards">
-      {% for item in site.teaching %}
+      {% assign teaching_pages = site.teaching | sort: "order" %}
+      {% for item in teaching_pages %}
       <article class="card">
         <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
         <p>{{ item.summary }}</p>

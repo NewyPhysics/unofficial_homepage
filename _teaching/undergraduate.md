@@ -1,5 +1,6 @@
 ---
 title: Undergraduate Physics
+order: 1
 summary: A physics major built on core fundamental physics, taken through the Bachelor of Science or a combined degree.
 ---
 Undergraduate physics at Newcastle concentrates on the core of the subject: classical mechanics, electromagnetism, thermodynamics, quantum mechanics and modern physics, alongside laboratory and computational skills, with a small number of electives in later years. The aim is a strong grounding in fundamental physics that prepares students for Honours and research, and for careers that rely on quantitative problem solving.
