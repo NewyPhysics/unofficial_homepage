@@ -56,7 +56,7 @@ title: Home
         </div>
 
         <div class="person-info">
-          <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
+          <h3><a href="{{ person.url | relative_url }}">{{ person.name | replace: "Associate Professor", "A/Prof." | replace: "Professor", "Prof." }}</a></h3>
 
           {% if person.role %}
           <p class="person-role">{{ person.role }}</p>
