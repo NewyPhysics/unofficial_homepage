@@ -16,8 +16,8 @@ Research topics include:
 
 ## People
 
-- [Conjoint Professor Peter Greer]({{ '/people/greer-peter/' | relative_url }}): radiation therapy and MRI-guided radiotherapy
-- [Conjoint Professor Joerg Lehmann]({{ '/people/lehmann-joerg/' | relative_url }}): radiotherapy quality assurance and dosimetry
+- [Conjoint Prof. Peter Greer]({{ '/people/greer-peter/' | relative_url }}): radiation therapy and MRI-guided radiotherapy
+- [Conjoint Prof. Joerg Lehmann]({{ '/people/lehmann-joerg/' | relative_url }}): radiotherapy quality assurance and dosimetry
 - Dr Jonathan Goodwin: MRI in radiotherapy and synthetic CT
 - Dr Ben Zwan: treatment verification, 4D dosimetry and machine learning
 

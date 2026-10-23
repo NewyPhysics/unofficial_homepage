@@ -1,5 +1,5 @@
 ---
-name: "Professor Paul Dastoor"
+name: "Prof. Paul Dastoor"
 sort_name: "Dastoor"
 role: "Professor of Physics"
 positions:
