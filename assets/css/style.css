@@ -339,3 +339,4 @@ a.pp-cell:hover, a.pp-cell:focus-visible { transform:translateY(-2px); box-shado
 /* Jumping to a person's card from elsewhere on the site */
 .person-card { scroll-margin-top:90px; }
 .person-card:target { border-color:var(--uon-blue); box-shadow:0 0 0 3px rgba(16,144,213,.3); }
+.people-subhead { margin:2.4rem 0 0; font-size:1.25rem; color:var(--ink-navy); scroll-margin-top:90px; }

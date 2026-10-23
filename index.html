@@ -36,7 +36,7 @@ title: Home
     </p>
     <div class="people-more">
       <a href="{{ 'team/' | relative_url }}#postdoc">Postdocs and research students <span aria-hidden="true">→</span></a>
-      <a href="{{ 'team/' | relative_url }}#technical">Lab and technical staff <span aria-hidden="true">→</span></a>
+      <a href="#technical">Lab and technical staff <span aria-hidden="true">↓</span></a>
     </div>
 
     <div class="people-grid">
@@ -101,6 +101,25 @@ title: Home
       </article>
       {% endfor %}
     </div>
+
+    {% assign technical = site.data.team | where: "role", "technical" | where: "status", "current" | sort: "sort_name" %}
+    {% if technical.size > 0 %}
+    <h3 class="people-subhead" id="technical">Lab and technical staff</h3>
+    <div class="people-grid">
+      {% for t in technical %}
+      {% assign name_parts = t.name | split: " " %}
+      {% assign first_index = name_parts.size | minus: 2 %}
+      <article class="person-card">
+        <div class="person-photo"><span class="photo-placeholder" aria-hidden="true">{{ name_parts[first_index] | slice: 0 }}{{ name_parts.last | slice: 0 }}</span></div>
+        <div class="person-info">
+          <h3>{{ t.name }}</h3>
+          {% if t.title %}<p class="person-role">{{ t.title }}</p>{% endif %}
+          {% if t.profile %}<a class="profile-link" href="{{ t.profile }}" target="_blank" rel="noopener noreferrer">University profile <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </section>
 

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Researchers, students and staff
+title: Postdocs, students and alumni
 kicker: People
 icon: atom
 accent: "#6250d6"
 permalink: /team/
 ---
-<p class="lead">Alongside our <a href="{{ '/#people' | relative_url }}">academics</a>: the postdocs and students who make the research happen, the lab and technical staff who keep everything running, and the alumni who have gone on to bigger and better things.</p>
+<p class="lead">Alongside our <a href="{{ '/#people' | relative_url }}">academics</a>: the postdocs and students who make the research happen, and the alumni who have gone on to bigger and better things.</p>
 
 {% assign team = site.data.team %}
-{% assign groups = "postdoc|Postdoctoral researchers,phd|PhD students,honours|Honours students,technical|Lab and technical staff" | split: "," %}
+{% assign groups = "postdoc|Postdoctoral researchers,phd|PhD students,honours|Honours students" | split: "," %}
 
 {% for g in groups %}
   {% assign parts = g | split: "|" %}
