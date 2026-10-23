@@ -1,5 +1,5 @@
 ---
-name: "Conjoint Prof. Joerg Lehmann"
+name: "Conjoint Professor Joerg Lehmann"
 sort_name: "Lehmann"
 role: "Conjoint Professor; Lead Medical Physicist (Research), Calvary Mater Newcastle"
 research: "Radiotherapy quality assurance, dosimetry, image-guided radiotherapy and clinical trials QA"

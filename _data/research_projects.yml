@@ -7,7 +7,7 @@ year: 2027
 
 supervisors:
 
-  - name: "Prof. Paul Dastoor"
+  - name: "Professor Paul Dastoor"
     sort_name: "Dastoor"
     person: "dastoor-paul"
     email: "paul.dastoor@newcastle.edu.au"
@@ -115,7 +115,7 @@ supervisors:
         description: |
           While MRI offers superior soft tissue contrast for contouring tumour targets and defining organs at risk, CT is typically required for dose calculation. However, co-registration of CT and MRI images during radiation treatment can lead to anatomical mismatch for anatomies such as liver and lung. In this study we are working with Siemens Healthineers, CSIRO and Liverpool Hospital to develop AI-generated synthetic CT images, which would enable an MRI-only workflow for abdomen and lung patients.
 
-  - name: "A/Prof. Renee Goreham"
+  - name: "Associate Professor Renee Goreham"
     sort_name: "Goreham"
     person: "goreham-renee"
     email: "renee.goreham@newcastle.edu.au"
@@ -152,7 +152,7 @@ supervisors:
 
           **Summary:** Students will compile a biomarker reference list for lung cancer EVs, supporting future aptamer design and validation efforts within the breath diagnostics program.
 
-  - name: "Conjoint Prof. Peter Greer"
+  - name: "Conjoint Professor Peter Greer"
     sort_name: "Greer"
     person: "greer-peter"
     email: "peter.greer@health.nsw.gov.au"
@@ -169,7 +169,7 @@ supervisors:
         description: |
           We have developed the world's first real-time treatment verification system in radiation oncology. The current Watchdog system calculates a predicted image set with a physics model and in real time compares the measured image frames, after the treatment beam has passed through the patient, to the predicted images. This project will extend this to deriving dose in the patient model in real time in a transit dosimetry situation, and compare predicted to measured doses within the patient in real time.
 
-  - name: "Conjoint Prof. Joerg Lehmann"
+  - name: "Conjoint Professor Joerg Lehmann"
     sort_name: "Lehmann"
     person: "lehmann-joerg"
     email: "joerg.lehmann@health.nsw.gov.au"
@@ -186,7 +186,7 @@ supervisors:
         description: |
           Dosimetry for cell and small animal irradiations for radiation oncology research is complex and difficult, with currently high uncertainties. This project will investigate the accuracy of existing models and also perform Monte Carlo simulations and measurements.
 
-  - name: "Prof. David Pontin"
+  - name: "Professor David Pontin"
     sort_name: "Pontin"
     person: "pontin-david"
     email: "david.pontin@newcastle.edu.au"
