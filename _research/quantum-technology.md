@@ -8,7 +8,7 @@ Diamonds are a physicist's best friend. Research in this area covers quantum opt
 
 ## People
 
-- [Dr Lachlan Rogers]({{ '/people/rogers-lachlan/' | relative_url }}): colour centres in diamond, quantum optics and spectroscopy
+- [Dr Lachlan Rogers]({{ '/' | relative_url }}#rogers-lachlan): colour centres in diamond, quantum optics and spectroscopy
 
 ## Projects
 

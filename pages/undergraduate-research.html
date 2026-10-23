@@ -43,7 +43,7 @@ permalink: /projects/undergraduate-research/
 {% for s in supervisors %}
 <section class="supervisor" id="{{ s.sort_name | slugify }}">
   <h2>
-    {% if s.person %}<a href="{{ '/people/' | append: s.person | append: '/' | relative_url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}
+    {% if s.person %}<a href="{{ '/' | relative_url }}#{{ s.person }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}
   </h2>
   {% if s.group %}<p class="supervisor-group">{{ s.group }}</p>{% endif %}
   <p class="supervisor-meta">

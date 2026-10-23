@@ -9,8 +9,7 @@ future: true
 
 collections:
   people:
-    output: true
-    permalink: /people/:path/
+    output: false
   research:
     output: true
     permalink: /research/:path/
@@ -29,11 +28,6 @@ defaults:
     values:
       layout: "default"
   # Your collection defaults
-  - scope:
-      path: ""
-      type: "people"
-    values:
-      layout: "person"
   - scope:
       path: ""
       type: "research"

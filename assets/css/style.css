@@ -335,3 +335,7 @@ a.pp-cell:hover, a.pp-cell:focus-visible { transform:translateY(-2px); box-shado
 /* Links under the People section */
 .people-more { display:flex; flex-wrap:wrap; gap:.6rem 1.4rem; margin:.4rem 0 0; }
 .people-more a { font-weight:700; color:var(--uon-dark-blue); }
+
+/* Jumping to a person's card from elsewhere on the site */
+.person-card { scroll-margin-top:90px; }
+.person-card:target { border-color:var(--uon-blue); box-shadow:0 0 0 3px rgba(16,144,213,.3); }

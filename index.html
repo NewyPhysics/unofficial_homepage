@@ -42,7 +42,8 @@ title: Home
     <div class="people-grid">
       {% assign academics = site.people | sort: "sort_name" %}
       {% for person in academics %}
-      <article class="person-card">
+      {% assign person_id = person.path | split: "/" | last | remove: ".md" %}
+      <article class="person-card" id="{{ person_id }}">
 
         <div class="person-photo">
           {% if person.photo %}
@@ -60,7 +61,7 @@ title: Home
         </div>
 
         <div class="person-info">
-          <h3><a href="{{ person.url | relative_url }}">{{ person.name | replace: "Associate Professor", "A/Prof." | replace: "Professor", "Prof." }}</a></h3>
+          <h3>{{ person.name | replace: "Associate Professor", "A/Prof." | replace: "Professor", "Prof." }}</h3>
 
           {% if person.role %}
           <p class="person-role">{{ person.role }}</p>
