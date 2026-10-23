@@ -5,6 +5,7 @@
 # which students can fill in themselves on the page.
 #   option: true  marks a course that is one of several options (shown with *)
 #   alt: STAT1070 shows an alternative course ("or STAT1070")
+#   name: "Fourier Analysis" shows the course name when hovering over it
 # Course codes link to the Handbook for `handbook_year`.
 
 title: "Bachelor of Science (Physics)"
@@ -51,7 +52,7 @@ years:
     semesters:
       - - { code: PHYS3101, type: major }
         - { code: PHYS3102, type: major }
-        - { code: MATH2242, type: directed, option: true }
+        - { code: MATH3205, type: elective, name: "Fourier Analysis" }
         - { type: elective }
       - - { code: PHYS3203, type: major }
         - { code: PHYS3204, type: elective, option: true }

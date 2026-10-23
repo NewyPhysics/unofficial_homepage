@@ -57,7 +57,7 @@
           cell.href = handbookUrl(c.code);
           cell.target = "_blank";
           cell.rel = "noopener noreferrer";
-          cell.title = (labels[type] || type) + (c.option ? " (one of several options)" : "") + ": open " + c.code + " in the Handbook";
+          cell.title = (c.name ? c.code + " " + c.name + ". " : "") + (labels[type] || type) + (c.option ? " (one of several options)" : "") + ": open " + c.code + " in the Handbook";
           var code = el("span", "pp-code", c.code);
           if (c.option) code.appendChild(el("sup", "pp-star", "*"));
           cell.appendChild(code);
