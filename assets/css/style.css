@@ -319,3 +319,19 @@ a.pp-cell:hover, a.pp-cell:focus-visible { transform:translateY(-2px); box-shado
   .pp-year { box-shadow:none; break-inside:avoid; }
   .pp-cell { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
 }
+
+/* Nav dropdown */
+.navbar li { position:relative; }
+.navbar .caret { font-size:.75em; }
+.navbar .dropdown {
+  display:none; position:absolute; top:100%; left:-.8rem; z-index:1001; min-width:220px;
+  flex-direction:column; gap:0; padding:.4rem 0; margin:0; list-style:none;
+  background:#fff; border:1px solid #e1e8ed; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,.12);
+}
+.navbar .dropdown a { display:block; padding:.45rem 1rem; white-space:nowrap; }
+.navbar .dropdown a:hover { background:#e8f5fc; text-decoration:none; }
+.navbar .has-dropdown:hover > .dropdown, .navbar .has-dropdown:focus-within > .dropdown { display:flex; }
+
+/* Links under the People section */
+.people-more { display:flex; flex-wrap:wrap; gap:.6rem 1.4rem; margin:.4rem 0 0; }
+.people-more a { font-weight:700; color:var(--uon-dark-blue); }

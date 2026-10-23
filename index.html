@@ -34,6 +34,10 @@ title: Home
     <p class="section-intro">
       Meet the academics teaching and researching physics at Newcastle.
     </p>
+    <div class="people-more">
+      <a href="{{ 'team/' | relative_url }}#postdoc">Postdocs and research students <span aria-hidden="true">→</span></a>
+      <a href="{{ 'team/' | relative_url }}#technical">Lab and technical staff <span aria-hidden="true">→</span></a>
+    </div>
 
     <div class="people-grid">
       {% assign academics = site.people | sort: "sort_name" %}
@@ -114,22 +118,6 @@ title: Home
       </article>
       {% endfor %}
     </div>
-  </div>
-</section>
-
-<section id="projects" class="section">
-  <div class="container">
-    <h2>Undergraduate research</h2>
-    <p>Why wait until you graduate to discover something new? Get involved in research during your degree through summer research projects, SCIE3500 or Honours. Browse the projects on offer across the Physics discipline.</p>
-    <a class="btn" href="{{ 'projects/undergraduate-research/' | relative_url }}">Undergraduate research projects</a>
-  </div>
-</section>
-
-<section id="team" class="section alt">
-  <div class="container">
-    <h2>Research team</h2>
-    <p class="section-intro">Meet the postdocs and research students who keep our labs humming and our supervisors on their toes, plus the alumni who have moved on to new adventures.</p>
-    <a class="btn" href="{{ 'team/' | relative_url }}">Meet the research team</a>
   </div>
 </section>
 

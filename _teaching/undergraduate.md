@@ -32,6 +32,10 @@ Degree structures, course codes and prerequisites change from year to year. Alwa
 
 <p class="salary-note">This is one example pathway through the degree; yours may look different. Talk to us before you enrol.</p>
 
+## Get a taste of research
+
+You don't have to wait until Honours to do real research. Paid summer research projects and the third-year course SCIE3500 let you work with an academic on a genuine research project. Browse the [undergraduate research projects]({{ '/projects/undergraduate-research/' | relative_url }}) to see what's on offer.
+
 ## Useful links
 
 - [Bachelor of Science](https://www.newcastle.edu.au/degrees/bachelor-of-science): degree overview and how to apply

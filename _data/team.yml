@@ -2,12 +2,14 @@
 #
 # One entry per person:
 #   name:        full name
-#   role:        postdoc, phd or honours
+#   role:        postdoc, phd, honours or technical (lab and technical staff)
 #   status:      current, or past for alumni
 #   supervisors: list of supervisor file names from _people (e.g. schunker-hannah), so they link to their cards
 #   years:       optional, e.g. "2023–" or "2019–2023"
 #   project:     optional, a short project or thesis title
 #   now:         optional, for alumni: where they are now
+#   title:       optional, job title (used for lab and technical staff)
+#   profile:     optional, link to their University profile
 #
 # When someone finishes, change status to past and they move to Alumni automatically.
 
@@ -50,3 +52,15 @@
   role: phd
   status: past
   supervisors: [schunker-hannah]
+
+- name: "Dr Simon Utteridge"
+  role: technical
+  status: current
+  title: "Technical Officer"
+  profile: "https://www.newcastle.edu.au/profile/simon-utteridge"
+
+- name: "Galiya Sharafutdinova"
+  role: technical
+  status: current
+  title: "Laboratory staff"
+  profile: "https://profiles.newcastle.edu.au/GALIYA-SHARAFUTDINOVA"

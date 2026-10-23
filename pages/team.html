@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Research team
+title: Researchers, students and staff
 kicker: People
 icon: atom
 accent: "#6250d6"
 permalink: /team/
 ---
-<p class="lead">The postdocs and students who make the research happen, and the alumni who have gone on to bigger and better things.</p>
+<p class="lead">Alongside our <a href="{{ '/#people' | relative_url }}">academics</a>: the postdocs and students who make the research happen, the lab and technical staff who keep everything running, and the alumni who have gone on to bigger and better things.</p>
 
 {% assign team = site.data.team %}
-{% assign groups = "postdoc|Postdoctoral researchers,phd|PhD students,honours|Honours students" | split: "," %}
+{% assign groups = "postdoc|Postdoctoral researchers,phd|PhD students,honours|Honours students,technical|Lab and technical staff" | split: "," %}
 
 {% for g in groups %}
   {% assign parts = g | split: "|" %}
   {% assign members = team | where: "role", parts[0] | where: "status", "current" | sort: "name" %}
   {% if members.size > 0 %}
-  <h2>{{ parts[1] }}</h2>
+  <h2 id="{{ parts[0] }}">{{ parts[1] }}</h2>
   <div class="team-grid">
     {% for m in members %}{% include team-card.html member=m %}{% endfor %}
   </div>
@@ -24,7 +24,7 @@ permalink: /team/
 
 {% assign alumni = team | where: "status", "past" | sort: "name" %}
 {% if alumni.size > 0 %}
-<h2>Alumni</h2>
+<h2 id="alumni">Alumni</h2>
 <div class="team-grid">
   {% for m in alumni %}{% include team-card.html member=m alumni=true %}{% endfor %}
 </div>
