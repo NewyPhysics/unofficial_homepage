@@ -11,7 +11,7 @@
   {% if m.project %}<p>{{ m.project }}</p>{% endif %}
   {% if m.supervisors %}
   <p class="team-supervisors">{% if m.role == "postdoc" %}Working with{% else %}Supervised by{% endif %}
-    {% for slug in m.supervisors %}{% assign target = "_people/" | append: slug | append: ".md" %}{% assign sup = nil %}{% for p in site.people %}{% if p.path contains target %}{% assign sup = p %}{% endif %}{% endfor %}{% if sup %}<a href="{{ '/' | relative_url }}#{{ slug }}">{{ sup.name }}</a>{% else %}{{ slug }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if sup %}<a href="{{ sup.url | relative_url }}">{{ sup.name }}</a>{% else %}{{ slug }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    {% for slug in m.supervisors %}{% assign target = "_people/" | append: slug | append: ".md" %}{% assign sup = nil %}{% for p in site.people %}{% if p.path contains target %}{% assign sup = p %}{% endif %}{% endfor %}{% if sup %}<a href="{{ '/' | relative_url }}#{{ slug }}">{{ sup.name }}</a>{% else %}{{ slug }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
   </p>
   {% endif %}
   {% if m.profile %}<p><a class="profile-link" href="{{ m.profile }}" target="_blank" rel="noopener noreferrer">University profile <span aria-hidden="true">↗</span></a></p>{% endif %}
