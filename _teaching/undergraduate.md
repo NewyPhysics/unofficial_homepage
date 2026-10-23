@@ -24,6 +24,12 @@ Students who want to study physics enrol in the **Bachelor of Science** and take
 
 Physics pairs naturally with mathematics and engineering, and a combined degree lets students build both skill sets in one program.
 
+## Plan your degree
+
+{% include program-planner.html %}
+
+<p class="salary-note">This is one example pathway through the degree; yours may look different. Course offerings and rules change from year to year, so check the Handbook and talk to us before you enrol.</p>
+
 ## Course codes and up-to-date information
 
 Degree structures, course codes and prerequisites change from year to year. Always check the **University Handbook** for the current requirements before choosing courses.

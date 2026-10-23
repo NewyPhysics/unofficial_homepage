@@ -1,0 +1,59 @@
+# Program planner shown on the Undergraduate Physics page.
+#
+# To edit: change the course codes below. Each course needs a `code` and a `type`
+# (core, major, directed or elective). Leave out `code` for a free elective slot,
+# which students can fill in themselves on the page.
+#   option: true  marks a course that is one of several options (shown with *)
+#   alt: STAT1070 shows an alternative course ("or STAT1070")
+# Course codes link to the Handbook for `handbook_year`.
+
+title: "Bachelor of Science (Physics)"
+handbook_year: 2027
+
+categories:
+  - key: core
+    label: "Bachelor of Science core"
+    note: "Everyone in the Bachelor of Science completes SCIE1002, STAT1070 or STAT1300, MATH1110, INFT1004 and SCIE3002."
+  - key: major
+    label: "Physics major"
+    note: "PHYS1210, PHYS1220, MATH1110, MATH1120, PHYS2101, PHYS2203, PHYS2204, MATH2310, PHYS3101, PHYS3102 and PHYS3203."
+  - key: directed
+    label: "Directed"
+    note: "10 units from MATH2242, MATH3810 or PHYS2102. The options marked * are suggestions; you only need one."
+  - key: elective
+    label: "Electives"
+    note: "PHYS2100 is recommended; the rest are your choice. Type your own choices into the empty elective boxes to plan your degree."
+
+years:
+  - name: "Year 1"
+    semesters:
+      - - { code: SCIE1002, type: core }
+        - { code: PHYS1210, type: major }
+        - { code: MATH1110, type: major }
+        - { type: elective }
+      - - { code: STAT1300, type: core, alt: STAT1070 }
+        - { code: PHYS1220, type: major }
+        - { code: MATH1120, type: major }
+        - { type: elective }
+
+  - name: "Year 2"
+    semesters:
+      - - { code: INFT1004, type: core }
+        - { code: MATH2310, type: major }
+        - { code: PHYS2101, type: major }
+        - { code: PHYS2102, type: directed, option: true }
+      - - { code: PHYS2203, type: major }
+        - { code: PHYS2204, type: major }
+        - { type: elective }
+        - { code: MATH2242, type: directed, option: true }
+
+  - name: "Year 3"
+    semesters:
+      - - { code: PHYS3101, type: major }
+        - { code: PHYS3102, type: major }
+        - { code: MATH2242, type: directed, option: true }
+        - { type: elective }
+      - - { code: PHYS3203, type: major }
+        - { code: PHYS3204, type: elective, option: true }
+        - { code: SCIE3002, type: core }
+        - { type: elective }

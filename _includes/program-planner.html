@@ -1,0 +1,7 @@
+{% assign plan = site.data.program_planner %}
+<div class="planner" id="planner">
+  <p class="pp-intro"><strong>{{ plan.title }}: an example three-year plan.</strong> Click any course code to see it in the {{ plan.handbook_year }} Handbook, and type your own choices into the empty elective boxes.</p>
+  <noscript><p>The interactive planner needs JavaScript. See the <a href="https://handbook.newcastle.edu.au/">University Handbook</a> for the program structure.</p></noscript>
+</div>
+<script type="application/json" id="planner-data">{{ plan | jsonify }}</script>
+<script src="{{ '/assets/js/planner.js' | relative_url }}"></script>

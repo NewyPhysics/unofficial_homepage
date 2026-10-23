@@ -27,3 +27,7 @@ Put profile and research images under `assets/img/` and set `photo: "/assets/img
 ## Recommended workflow
 
 For routine content, edit the Markdown files directly on GitHub. For changes to layout, CSS or navigation, use a pull request so another maintainer can check the site before publication.
+
+## Update the undergraduate program planner
+
+Edit `_data/program_planner.yml`. Each year has two semesters, and each course has a `code` and a `type` (`core`, `major`, `directed` or `elective`). Leave out the `code` for an empty elective box that students can type into. Change `handbook_year` each year so the course links point to the right Handbook.
