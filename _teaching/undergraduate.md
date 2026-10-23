@@ -26,13 +26,11 @@ Physics pairs naturally with mathematics and engineering, and a combined degree 
 
 ## Plan your degree
 
+Degree structures, course codes and prerequisites change from year to year. Always check the [University Handbook](https://handbook.newcastle.edu.au/) for the current requirements before choosing courses.
+
 {% include program-planner.html %}
 
-<p class="salary-note">This is one example pathway through the degree; yours may look different. Course offerings and rules change from year to year, so check the Handbook and talk to us before you enrol.</p>
-
-## Course codes and up-to-date information
-
-Degree structures, course codes and prerequisites change from year to year. Always check the **University Handbook** for the current requirements before choosing courses.
+<p class="salary-note">This is one example pathway through the degree; yours may look different. Talk to us before you enrol.</p>
 
 ## Useful links
 
