@@ -54,14 +54,14 @@
   status: past
   supervisors: [schunker-hannah]
 
-- name: "Dr Simon Utteridge"
+- name: "Simon Utteridge"
   sort_name: "Utteridge"
   role: technical
   status: current
   title: "Technical Officer"
   profile: "https://www.newcastle.edu.au/profile/simon-utteridge"
 
-- name: "Galiya Sharafutdinova"
+- name: "Dr Galiya Sharafutdinova"
   sort_name: "Sharafutdinova"
   role: technical
   status: current
