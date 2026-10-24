@@ -2,7 +2,7 @@
 title: Where can physics take you?
 icon: compass
 accent: "#eb6834"
-order: 4
+order: 0
 summary: The careers our graduates go on to, and the skills that make physicists so employable.
 ---
 A physics degree doesn't lead to just one job. Physicists have a habit of turning up everywhere: in banks and hospitals, at the front of classrooms, and occasionally in the cockpit of a fighter jet. It trains you to understand how things work, to model complex problems with mathematics, to write code, to design experiments and to make sense of messy data. Those skills are valued almost everywhere, which is why physics graduates go on to an unusually wide range of careers.
