@@ -13,7 +13,7 @@ Physics at Newcastle is a small discipline, which means small classes and a low 
 
 Current and prospective students are always welcome to drop by the Physics building on the Callaghan campus (our offices are upstairs) and talk to us about studying physics, choosing courses or where a physics degree can lead. You can also contact any of [our academics]({{ '/#people' | relative_url }}) by email; addresses are on their official University profiles.
 
-## How to study physics
+## Plan your degree
 
 Students who want to study physics enrol in the **Bachelor of Science** and take the physics major. Physics can also be studied as part of a combined (double) degree, for example:
 
@@ -21,8 +21,6 @@ Students who want to study physics enrol in the **Bachelor of Science** and take
 - Bachelor of Mathematics / Bachelor of Science
 
 Physics pairs naturally with mathematics and engineering, and a combined degree lets students build both skill sets in one program.
-
-## Plan your degree
 
 Degree structures, course codes and prerequisites change from year to year. Always check the [University Handbook](https://handbook.newcastle.edu.au/) for the current requirements before choosing courses.
 
