@@ -11,8 +11,6 @@ Undergraduate physics at Newcastle concentrates on the core of the subject: clas
 
 Physics at Newcastle is a small discipline, which means small classes and a low student-to-staff ratio. Students are taught by the same academics who lead our research, and get to know them well over the course of their degree. The discipline is known for high-quality teaching and for the care it takes of its students. We'll know your name, and quite possibly your favourite equation.
 
-## Come and say hello
-
 Current and prospective students are always welcome to drop by the Physics building on the Callaghan campus (our offices are upstairs) and talk to us about studying physics, choosing courses or where a physics degree can lead. You can also contact any of [our academics]({{ '/#people' | relative_url }}) by email; addresses are on their official University profiles.
 
 ## How to study physics
