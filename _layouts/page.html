@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% case page.collection %}{% when "research" %}{% assign kicker = "Research" %}{% when "teaching" %}{% assign kicker = "Study physics at Newcastle" %}{% when "news" %}{% assign kicker = "Seminars and events" %}{% else %}{% assign kicker = page.kicker %}{% endcase %}
+{% case page.collection %}{% when "research" %}{% assign kicker = "Research" %}{% when "teaching" %}{% assign kicker = "Study physics at Newcastle" %}{% when "news" %}{% assign kicker = "News, seminars and special events" %}{% else %}{% assign kicker = page.kicker %}{% endcase %}
 <header class="page-header" style="--accent: {{ page.accent | default: '#1090D5' }}">
   <div class="container page-header-inner">
     {% if page.icon %}<span class="page-header-icon">{% include icon.html name=page.icon %}</span>{% endif %}
