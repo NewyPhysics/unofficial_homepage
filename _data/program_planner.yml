@@ -36,7 +36,9 @@ suggested_electives:
   - { code: CHEM2410, name: "Physical Chemistry" }
   - { code: GEOS1040, name: "Earth: Our Dynamic Planet" }
   - { code: GEOS1050, name: "Earth Processes and Products" }
+  - { code: MATH2800, name: "Ordinary Differential Equations and Applied Linear Algebra" }
   - { code: MATH3205, name: "Fourier Analysis" }
+  - { code: MATH3700, name: "Partial Differential Equations" }
   - { code: PHYS2100, name: "Introduction to Astronomy", years: [1, 2, 3] }
   - { code: PHYS3204, name: "Nanoscience" }
   - { code: SCIE3500, name: "Research Integrated Learning" }
