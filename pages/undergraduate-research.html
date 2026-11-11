@@ -44,7 +44,9 @@ permalink: /projects/undergraduate-research/
 
 {% for s in supervisors %}
 <section class="supervisor" id="{{ s.sort_name | slugify }}">
-  <h2>
+  {% assign area = nil %}{% if s.field %}{% for r in site.research %}{% if r.path contains s.field %}{% assign area = r %}{% endif %}{% endfor %}{% endif %}
+  <h2 class="supervisor-name">
+    {% if area %}<a class="team-field" href="{{ area.url | relative_url }}" style="--accent: {{ area.accent }}" title="{{ area.title }}" aria-label="Research area: {{ area.title }}">{% include icon.html name=area.icon %}</a>{% endif %}
     {% if s.person %}<a href="{{ '/' | relative_url }}#{{ s.person }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}
   </h2>
   {% if s.group %}<p class="supervisor-group">{{ s.group }}</p>{% endif %}

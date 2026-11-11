@@ -1,7 +1,9 @@
 # Undergraduate research projects (summer, SCIE3500 and Honours), shown on /projects/undergraduate-research/.
 # Supervisors appear in alphabetical order of `sort_name`.
 # Each project needs a `title` and a `description` (Markdown is allowed, including bullet lists).
-# Optional per supervisor: `email`, `profile`, `group`, `person` (the _people file name, to link their card).
+# Optional per supervisor: `email`, `profile`, `group`, `person` (the _people file name, to link their card),
+# `field` (research area, shown as its icon: astrophysics, medical-physics,
+# nanomaterials-and-organic-electronics or quantum-technology).
 
 year: 2027
 
@@ -9,6 +11,7 @@ supervisors:
 
   - name: "Dr Taïssa Danilovich"
     sort_name: "Danilovich"
+    field: astrophysics
     person: "danilovich-taissa"
     email: "taissa.danilovich@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/taissa-danilovich"
@@ -25,6 +28,7 @@ supervisors:
 
   - name: "Prof. Paul Dastoor"
     sort_name: "Dastoor"
+    field: nanomaterials-and-organic-electronics
     person: "dastoor-paul"
     email: "paul.dastoor@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/paul-dastoor"
@@ -66,6 +70,7 @@ supervisors:
 
   - name: "Dr Tom Evans-Soma"
     sort_name: "Evans-Soma"
+    field: astrophysics
     person: "evans-soma-tom"
     email: "tom.evans-soma@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/tom-evans-soma"
@@ -93,6 +98,7 @@ supervisors:
 
   - name: "Dr Stuart Gilchrist"
     sort_name: "Gilchrist"
+    field: astrophysics
     person: "gilchrist-stuart"
     email: "stuart.gilchrist@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/stuart-gilchrist"
@@ -114,6 +120,7 @@ supervisors:
 
   - name: "Dr Jonathan Goodwin"
     sort_name: "Goodwin"
+    field: medical-physics
     email: "jonathan.goodwin@health.nsw.gov.au"
     profile: "https://www.newcastle.edu.au/profile/jonathan-goodwin"
     group: "Medical Physics Research Group"
@@ -133,6 +140,7 @@ supervisors:
 
   - name: "A/Prof. Renee Goreham"
     sort_name: "Goreham"
+    field: nanomaterials-and-organic-electronics
     person: "goreham-renee"
     email: "renee.goreham@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/renee-goreham"
@@ -187,6 +195,7 @@ supervisors:
 
   - name: "Conjoint Prof. Peter Greer"
     sort_name: "Greer"
+    field: medical-physics
     person: "greer-peter"
     email: "peter.greer@health.nsw.gov.au"
     profile: "https://www.newcastle.edu.au/profile/peter-greer"
@@ -196,6 +205,7 @@ supervisors:
 
   - name: "Conjoint Prof. Joerg Lehmann"
     sort_name: "Lehmann"
+    field: medical-physics
     person: "lehmann-joerg"
     email: "joerg.lehmann@health.nsw.gov.au"
     alt_email: "joerg.lehmann@newcastle.edu.au"
@@ -219,6 +229,7 @@ supervisors:
 
   - name: "Prof. David Pontin"
     sort_name: "Pontin"
+    field: astrophysics
     person: "pontin-david"
     email: "david.pontin@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/david-pontin"
@@ -243,6 +254,7 @@ supervisors:
 
   - name: "Dr Lachlan Rogers"
     sort_name: "Rogers"
+    field: quantum-technology
     person: "rogers-lachlan"
     email: "lachlan.rogers@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/lachlan-rogers"
@@ -262,6 +274,7 @@ supervisors:
 
   - name: "Dr Hannah Schunker"
     sort_name: "Schunker"
+    field: astrophysics
     person: "schunker-hannah"
     email: "hannah.schunker@newcastle.edu.au"
     profile: "https://profiles.newcastle.edu.au/Hannah-Schunker"
@@ -281,6 +294,7 @@ supervisors:
 
   - name: "Dr Levi Tegg"
     sort_name: "Tegg"
+    field: nanomaterials-and-organic-electronics
     person: "tegg-levi"
     email: "levi.tegg@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/levi-tegg"
@@ -300,6 +314,7 @@ supervisors:
 
   - name: "Dr Xiaojing Zhou"
     sort_name: "Zhou"
+    field: nanomaterials-and-organic-electronics
     person: "zhou-xiaojing"
     email: "xiaojing.zhou@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/xiaojing-zhou"
@@ -320,6 +335,7 @@ supervisors:
 
   - name: "Dr Ben Zwan"
     sort_name: "Zwan"
+    field: medical-physics
     email: "benjamin.zwan@health.nsw.gov.au"
     profile: "https://www.newcastle.edu.au/profile/ben-zwan"
     group: "Medical Physics Research Group"

@@ -357,3 +357,5 @@ a.pp-cell:hover, a.pp-cell:focus-visible { transform:translateY(-2px); box-shado
 
 .pp-name { font-size:.7rem; font-weight:400; line-height:1.2; color:#46525c; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
 .pp-editable .pp-name { -webkit-line-clamp:2; }
+.supervisor-name { display:flex; align-items:center; gap:.7rem; }
+.supervisor-name .team-field, .supervisor-name .team-field:hover { color:#fff; text-decoration:none; }
