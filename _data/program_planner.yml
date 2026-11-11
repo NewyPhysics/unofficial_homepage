@@ -52,7 +52,7 @@ years:
     semesters:
       - - { code: PHYS3101, type: major, name: "Statistical Mechanics" }
         - { code: PHYS3102, type: major, name: "Materials Physics" }
-        - { code: MATH2242, type: directed, option: true, name: "Complex Analysis" }
+        - { code: MATH3810, type: directed, option: true }
         - { type: elective }
       - - { code: PHYS3203, type: major, name: "Atomic and Nuclear Physics" }
         - { code: PHYS3204, type: elective, option: true, name: "Nanoscience" }
