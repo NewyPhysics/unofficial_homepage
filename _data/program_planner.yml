@@ -33,6 +33,7 @@ suggested_electives:
   - { code: CHEM1010, name: "Introductory Chemistry I" }
   - { code: CHEM1020, name: "Introductory Chemistry II" }
   - { code: CHEM2410, name: "Physical Chemistry" }
+  - { code: GEOS1040, name: "Earth: Our Dynamic Planet" }
   - { code: GEOS1050, name: "Earth Processes and Products" }
   - { code: MATH3205, name: "Fourier Analysis" }
   - { code: PHYS2100, name: "Introduction to Astronomy" }
