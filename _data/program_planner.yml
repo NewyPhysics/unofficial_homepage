@@ -23,7 +23,7 @@ categories:
     note: "10 units from MATH2242, MATH3810 or PHYS2102. The options marked * are suggestions; you only need one."
   - key: elective
     label: "Electives"
-    note: "PHYS2100 is recommended; the rest are your choice. Type your own choices into the empty elective boxes to plan your degree."
+    note: "Suggested electives: PHYS2100 and MATH3205 (Fourier Analysis); the rest are your choice. Type your own choices into the empty elective boxes to plan your degree."
 
 years:
   - name: "Year 1"
@@ -52,7 +52,7 @@ years:
     semesters:
       - - { code: PHYS3101, type: major, name: "Statistical Mechanics" }
         - { code: PHYS3102, type: major, name: "Materials Physics" }
-        - { code: MATH3205, type: elective, name: "Fourier Analysis" }
+        - { code: MATH2242, type: directed, option: true, name: "Complex Analysis" }
         - { type: elective }
       - - { code: PHYS3203, type: major, name: "Atomic and Nuclear Physics" }
         - { code: PHYS3204, type: elective, option: true, name: "Nanoscience" }
