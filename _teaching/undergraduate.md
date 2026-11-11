@@ -1,7 +1,7 @@
 ---
 title: Undergraduate Physics
 icon: book
-accent: "#2a78d6"
+accent: "#0a5f99"
 order: 1
 summary: A physics major built on core fundamental physics, taken through the Bachelor of Science or a combined degree.
 ---

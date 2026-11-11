@@ -1,7 +1,7 @@
 ---
 title: Honours
 icon: prism
-accent: "#199e70"
+accent: "#0a4b7c"
 order: 2
 summary: A year of research after your degree, and the best way to find out whether a PhD is for you.
 ---

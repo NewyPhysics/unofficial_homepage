@@ -367,3 +367,4 @@ a.pp-cell:hover, a.pp-cell:focus-visible { transform:translateY(-2px); box-shado
 .research-icon .icon { width:1.55em; height:1.55em; stroke-width:2; }
 .person-name-link { color:var(--text); text-decoration:none; }
 .person-name-link:hover { color:var(--uon-dark-blue); text-decoration:underline; }
+.page-header-icon { border:2px solid rgba(255,255,255,.45); }

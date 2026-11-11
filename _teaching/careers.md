@@ -1,7 +1,7 @@
 ---
 title: Where can physics take you?
 icon: compass
-accent: "#eb6834"
+accent: "#0b74b5"
 order: 0
 summary: The careers our graduates go on to, and the skills that make physicists so employable.
 ---
