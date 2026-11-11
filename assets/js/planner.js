@@ -41,26 +41,38 @@
   // Suggested electives: names for display, and a shared dropdown list.
   var suggestions = {};
   (plan.suggested_electives || []).forEach(function (e) { suggestions[e.code] = e.name; });
-  var listId = "pp-suggestions";
-  var datalist = el("datalist");
-  datalist.id = listId;
-  (plan.suggested_electives || []).forEach(function (e) {
-    var o = document.createElement("option");
-    o.value = e.code;
-    o.label = e.name;
-    datalist.appendChild(o);
+  // One dropdown per year. By default a course is offered in the dropdowns for its own
+  // level and the year after (1000-level: Years 1-2; 2000-level: Years 2-3; 3000-level: Year 3).
+  // A suggestion can list `years` explicitly to override this (e.g. PHYS2100: [1, 2, 3]).
+  function yearsFor(e) {
+    if (e.years) return e.years;
+    var level = parseInt(String(e.code).charAt(4), 10);
+    return [level, level + 1];
+  }
+  var datalists = {};
+  (plan.years || []).forEach(function (y, yi) {
+    var dl = el("datalist");
+    dl.id = "pp-suggestions-y" + (yi + 1);
+    (plan.suggested_electives || []).forEach(function (e) {
+      if (yearsFor(e).indexOf(yi + 1) === -1) return;
+      var o = document.createElement("option");
+      o.value = e.code;
+      o.label = e.name;
+      dl.appendChild(o);
+    });
+    datalists[yi] = dl;
   });
   var CODE = /^[A-Z]{4}[0-9]{4}$/;
 
   // An elective box: "Elective" label, an editable course code, and the course title when known.
-  function electiveBox(c, id, where) {
+  function electiveBox(c, id, where, yi) {
     var box = el("div", "pp-cell pp-elective pp-editable");
     box.appendChild(el("span", "pp-label", "Elective"));
     var input = el("input", "pp-input");
     input.type = "text";
     input.maxLength = 12;
     input.placeholder = "Your choice";
-    input.setAttribute("list", listId);
+    input.setAttribute("list", "pp-suggestions-y" + (yi + 1));
     input.setAttribute("aria-label", where + ": elective" + (c.suggest ? " (suggested: " + c.suggest + ")" : ""));
     var name = el("span", "pp-name");
     var link = el("a", "pp-link", "\u2197");
@@ -123,7 +135,7 @@
           if (c.name) cell.appendChild(el("span", "pp-name", c.name));
           if (c.alt) cell.appendChild(el("span", "pp-alt", "or " + c.alt));
         } else {
-          cell = electiveBox(c, "y" + yi + "s" + si + "c" + ci, year.name + ", semester " + (si + 1));
+          cell = electiveBox(c, "y" + yi + "s" + si + "c" + ci, year.name + ", semester " + (si + 1), yi);
         }
         sem.appendChild(cell);
       });
@@ -135,7 +147,7 @@
   });
 
   root.appendChild(grid);
-  root.appendChild(datalist);
+  Object.keys(datalists).forEach(function (k) { root.appendChild(datalists[k]); });
 
   // Key: what each colour means
   var key = el("div", "pp-key");

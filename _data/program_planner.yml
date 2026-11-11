@@ -9,7 +9,8 @@
 #   suggest: PHYS2100  (elective boxes only) pre-fills the box with a suggested elective
 #     from suggested_electives below; students can still type over it.
 #
-# suggested_electives: offered in a dropdown in every elective box.
+# suggested_electives: offered in the elective dropdowns. 1000-level courses appear in Years 1-2,
+#   2000-level in Years 2-3 and 3000-level in Year 3; add years: [1, 2, 3] to override.
 # Course codes link to the Handbook for `handbook_year`.
 
 title: "Bachelor of Science (Physics)"
@@ -36,7 +37,7 @@ suggested_electives:
   - { code: GEOS1040, name: "Earth: Our Dynamic Planet" }
   - { code: GEOS1050, name: "Earth Processes and Products" }
   - { code: MATH3205, name: "Fourier Analysis" }
-  - { code: PHYS2100, name: "Introduction to Astronomy" }
+  - { code: PHYS2100, name: "Introduction to Astronomy", years: [1, 2, 3] }
   - { code: PHYS3204, name: "Nanoscience" }
   - { code: SCIE3500, name: "Research Integrated Learning" }
   - { code: STAT2000, name: "Applied Statistics and Research Methods" }
