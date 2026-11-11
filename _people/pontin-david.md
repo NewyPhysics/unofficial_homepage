@@ -1,7 +1,7 @@
 ---
 name: "Prof. David Pontin"
 sort_name: "Pontin"
-role: "Professor of Physics and Head of Discipline"
+role: "Professor and Head of Discipline"
 positions:
   - title: "Director"
     name: "Space Science and Technology for Australian Resilience"

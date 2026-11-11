@@ -1,7 +1,7 @@
 ---
 name: "Prof. Paul Dastoor"
 sort_name: "Dastoor"
-role: "Professor of Physics"
+role: "Professor"
 positions:
   - title: "Director"
     name: "Centre for Organic Electronics"
