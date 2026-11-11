@@ -32,4 +32,4 @@ For routine content, edit the Markdown files directly on GitHub. For changes to 
 
 Edit `_data/program_planner.yml`. Each year has two semesters, and each course has a `code` and a `type` (`core`, `major`, `directed` or `elective`). Leave out the `code` for an empty elective box that students can type into. Change `handbook_year` each year so the course links point to the right Handbook.
 
-Suggested electives: list them under `suggested_electives` in `_data/program_planner.yml` (code and title). They appear in a dropdown in every elective box. To pre-fill a box with one, give that box `suggest: CODE`.
+Suggested electives: list them under `suggested_electives` in `_data/program_planner.yml` (code, title and `semesters: [1]`, `[2]` or `[1, 2]` from the Handbook). Each appears only in the elective dropdowns for the semester(s) it runs in and for suitable years (1000-level in Years 1-2, 2000-level in Years 2-3, 3000-level in Year 3; add `years: [1, 2, 3]` to override). Check the semesters each year when the new Handbook comes out. To pre-fill a box with one, give that box `suggest: CODE`.

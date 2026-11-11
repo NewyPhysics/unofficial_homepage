@@ -41,38 +41,43 @@
   // Suggested electives: names for display, and a shared dropdown list.
   var suggestions = {};
   (plan.suggested_electives || []).forEach(function (e) { suggestions[e.code] = e.name; });
-  // One dropdown per year. By default a course is offered in the dropdowns for its own
-  // level and the year after (1000-level: Years 1-2; 2000-level: Years 2-3; 3000-level: Year 3).
+  // One dropdown per year and semester. By default a course is offered in the dropdowns for its
+  // own level and the year after (1000-level: Years 1-2; 2000-level: Years 2-3; 3000-level: Year 3).
   // A suggestion can list `years` explicitly to override this (e.g. PHYS2100: [1, 2, 3]).
+  // `semesters` lists the semesters it runs in (from the Handbook); without it, it shows in both.
   function yearsFor(e) {
     if (e.years) return e.years;
     var level = parseInt(String(e.code).charAt(4), 10);
     return [level, level + 1];
   }
-  var datalists = {};
+  function listId(yi, si) { return "pp-suggestions-y" + (yi + 1) + "s" + (si + 1); }
+  var datalists = [];
   (plan.years || []).forEach(function (y, yi) {
-    var dl = el("datalist");
-    dl.id = "pp-suggestions-y" + (yi + 1);
-    (plan.suggested_electives || []).forEach(function (e) {
-      if (yearsFor(e).indexOf(yi + 1) === -1) return;
-      var o = document.createElement("option");
-      o.value = e.code;
-      o.label = e.name;
-      dl.appendChild(o);
+    (y.semesters || []).forEach(function (sem, si) {
+      var dl = el("datalist");
+      dl.id = listId(yi, si);
+      (plan.suggested_electives || []).forEach(function (e) {
+        if (yearsFor(e).indexOf(yi + 1) === -1) return;
+        if (e.semesters && e.semesters.indexOf(si + 1) === -1) return;
+        var o = document.createElement("option");
+        o.value = e.code;
+        o.label = e.name;
+        dl.appendChild(o);
+      });
+      datalists.push(dl);
     });
-    datalists[yi] = dl;
   });
   var CODE = /^[A-Z]{4}[0-9]{4}$/;
 
   // An elective box: "Elective" label, an editable course code, and the course title when known.
-  function electiveBox(c, id, where, yi) {
+  function electiveBox(c, id, where, yi, si) {
     var box = el("div", "pp-cell pp-elective pp-editable");
     box.appendChild(el("span", "pp-label", "Elective"));
     var input = el("input", "pp-input");
     input.type = "text";
     input.maxLength = 12;
     input.placeholder = "Your choice";
-    input.setAttribute("list", "pp-suggestions-y" + (yi + 1));
+    input.setAttribute("list", listId(yi, si));
     input.setAttribute("autocomplete", "off");
     input.setAttribute("aria-label", where + ": elective" + (c.suggest ? " (suggested: " + c.suggest + ")" : ""));
     var name = el("span", "pp-name");
@@ -136,7 +141,7 @@
           if (c.name) cell.appendChild(el("span", "pp-name", c.name));
           if (c.alt) cell.appendChild(el("span", "pp-alt", "or " + c.alt));
         } else {
-          cell = electiveBox(c, "y" + yi + "s" + si + "c" + ci, year.name + ", semester " + (si + 1), yi);
+          cell = electiveBox(c, "y" + yi + "s" + si + "c" + ci, year.name + ", semester " + (si + 1), yi, si);
         }
         sem.appendChild(cell);
       });
@@ -148,7 +153,7 @@
   });
 
   root.appendChild(grid);
-  Object.keys(datalists).forEach(function (k) { root.appendChild(datalists[k]); });
+  datalists.forEach(function (dl) { root.appendChild(dl); });
 
   // Key: what each colour means
   var key = el("div", "pp-key");

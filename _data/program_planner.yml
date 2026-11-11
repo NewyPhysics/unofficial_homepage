@@ -5,12 +5,13 @@
 # which students can fill in themselves on the page.
 #   option: true  marks a course that is one of several options (shown with *)
 #   alt: STAT1070 shows an alternative course ("or STAT1070")
-#   name: "Fourier Analysis" is the course title, shown under the code
+#   name: "Applied Fourier Analysis" is the course title, shown under the code
 #   suggest: PHYS2100  (elective boxes only) pre-fills the box with a suggested elective
 #     from suggested_electives below; students can still type over it.
 #
 # suggested_electives: offered in the elective dropdowns. 1000-level courses appear in Years 1-2,
 #   2000-level in Years 2-3 and 3000-level in Year 3; add years: [1, 2, 3] to override.
+#   semesters: [1], [2] or [1, 2] (from the Handbook) puts it only in that semester's dropdowns.
 # Course codes link to the Handbook for `handbook_year`.
 
 title: "Bachelor of Science (Physics)"
@@ -31,20 +32,20 @@ categories:
     note: "Some elective boxes show a suggested course. Click any elective box to type your own choice or pick from the suggestions."
 
 suggested_electives:
-  - { code: CHEM1010, name: "Introductory Chemistry I" }
-  - { code: CHEM1020, name: "Introductory Chemistry II" }
-  - { code: CHEM2410, name: "Physical Chemistry" }
-  - { code: GEOS1040, name: "Earth: Our Dynamic Planet" }
-  - { code: GEOS1050, name: "Earth Processes and Products" }
-  - { code: MATH2800, name: "Ordinary Differential Equations and Applied Linear Algebra" }
-  - { code: MATH3205, name: "Fourier Analysis" }
-  - { code: MATH3700, name: "Partial Differential Equations" }
-  - { code: PHYS2100, name: "Introduction to Astronomy", years: [1, 2, 3] }
-  - { code: PHYS3204, name: "Nanoscience" }
-  - { code: SCIE3500, name: "Research Integrated Learning" }
-  - { code: STAT2000, name: "Applied Statistics and Research Methods" }
-  - { code: STAT2020, name: "Predictive Analytics" }
-  - { code: STAT3800, name: "Deterministic and Stochastic Optimisation" }
+  - { code: CHEM1010, name: "Introductory Chemistry I", semesters: [1] }
+  - { code: CHEM1020, name: "Introductory Chemistry II", semesters: [2] }
+  - { code: CHEM2410, name: "Physical Chemistry", semesters: [2] }
+  - { code: GEOS1040, name: "Earth: Our Dynamic Planet", semesters: [1] }
+  - { code: GEOS1050, name: "Earth: Natural Hazards", semesters: [2] }
+  - { code: MATH2800, name: "Ordinary Differential Equations and Applied Linear Algebra", semesters: [1] }
+  - { code: MATH3205, name: "Applied Fourier Analysis", semesters: [1] }
+  - { code: MATH3700, name: "Partial Differential Equations", semesters: [2] }
+  - { code: PHYS2100, name: "Introduction to Astronomy", years: [1, 2, 3], semesters: [2] }
+  - { code: PHYS3204, name: "Nanoscience", semesters: [2] }
+  - { code: SCIE3500, name: "Research Integrated Learning", semesters: [1, 2] }
+  - { code: STAT2000, name: "Applied Statistics and Research Methods", semesters: [1] }
+  - { code: STAT2020, name: "Predictive Analytics", semesters: [2] }
+  - { code: STAT3800, name: "Deterministic and Stochastic Optimisation", semesters: [1] }
 
 years:
   - name: "Year 1"
