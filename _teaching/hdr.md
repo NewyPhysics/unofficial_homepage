@@ -11,8 +11,6 @@ A PhD is your opportunity to make an original contribution to physics, and to be
 
 - **Duration:** 3.5 years of full-time equivalent enrolment. Part-time enrolment may also be possible.
 - **Research:** you develop and carry out your own research project with the guidance of your supervisors, and write it up as a thesis.
-- **No teaching requirement:** there is no expectation that PhD candidates teach. Many choose to gain experience as lab demonstrators or tutors, which is paid in addition to any scholarship.
-- **Research masters:** a Master of Philosophy is possible in some cases, though we rarely take on masters candidates. Please discuss this with a potential supervisor.
 
 ## Completing your PhD
 
