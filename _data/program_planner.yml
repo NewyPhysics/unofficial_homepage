@@ -5,7 +5,7 @@
 # which students can fill in themselves on the page.
 #   option: true  marks a course that is one of several options (shown with *)
 #   alt: STAT1070 shows an alternative course ("or STAT1070")
-#   name: "Fourier Analysis" shows the course name when hovering over it
+#   name: "Fourier Analysis" is the course title, shown under the code
 # Course codes link to the Handbook for `handbook_year`.
 
 title: "Bachelor of Science (Physics)"
@@ -28,33 +28,33 @@ categories:
 years:
   - name: "Year 1"
     semesters:
-      - - { code: SCIE1002, type: core }
-        - { code: PHYS1210, type: major }
-        - { code: MATH1110, type: major }
+      - - { code: SCIE1002, type: core, name: "Multidisciplinary Laboratories" }
+        - { code: PHYS1210, type: major, name: "Advanced Physics I" }
+        - { code: MATH1110, type: major, name: "Mathematics for Engineering, Science and Technology 1" }
         - { type: elective }
-      - - { code: STAT1300, type: core, alt: STAT1070 }
-        - { code: PHYS1220, type: major }
-        - { code: MATH1120, type: major }
+      - - { code: STAT1300, type: core, alt: STAT1070, name: "Fundamentals of Statistics" }
+        - { code: PHYS1220, type: major, name: "Advanced Physics II" }
+        - { code: MATH1120, type: major, name: "Mathematics for Engineering, Science and Technology 2" }
         - { type: elective }
 
   - name: "Year 2"
     semesters:
-      - - { code: INFT1004, type: core }
-        - { code: MATH2310, type: major }
-        - { code: PHYS2101, type: major }
-        - { code: PHYS2102, type: directed, option: true }
-      - - { code: PHYS2203, type: major }
-        - { code: PHYS2204, type: major }
+      - - { code: INFT1004, type: core, name: "Introduction to Programming" }
+        - { code: MATH2310, type: major, name: "Calculus of Science and Engineering" }
+        - { code: PHYS2101, type: major, name: "Quantum Science" }
+        - { code: PHYS2102, type: directed, option: true, name: "Particles and Space" }
+      - - { code: PHYS2203, type: major, name: "Advanced Mechanics" }
+        - { code: PHYS2204, type: major, name: "Electromagnetism" }
         - { type: elective }
-        - { code: MATH2242, type: directed, option: true }
+        - { code: MATH2242, type: directed, option: true, name: "Complex Analysis" }
 
   - name: "Year 3"
     semesters:
-      - - { code: PHYS3101, type: major }
-        - { code: PHYS3102, type: major }
+      - - { code: PHYS3101, type: major, name: "Statistical Mechanics" }
+        - { code: PHYS3102, type: major, name: "Materials Physics" }
         - { code: MATH3205, type: elective, name: "Fourier Analysis" }
         - { type: elective }
-      - - { code: PHYS3203, type: major }
-        - { code: PHYS3204, type: elective, option: true }
-        - { code: SCIE3002, type: core }
+      - - { code: PHYS3203, type: major, name: "Atomic and Nuclear Physics" }
+        - { code: PHYS3204, type: elective, option: true, name: "Nanoscience" }
+        - { code: SCIE3002, type: core, name: "WIL for the Sciences" }
         - { type: elective }

@@ -61,6 +61,7 @@
           var code = el("span", "pp-code", c.code);
           if (c.option) code.appendChild(el("sup", "pp-star", "*"));
           cell.appendChild(code);
+          if (c.name) cell.appendChild(el("span", "pp-name", c.name));
           if (c.alt) cell.appendChild(el("span", "pp-alt", "or " + c.alt));
         } else {
           var id = "y" + yi + "s" + si + "c" + ci;
