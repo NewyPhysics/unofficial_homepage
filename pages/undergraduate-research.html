@@ -11,7 +11,7 @@ permalink: /projects/undergraduate-research/
 {% assign with_note = data.supervisors | where_exp: "s", "s.note" %}
 {% assign supervisors = with_projects | concat: with_note | uniq | sort: "sort_name" %}
 
-<p class="lead">Research projects on offer in the Physics discipline for {{ data.year }}, for summer research, SCIE3500 and Honours students are listed below (scroll down).</p>
+<p class="lead">Research projects on offer in the Physics discipline for {{ data.year }}, for summer research, SCIE3500 and Honours students are <a href="#project-list">listed below <span aria-hidden="true">↓</span></a>.</p>
 
 <p>Research isn't just for people with PhDs and lab coats. We encourage undergraduates to get involved in research throughout their degree. Along the way you will learn to find, assess and use scientific sources, manage a project, carry out experimental or computational research, and present your results clearly, both in writing and in person. These skills give you a strong foundation for a career in industry, business or academia. And it's a lot of fun.</p>
 
@@ -38,7 +38,7 @@ permalink: /projects/undergraduate-research/
   <p><strong>Talk to a supervisor first.</strong> Always discuss a potential project with the supervisor before you enrol or apply. Supervisors are listed in alphabetical order, and you're welcome to contact them by email or drop by.</p>
 </div>
 
-<nav class="supervisor-index" aria-label="Supervisors">
+<nav class="supervisor-index" id="project-list" aria-label="Supervisors">
   {% for s in supervisors %}{% unless forloop.first %} <span class="sep" aria-hidden="true">·</span> {% endunless %}<a href="#{{ s.sort_name | slugify }}">{{ s.name }}</a>{% endfor %}
 </nav>
 
