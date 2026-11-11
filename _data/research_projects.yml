@@ -23,7 +23,7 @@ supervisors:
         description: |
           When stars like our Sun reach the end of their lives, they expand and cool, becoming asymptotic giant branch (AGB) stars. These stars eject their outer layers to form an expanding circumstellar envelope, rich in molecules and dust. Some molecules can be used as markers of the mass-loss rate and of whether the AGB star has a hidden binary companion. You will use spectral line observations from the APEX telescope in Chile to model the abundances of SO (and, if time permits, SO<sub>2</sub>) for a few AGB stars, and so indirectly determine other properties of the selected stars.
 
-  - name: "Professor Paul Dastoor"
+  - name: "Prof. Paul Dastoor"
     sort_name: "Dastoor"
     person: "dastoor-paul"
     email: "paul.dastoor@newcastle.edu.au"
@@ -131,7 +131,7 @@ supervisors:
         description: |
           While MRI offers superior soft tissue contrast for contouring tumour targets and defining organs at risk, CT is typically required for dose calculation. However, co-registration of CT and MRI images during radiation treatment can lead to anatomical mismatch for anatomies such as liver and lung. In this study we are working with Siemens Healthineers, CSIRO and Liverpool Hospital to develop AI-generated synthetic CT images, which would enable an MRI-only workflow for abdomen and lung patients.
 
-  - name: "Associate Professor Renee Goreham"
+  - name: "A/Prof. Renee Goreham"
     sort_name: "Goreham"
     person: "goreham-renee"
     email: "renee.goreham@newcastle.edu.au"
@@ -185,7 +185,7 @@ supervisors:
 
           What if we could predict whether a biosensor will work before manufacturing it? Students will combine molecular simulations, experimental scattering data and biosensor measurements to investigate how DNA aptamers behave when attached to nanoparticles and surfaces. This project aims to identify the molecular properties that govern target recognition, helping develop more efficient and reliable biosensors.
 
-  - name: "Conjoint Professor Peter Greer"
+  - name: "Conjoint Prof. Peter Greer"
     sort_name: "Greer"
     person: "greer-peter"
     email: "peter.greer@health.nsw.gov.au"
@@ -194,7 +194,7 @@ supervisors:
     note: "Please contact directly for available projects."
     projects: []
 
-  - name: "Conjoint Professor Joerg Lehmann"
+  - name: "Conjoint Prof. Joerg Lehmann"
     sort_name: "Lehmann"
     person: "lehmann-joerg"
     email: "joerg.lehmann@health.nsw.gov.au"
@@ -217,7 +217,7 @@ supervisors:
         description: |
           Dosimetry for cell and small animal irradiations for radiation oncology research is complex and difficult, with currently high uncertainties. This project will investigate the accuracy of existing models and also perform Monte Carlo simulations and measurements.
 
-  - name: "Professor David Pontin"
+  - name: "Prof. David Pontin"
     sort_name: "Pontin"
     person: "pontin-david"
     email: "david.pontin@newcastle.edu.au"

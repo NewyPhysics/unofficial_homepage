@@ -1,5 +1,5 @@
 ---
-name: "Professor David Pontin"
+name: "Prof. David Pontin"
 sort_name: "Pontin"
 role: "Professor of Physics and Head of Discipline"
 positions:

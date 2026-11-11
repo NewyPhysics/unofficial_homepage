@@ -8,8 +8,8 @@ Think small. Really, really small. Research in this area covers nanomaterials, o
 
 ## People
 
-- [Professor Paul Dastoor]({{ '/' | relative_url }}#dastoor-paul): organic electronics, printed solar cells and helium atom microscopy · [Centre for Organic Electronics](https://www.newcastle.edu.au/research/centre/coe)
-- [Associate Professor Renee Goreham]({{ '/' | relative_url }}#goreham-renee): nanomaterials for biosensing and energy storage
+- [Prof. Paul Dastoor]({{ '/' | relative_url }}#dastoor-paul): organic electronics, printed solar cells and helium atom microscopy · [Centre for Organic Electronics](https://www.newcastle.edu.au/research/centre/coe)
+- [A/Prof. Renee Goreham]({{ '/' | relative_url }}#goreham-renee): nanomaterials for biosensing and energy storage
 - [Dr Levi Tegg]({{ '/' | relative_url }}#tegg-levi): electron and atom probe microscopy, plasmonic nanomaterials
 - [Dr Xiaojing Zhou]({{ '/' | relative_url }}#zhou-xiaojing): organic semiconductors for biosensors and solar cells
 

@@ -11,7 +11,7 @@ Topics include the solar interior, surface and atmosphere, solar magnetic fields
 - [Dr Taïssa Danilovich]({{ '/' | relative_url }}#danilovich-taissa): evolved stars and astrochemistry
 - [Dr Tom Evans-Soma]({{ '/' | relative_url }}#evans-soma-tom): exoplanet atmospheres
 - [Dr Stuart Gilchrist]({{ '/' | relative_url }}#gilchrist-stuart): coronal magnetic fields and solar eruptions
-- [Professor David Pontin]({{ '/' | relative_url }}#pontin-david): magnetic reconnection, coronal heating, space weather and numerical simulations
+- [Prof. David Pontin]({{ '/' | relative_url }}#pontin-david): magnetic reconnection, coronal heating, space weather and numerical simulations
 - [Dr Hannah Schunker]({{ '/' | relative_url }}#schunker-hannah): helioseismology, solar physics and space weather
 
 ## Projects
