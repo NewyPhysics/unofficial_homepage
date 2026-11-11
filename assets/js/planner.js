@@ -37,6 +37,65 @@
     return "https://handbook.newcastle.edu.au/course/" + y + "/" + encodeURIComponent(code) + "?year=" + y;
   }
 
+
+  // Suggested electives: names for display, and a shared dropdown list.
+  var suggestions = {};
+  (plan.suggested_electives || []).forEach(function (e) { suggestions[e.code] = e.name; });
+  var listId = "pp-suggestions";
+  var datalist = el("datalist");
+  datalist.id = listId;
+  (plan.suggested_electives || []).forEach(function (e) {
+    var o = document.createElement("option");
+    o.value = e.code;
+    o.label = e.name;
+    datalist.appendChild(o);
+  });
+  var CODE = /^[A-Z]{4}[0-9]{4}$/;
+
+  // An elective box: "Elective" label, an editable course code, and the course title when known.
+  function electiveBox(c, id, where) {
+    var box = el("div", "pp-cell pp-elective pp-editable");
+    box.appendChild(el("span", "pp-label", "Elective"));
+    var input = el("input", "pp-input");
+    input.type = "text";
+    input.maxLength = 12;
+    input.placeholder = "Your choice";
+    input.setAttribute("list", listId);
+    input.setAttribute("aria-label", where + ": elective" + (c.suggest ? " (suggested: " + c.suggest + ")" : ""));
+    var name = el("span", "pp-name");
+    var link = el("a", "pp-link", "\u2197");
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    function refresh() {
+      var v = input.value.trim();
+      name.textContent = suggestions[v] || "";
+      if (CODE.test(v)) {
+        link.href = handbookUrl(v);
+        link.title = "Open " + v + " in the Handbook";
+        link.hidden = false;
+      } else {
+        link.hidden = true;
+      }
+    }
+    input.value = Object.prototype.hasOwnProperty.call(saved, id) ? saved[id] : (c.suggest || "");
+    input.addEventListener("input", function () {
+      var v = input.value.toUpperCase();
+      if (v !== input.value) input.value = v;
+      saved[id] = v;
+      save();
+      refresh();
+    });
+    var row = el("span", "pp-input-row");
+    row.appendChild(input);
+    row.appendChild(link);
+    box.appendChild(row);
+    box.appendChild(name);
+    box.addEventListener("click", function (e) { if (e.target !== link) input.focus(); });
+    box._reset = function () { input.value = c.suggest || ""; refresh(); };
+    refresh();
+    return box;
+  }
+
   var grid = el("div", "pp-grid");
 
   (plan.years || []).forEach(function (year, yi) {
@@ -64,19 +123,7 @@
           if (c.name) cell.appendChild(el("span", "pp-name", c.name));
           if (c.alt) cell.appendChild(el("span", "pp-alt", "or " + c.alt));
         } else {
-          var id = "y" + yi + "s" + si + "c" + ci;
-          cell = el("input", "pp-cell pp-" + type + " pp-input");
-          cell.type = "text";
-          cell.maxLength = 12;
-          cell.placeholder = "Elective";
-          cell.setAttribute("aria-label", year.name + ", semester " + (si + 1) + ": your elective");
-          cell.value = saved[id] || "";
-          cell.addEventListener("input", function () {
-            var v = cell.value.toUpperCase();
-            if (v !== cell.value) cell.value = v;
-            if (v) saved[id] = v; else delete saved[id];
-            save();
-          });
+          cell = electiveBox(c, "y" + yi + "s" + si + "c" + ci, year.name + ", semester " + (si + 1));
         }
         sem.appendChild(cell);
       });
@@ -88,6 +135,7 @@
   });
 
   root.appendChild(grid);
+  root.appendChild(datalist);
 
   // Key: what each colour means
   var key = el("div", "pp-key");
@@ -101,12 +149,12 @@
 
   // Actions
   var bar = el("div", "pp-actions");
-  var clear = el("button", "pp-btn", "Clear my electives");
+  var clear = el("button", "pp-btn", "Reset electives");
   clear.type = "button";
   clear.addEventListener("click", function () {
     saved = {};
     save();
-    root.querySelectorAll(".pp-input").forEach(function (i) { i.value = ""; });
+    root.querySelectorAll(".pp-editable").forEach(function (b) { b._reset(); });
   });
   var print = el("button", "pp-btn", "Print my plan");
   print.type = "button";

@@ -6,6 +6,10 @@
 #   option: true  marks a course that is one of several options (shown with *)
 #   alt: STAT1070 shows an alternative course ("or STAT1070")
 #   name: "Fourier Analysis" is the course title, shown under the code
+#   suggest: PHYS2100  (elective boxes only) pre-fills the box with a suggested elective
+#     from suggested_electives below; students can still type over it.
+#
+# suggested_electives: offered in a dropdown in every elective box.
 # Course codes link to the Handbook for `handbook_year`.
 
 title: "Bachelor of Science (Physics)"
@@ -23,7 +27,13 @@ categories:
     note: "10 units from MATH2242, MATH3820 or PHYS2102. The options marked * are suggestions; you only need one."
   - key: elective
     label: "Electives"
-    note: "Type your own choices into the empty elective boxes to plan your degree. Suggested electives: PHYS2100 (Introduction to Astronomy) and MATH3205 (Fourier Analysis)."
+    note: "Some elective boxes show a suggested course. Click any elective box to type your own choice or pick from the suggestions."
+
+suggested_electives:
+  - { code: PHYS2100, name: "Introduction to Astronomy" }
+  - { code: MATH3205, name: "Fourier Analysis" }
+  - { code: PHYS3204, name: "Nanoscience" }
+  - { code: SCIE3500, name: "Research Integrated Learning" }
 
 years:
   - name: "Year 1"
@@ -35,7 +45,7 @@ years:
       - - { code: STAT1300, type: core, alt: STAT1070, name: "Fundamentals of Statistics" }
         - { code: PHYS1220, type: major, name: "Advanced Physics II" }
         - { code: MATH1120, type: major, name: "Mathematics for Engineering, Science and Technology 2" }
-        - { type: elective }
+        - { type: elective, suggest: PHYS2100 }
 
   - name: "Year 2"
     semesters:
@@ -53,8 +63,8 @@ years:
       - - { code: PHYS3101, type: major, name: "Statistical Mechanics" }
         - { code: PHYS3102, type: major, name: "Materials Physics" }
         - { code: MATH3820, type: directed, option: true, name: "Numerical Methods" }
-        - { type: elective }
+        - { type: elective, suggest: MATH3205 }
       - - { code: PHYS3203, type: major, name: "Atomic and Nuclear Physics" }
-        - { code: PHYS3204, type: elective, name: "Nanoscience" }
+        - { type: elective, suggest: PHYS3204 }
         - { code: SCIE3002, type: core, name: "WIL for the Sciences" }
-        - { type: elective }
+        - { type: elective, suggest: SCIE3500 }
