@@ -73,6 +73,7 @@
     input.maxLength = 12;
     input.placeholder = "Your choice";
     input.setAttribute("list", "pp-suggestions-y" + (yi + 1));
+    input.setAttribute("autocomplete", "off");
     input.setAttribute("aria-label", where + ": elective" + (c.suggest ? " (suggested: " + c.suggest + ")" : ""));
     var name = el("span", "pp-name");
     var link = el("a", "pp-link", "\u2197");

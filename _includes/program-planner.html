@@ -4,4 +4,4 @@
   <noscript><p>The interactive planner needs JavaScript. See the <a href="https://handbook.newcastle.edu.au/">University Handbook</a> for the program structure.</p></noscript>
 </div>
 <script type="application/json" id="planner-data">{{ plan | jsonify }}</script>
-<script src="{{ '/assets/js/planner.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/planner.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
