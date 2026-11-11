@@ -53,12 +53,14 @@
   supervisors: [schunker-hannah]
 
 - name: "Dr Chloe Wilkins"
+  years: "2026"
   role: phd
   field: astrophysics
   status: past
   supervisors: [pontin-david]
 
 - name: "Dr William Roland-Batty"
+  years: "2025"
   role: phd
   field: astrophysics
   status: past
