@@ -3,6 +3,8 @@ name: "Example Academic"
 sort_name: "Academic"  # surname, used to order the People grid
 role: "Academic / Researcher"
 research: "Research area or expertise"
+# field: research area icon (astrophysics, medical-physics, nanomaterials-and-organic-electronics or quantum-technology)
+field: astrophysics
 photo: "/assets/img/people/example-academic.jpg"
 # Optional: leadership roles, shown under the role on the card
 # positions:

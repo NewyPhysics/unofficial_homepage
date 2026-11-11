@@ -7,5 +7,6 @@ positions:
     name: "Space Science and Technology for Australian Resilience"
     url: "https://www.newcastle.edu.au/research/centre/space-science-and-technology-for-australian-resilience"
 research: "Solar physics, magnetic reconnection, coronal heating, space weather and numerical simulations"
+field: astrophysics
 official_url: "https://profiles.newcastle.edu.au/David-Pontin"
 ---

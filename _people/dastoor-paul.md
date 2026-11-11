@@ -7,5 +7,6 @@ positions:
     name: "Centre for Organic Electronics"
     url: "https://www.newcastle.edu.au/research/centre/coe"
 research: "Organic electronics and printed solar cells, helium atom microscopy and surface physics"
+field: nanomaterials-and-organic-electronics
 official_url: "https://profiles.newcastle.edu.au/Paul-Dastoor"
 ---

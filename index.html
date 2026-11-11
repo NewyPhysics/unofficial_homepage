@@ -72,8 +72,10 @@ title: Home
           {% endfor %}
 
           {% if person.research %}
+          {% assign area = nil %}{% if person.field %}{% for r in site.research %}{% if r.path contains person.field %}{% assign area = r %}{% endif %}{% endfor %}{% endif %}
           <p class="person-research">
-            <strong>Research:</strong> {{ person.research }}
+            {% if area %}<a class="research-icon" href="{{ area.url | relative_url }}" style="--accent: {{ area.accent }}" title="{{ area.title }}" aria-label="Research area: {{ area.title }}">{% include icon.html name=area.icon %}</a>{% else %}<strong>Research:</strong>{% endif %}
+            <span>{{ person.research }}</span>
           </p>
           {% endif %}
 

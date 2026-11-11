@@ -3,6 +3,7 @@ name: "Dr Hannah Schunker"
 sort_name: "Schunker"
 role: "ARC Future Fellow"
 research: "Helioseismology, solar physics, space weather and magnetohydrodynamics"
+field: astrophysics
 courses:
   - "PHYS3211"
   - "PHYS1220"

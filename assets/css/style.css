@@ -359,3 +359,9 @@ a.pp-cell:hover, a.pp-cell:focus-visible { transform:translateY(-2px); box-shado
 .pp-editable .pp-name { -webkit-line-clamp:2; }
 .supervisor-name { display:flex; align-items:center; gap:.7rem; }
 .supervisor-name .team-field, .supervisor-name .team-field:hover { color:#fff; text-decoration:none; }
+
+/* Research-area icon on academic cards */
+.person-card .person-research { display:flex; align-items:flex-start; gap:.45rem; }
+.research-icon { flex:none; display:grid; place-items:center; width:20px; height:20px; margin-top:1px; border-radius:6px; background:var(--accent); color:#fff; }
+.research-icon:hover { color:#fff; transform:scale(1.1); }
+.research-icon .icon { width:13px; height:13px; stroke-width:2.2; }
