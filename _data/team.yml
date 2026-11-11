@@ -2,7 +2,7 @@
 #
 # One entry per person:
 #   name:        full name
-#   role:        postdoc, phd, honours or technical (lab and technical staff, shown on the home page under the academics)
+#   role:        postdoc, phd or technical (lab and technical staff, shown on the home page under the academics)
 #   status:      current, or past for alumni
 #   supervisors: list of supervisor file names from _people (e.g. schunker-hannah), so they link to their cards
 #   years:       optional, e.g. "2023–" or "2019–2023"
@@ -48,7 +48,7 @@
 
 - name: "Ellen Lu"
   role: phd
-  field: astrophysics
+  field: nanomaterials-and-organic-electronics
   status: current
   supervisors: [schunker-hannah]
 
