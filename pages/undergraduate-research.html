@@ -7,7 +7,9 @@ accent: "#199e70"
 permalink: /projects/undergraduate-research/
 ---
 {% assign data = site.data.research_projects %}
-{% assign supervisors = data.supervisors | where_exp: "s", "s.projects.size > 0" | sort: "sort_name" %}
+{% assign with_projects = data.supervisors | where_exp: "s", "s.projects.size > 0" %}
+{% assign with_note = data.supervisors | where_exp: "s", "s.note" %}
+{% assign supervisors = with_projects | concat: with_note | uniq | sort: "sort_name" %}
 
 <p class="lead">Research projects on offer in the Physics discipline for {{ data.year }}, for summer research, SCIE3500 and Honours students.</p>
 
@@ -48,10 +50,12 @@ permalink: /projects/undergraduate-research/
   {% if s.group %}<p class="supervisor-group">{{ s.group }}</p>{% endif %}
   <p class="supervisor-meta">
     {% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% endif %}
+    {% if s.alt_email %} or <a href="mailto:{{ s.alt_email }}">{{ s.alt_email }}</a>{% endif %}
     {% if s.email and s.profile %} <span class="sep" aria-hidden="true">·</span> {% endif %}
     {% if s.profile %}<a href="{{ s.profile }}" target="_blank" rel="noopener noreferrer">Official University profile <span aria-hidden="true">↗</span></a>{% endif %}
   </p>
   {% if s.intro %}<p>{{ s.intro }}</p>{% endif %}
+  {% if s.note %}<p class="empty-note">{{ s.note }}</p>{% endif %}
   {% for p in s.projects %}
   <details class="project">
     <summary>{{ p.title }}</summary>

@@ -7,6 +7,22 @@ year: 2027
 
 supervisors:
 
+  - name: "Dr Taïssa Danilovich"
+    sort_name: "Danilovich"
+    person: "danilovich-taissa"
+    email: "taissa.danilovich@newcastle.edu.au"
+    profile: "https://www.newcastle.edu.au/profile/taissa-danilovich"
+    projects:
+      - title: "Refining mass-loss rates of ATOMIUM stars"
+        description: |
+          When stars like our Sun reach the end of their lives, they expand and cool, becoming asymptotic giant branch (AGB) stars. During this phase, they eject their outer layers. This mass loss is important because it delivers newly formed elements and dust from the star into the interstellar medium, and it also dictates how long this phase of the star's life will last. The ATOMIUM project collected high-resolution observations of AGB stars using the ALMA telescope in Chile. However, some of the stars in the sample do not have well-defined mass-loss rates. You will use radiative transfer modelling and spectral line observations to determine the mass-loss rates of these stars.
+      - title: "Distribution of SiC<sub>2</sub> around W Aquilae"
+        description: |
+          W Aquilae (W Aql) is a nearby asymptotic giant branch (AGB) star. It is currently in a transitional phase between being oxygen-rich and becoming more carbon-rich, so it is classified as an S-type star, an intermediate chemical type. An AGB star's chemical type affects the types of molecules that form around it and go on to form dust. As an S-type star, W Aql contains more carbon-bearing molecules than a purely oxygen-rich star would. SiC<sub>2</sub> is one of these molecules, and is a bit unusual because it is triangular in shape. You will use radiative transfer modelling to estimate the abundance of SiC<sub>2</sub> around W Aql. The project will also involve extrapolating existing molecular data to higher energies to enable this modelling.
+      - title: "Abundances of SO and SO<sub>2</sub> around oxygen-rich AGB stars"
+        description: |
+          When stars like our Sun reach the end of their lives, they expand and cool, becoming asymptotic giant branch (AGB) stars. These stars eject their outer layers to form an expanding circumstellar envelope, rich in molecules and dust. Some molecules can be used as markers of the mass-loss rate and of whether the AGB star has a hidden binary companion. You will use spectral line observations from the APEX telescope in Chile to model the abundances of SO (and, if time permits, SO<sub>2</sub>) for a few AGB stars, and so indirectly determine other properties of the selected stars.
+
   - name: "Professor Paul Dastoor"
     sort_name: "Dastoor"
     person: "dastoor-paul"
@@ -120,37 +136,54 @@ supervisors:
     person: "goreham-renee"
     email: "renee.goreham@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/renee-goreham"
+    group: "Goreham Research Group: Nanobiotechnology, Molecular Recognition and Advanced Diagnostics"
+    intro: "The Goreham Research Group offers research opportunities combining physics, nanotechnology, chemistry, biology and computational science to address challenges in disease detection, molecular recognition and advanced sensing technologies. Projects can be tailored to third-year undergraduate or Honours students, with opportunities to develop experimental, computational and analytical skills while contributing to ongoing research."
     projects:
-      - title: "Aptasensor Platforms Using Nanoparticles"
+      - title: "Can We Detect Disease from a Single Breath?"
         description: |
-          Aptamers offer highly selective binding to extracellular vesicles (EVs) and cancer-associated biomarkers, making them ideal recognition elements for biosensing. When combined with nanomaterials such as quantum dots (QDs) and gold nanoparticles (AuNPs), which provide optical and electrochemical transduction respectively, these bioconjugates can be engineered into highly sensitive, low-cost diagnostic tools. Integrating aptamers with QDs and AuNPs aligns with the Goreham Group's focus on developing breath and EV-based diagnostics. This project involves engineering and comparing QD- and AuNP-based aptasensor formats for a selected target — such as an EV surface protein or model analyte — and evaluating their analytical performance. Students will quantify binding affinity and specificity, determine limits of detection, and assess sensor stability, regeneration, and tolerance to complex matrices such as biological buffers or model biofluids.
+          *Extracellular vesicles and nanoparticle-based biosensors*
 
-          **Summary:** Students will develop and compare QD- and AuNP-based aptasensor systems, optimise bioconjugation methods, and produce a validated, reproducible protocol for sensitive biomarker detection compatible with existing Goreham Group diagnostic workflows.
-      - title: "Understanding Aptamer Binding with Neutron Beams"
+          Explore how extracellular vesicles (EVs) released by cells can provide molecular clues about diseases such as lung cancer and respiratory infections. Students will investigate the use of DNA aptamers, gold nanoparticles and quantum dots to develop sensitive biosensors capable of detecting disease-associated biomarkers, contributing to the development of non-invasive breath diagnostics.
+      - title: "Can We Predict How DNA Recognises Its Target?"
         description: |
-          Neutron specular reflectometry (SR) and small-angle neutron scattering (SANS) provide powerful techniques for resolving nanoscale interfacial structures and understanding biomolecular binding in situ. This project focuses on using these methods to model and interpret data from the Goreham Group's existing experimental studies rather than conducting new beamtime experiments. Students will develop and refine structural models describing how aptamers and nanoparticles interact with surfaces or membrane mimics, using parameters such as layer thickness, roughness, solvent contrast, and density distribution. By comparing these models to the group's benchtop electrochemical and fluorescence binding data, students will gain insight into the mechanisms of aptamer–nanoparticle interaction and the factors influencing biosensor performance.
+          *Molecular dynamics and computational biophysics*
 
-          **Summary:** Students will analyse and model existing SR and SANS data to interpret aptamer and nanoparticle binding behaviour, contributing to a deeper understanding of nanoscale sensor interfaces and guiding future biosensor design.
-      - title: "Engineering Tissue-Like Phantoms for Optical Tomography"
+          Investigate how DNA aptamers fold, move and recognise specific proteins using molecular dynamics simulations. Students will analyse molecular structures, flexibility and binding interactions to understand what makes some aptamers more effective than others. This project contributes to the predictive design of next-generation biosensors.
+      - title: "Seeing Molecules with Neutrons"
         description: |
-          Optical tomography and diffuse optical imaging require well-characterised tissue-mimicking phantoms that replicate the scattering and absorption properties of biological tissues. This project involves designing, fabricating, and characterising solid or gel-based phantoms with tunable optical properties in the red to near-infrared range (630–900 nm). Students will use agarose, gelatin, or PDMS matrices combined with Intralipid as a scattering agent and India ink or haemoglobin analogues as absorbers. The phantoms will be tested for optical stability and reproducibility using transmittance, reflectance, or integrating sphere measurements. Optional inclusions may be embedded to simulate tumour-like or vascular regions, providing realistic calibration samples for optical imaging systems.
+          *Neutron scattering and nanoscale molecular interactions*
 
-          **Summary:** Students will create and characterise reproducible tissue-like phantoms to support the calibration and validation of optical tomography systems, generating a set of reference materials and data useful for ongoing imaging research in the group.
-      - title: "Synthesis & Characterisation of QDs and AuNPs"
+          Discover how neutron scattering can reveal the structure and organisation of molecules at the nanoscale. Students will analyse experimental neutron reflectometry and small-angle neutron scattering data to investigate how DNA aptamers interact with proteins, nanoparticles and surfaces. The findings will help explain how molecular organisation influences biosensor performance.
+      - title: "Can Lasers Detect the Molecular Fingerprints of Disease?"
         description: |
-          Producing nanoparticles in-house provides precise control over their size, surface chemistry, and optical or electrochemical properties, enabling consistent performance across biosensing and imaging applications. This project focuses on developing reproducible syntheses for gold nanoparticles (AuNPs) and cadmium-free quantum dots (QDs), such as InP/ZnS systems. Students will explore ligand exchange and surface functionalisation strategies compatible with aptamer attachment, including thiolated or carboxyl-terminated linkers. Comprehensive characterisation will be carried out using UV–Vis absorption, fluorescence spectroscopy, dynamic light scattering (DLS), zeta potential measurements, and electrochemical analysis. The resulting data will be compiled into a "property library" linking synthesis parameters to key functional outcomes, such as emission wavelength, charge, and colloidal stability.
+          *Raman spectroscopy and extracellular vesicle diagnostics*
 
-          **Summary:** Students will synthesise and characterise AuNPs and QDs, establishing standardised protocols and property correlations that will feed directly into future aptasensor and imaging developments within the Goreham Group.
-      - title: "Characterising Aptamer–Protein Interactions by Molecular Dynamics"
+          Every molecule has a unique vibrational fingerprint that can be investigated using laser spectroscopy. Students will explore Raman spectroscopy and surface-enhanced Raman spectroscopy (SERS) to identify molecular differences between healthy and biologically altered samples, including EVs associated with viral infection. This research supports the development of rapid, label-free diagnostic technologies.
+      - title: "Predicting Molecular Fingerprints Using Quantum Chemistry"
         description: |
-          Understanding how aptamers interact with their target proteins at the molecular level is essential for improving diagnostic performance. This project uses molecular dynamics (MD) simulations to explore the structural stability and binding mechanisms of aptamers with EV-associated proteins such as CD63 and CD44. Students will perform all-atom MD simulations in explicit solvent using the Amber99SB-ILDN force field and analyse trajectory data to identify structural features contributing to binding strength and selectivity. Key analyses will include root mean square deviation (RMSD), radius of gyration (Rg), hydrogen bonding patterns, and interfacial contact mapping.
+          *Density functional theory and computational spectroscopy*
 
-          **Summary:** Students will gain experience in computational biophysics, performing MD simulations and structural analyses to identify key residues and conformational states responsible for high-affinity aptamer binding.
-      - title: "Proteomic Exploration of Lung Cancer EV Biomarkers"
+          Can we predict the spectrum of a molecule before measuring it? Students will use quantum chemical calculations to model the vibrations of biologically important molecules, including proteins, lipids and nucleic acid components. By comparing predicted Raman spectra with experimental measurements, students will help identify the molecular origins of complex biological signals.
+      - title: "Building Nanoparticles That Light Up and Detect"
         description: |
-          Identifying universal and disease-specific EV biomarkers is vital for early cancer detection. This project involves mining public proteomic datasets to identify consistent protein signatures present in lung cancer-derived EVs. Using databases such as Vesiclepedia and UniProt, students will curate datasets, perform differential expression analysis, and visualise protein interaction networks to highlight potential aptamer targets.
+          *Nanoparticle synthesis, quantum dots and surface chemistry*
 
-          **Summary:** Students will compile a biomarker reference list for lung cancer EVs, supporting future aptamer design and validation efforts within the breath diagnostics program.
+          Investigate how the size, composition and surface chemistry of nanoparticles influence their optical and sensing properties. Students will synthesise and characterise gold nanoparticles and cadmium-free quantum dots, exploring their fluorescence, stability and interactions with biomolecules. The project supports the development of new materials for biological sensing and imaging.
+      - title: "Can Artificial Intelligence Recognise Disease?"
+        description: |
+          *Machine learning and biological spectroscopy*
+
+          Explore whether machine learning can identify subtle molecular differences between biological samples. Students will analyse Raman and SERS datasets using computational techniques such as principal component analysis, clustering and classification. The project aims to develop reliable methods for recognising biological changes from complex spectral fingerprints.
+      - title: "Building Artificial Tissue for Medical Imaging"
+        description: |
+          *Optical phantoms and biomedical imaging*
+
+          How can medical imaging systems be tested without using human tissue? Students will design and fabricate artificial tissue-like materials that reproduce the optical properties of biological tissues. By investigating light absorption, scattering and transmission, students will develop reproducible reference materials for testing and calibrating optical imaging technologies.
+      - title: "From DNA to Device: Designing Biosensors Before Building Them"
+        description: |
+          *Predictive molecular recognition and nanobiointerfaces*
+
+          What if we could predict whether a biosensor will work before manufacturing it? Students will combine molecular simulations, experimental scattering data and biosensor measurements to investigate how DNA aptamers behave when attached to nanoparticles and surfaces. This project aims to identify the molecular properties that govern target recognition, helping develop more efficient and reliable biosensors.
 
   - name: "Conjoint Professor Peter Greer"
     sort_name: "Greer"
@@ -158,30 +191,28 @@ supervisors:
     email: "peter.greer@health.nsw.gov.au"
     profile: "https://www.newcastle.edu.au/profile/peter-greer"
     group: "Medical Physics Research Group"
-    projects:
-      - title: "Improvement and international investigation of stereotactic radiosurgery treatments"
-        description: |
-          We have formed an international consortium of centres in Australia, the United States and Europe to investigate and standardise dose calculations for complex brain treatments where multiple small lesions are treated to very high doses using intensity modulated beams. This project will investigate a novel virtual three-dimensional dose measurement technique using a flat-panel imager for these treatments, and remotely assess and compare dose delivery accuracy at each centre in the consortium.
-      - title: "Multiplexed dosimetry and imaging system for radiation oncology"
-        description: |
-          Currently, flat-panel imagers used to form patient images with the treatment beam are designed purely for imaging and perform poorly for dosimetry due to the high atomic number of the phosphor scintillator, which introduces an extreme energy-dependence of the signal, requiring complex algorithms and corrections to obtain dose. TOPAS Monte Carlo studies have shown that a grid or chequerboard optical filter that alternately blocks or passes the optical photons from the scintillator can produce interleaved imaging and dosimetry signals. This project will further assess and optimise the design and investigate its suitability for linac beam dose measurements.
-      - title: "Development of a method for real-time in-patient dose reconstruction during patient treatments"
-        description: |
-          We have developed the world's first real-time treatment verification system in radiation oncology. The current Watchdog system calculates a predicted image set with a physics model and in real time compares the measured image frames, after the treatment beam has passed through the patient, to the predicted images. This project will extend this to deriving dose in the patient model in real time in a transit dosimetry situation, and compare predicted to measured doses within the patient in real time.
+    note: "Currently no projects available."
+    projects: []
 
   - name: "Conjoint Professor Joerg Lehmann"
     sort_name: "Lehmann"
     person: "lehmann-joerg"
     email: "joerg.lehmann@health.nsw.gov.au"
+    alt_email: "joerg.lehmann@newcastle.edu.au"
     profile: "https://www.newcastle.edu.au/profile/joerg-lehmann"
     group: "Medical Physics Research Group"
     projects:
-      - title: "Real-time measurement and verification of breast position during radiation therapy"
+      - title: "Rad on Rails: investigating the need for mobile radiotherapy in rural areas"
         description: |
-          The LEILA study has developed a system for measurement of real-time breast position during treatment using MV imaging with the treatment beam. This can be used to ensure treatment accuracy for deep-inspiration breath-hold treatments, which spare heart dose, and also to compare positioning techniques. It includes a multi-centre study collecting data on treatment positioning. This project will analyse breast-positioning data collected during treatment.
-      - title: "Dosimetry audits and SEAFARER"
+          For many rural Australians, the long travel required to reach metropolitan cancer treatment centres means that some people are unable to (or choose not to) receive radiotherapy, resulting in decreased survival with increased remoteness. One potential solution is to deploy mobile radiotherapy units to rural areas, transported by either truck or train. Doing so would be the first of its kind in Australia, and therefore requires substantial planning before construction of the unit can begin. The project would involve the student assessing the needs and preferences of rural patients, developing schedules, identifying suitable locations, and aligning the project with existing services, such as mobile chemotherapy clinics.
+      - title: "Investigating clinical practices regarding the SEAFARER spine PSQA audit"
         description: |
-          The SEAFARER Cancer Australia project is the investigation of the sensitivity and specificity of dosimetry measurements performed throughout Australia to check treatment plan dose calculations and treatment delivery accuracy. Data from over 40 national and international centres is being collected for different types of treatments. We are building a cloud-based platform to perform studies of international practices to assist with standardisation of radiation oncology practice and to assist low and middle-income countries and clinical trials. This project will investigate dosimetry accuracy and audit patterns in different countries.
+          This project aims to improve the safety of radiotherapy cancer treatment in Australia and internationally by building on the SEAFARER remote patient-specific quality assurance (PSQA) audits. The SEAFARER project investigates the sensitivity and specificity of dosimetry measurements performed in radiotherapy clinics. It gives physicists at those clinics an opportunity to check their methods and to compare their results with those of others around the world. SEAFARER uses a cloud-based platform that allows participants to obtain the information they need, submit their data and receive feedback, including comparisons with others, in real time.
+
+          The student would design and conduct follow-up surveys and interviews with centres that completed a recent SEAFARER audit, to answer two questions: which aspects of clinical practice influence PSQA performance, and what impact has the audit had on current radiotherapy practice? This is an opportunity to communicate and build connections with many radiotherapy centres across Australia and to gain insight into current clinical PSQA practice, which may be ideal for a student considering the medical physics training program (TEAP) in the future.
+      - title: "Automate collection of radiotherapy beam model parameters"
+        description: |
+          Radiotherapy treatment quality relies on accurate modelling of the radiation dose delivered by the treatment machines. Our group has developed a platform to collect and compare data on these "beam models", which is currently used by 138 cancer treatment centres across 30 countries. However, the current implementation relies on manual user input, which can be prone to error and requires some effort. In this project, the student would develop an automated method for extracting beam model data from database files, screen captures and/or other file types.
       - title: "Reference dosimetry for kV x-ray systems used for cell and small animal irradiations"
         description: |
           Dosimetry for cell and small animal irradiations for radiation oncology research is complex and difficult, with currently high uncertainties. This project will investigate the accuracy of existing models and also perform Monte Carlo simulations and measurements.
@@ -195,9 +226,6 @@ supervisors:
       - title: "Analysing flows on the Sun's surface to untangle the problem of coronal heating"
         description: |
           Observations of the Sun reveal that its outer atmosphere ("corona") is around 1000 times hotter than its surface, a fact that has defied explanation since it was first realised nearly 80 years ago. Recent promising results suggest a resolution to this problem, involving tangling/braiding of the magnetic field lines in the corona by plasma flows on the surface. However, current methods for extracting these flows from observational data have severe shortcomings. In this project the aim is to use data from the latest NASA missions to better measure the surface flows and the vector components of the surface magnetic field during the braiding of coronal field lines, to better constrain this proposed mechanism for atmospheric heating. This project could focus either on data analysis and processing, or on mathematical models and measures of complexity, depending on the student's interest. It is suitable for students with interests in Physics or Mathematics.
-      - title: "The structure of the Sun's magnetic field and implications for understanding the solar wind"
-        description: |
-          The solar wind is a stream of plasma coming from the Sun in which the Earth is embedded. Its conditions around the Earth are called "space weather", and understanding/predicting this space weather is economically important due to its ability to disrupt communications, endanger astronauts, and damage power systems and satellites. The goal of this project is to analyse magnetic field structures in the Sun's atmosphere that are thought to be source regions for the slow, unsteady component of the solar wind that is poorly understood. This will involve working with new, high-resolution observations of the Sun's surface magnetic field from the latest NASA space missions. Using this data, the goal is to extrapolate to find the magnetic field in the Sun's atmosphere (which can't be measured directly), and then to analyse the structures present in this magnetic field. This will be a computational project that will involve writing codes/modifying existing codes to analyse and visualise these structures using, e.g., Python.
       - title: "Understanding energy conversion in turbulent, magnetised plasmas"
         description: |
           Magnetic and velocity fields in plasmas exhibit a turbulent behaviour on a wide range of scales, from galaxies to the Sun to laboratory plasmas on Earth. Turbulence appears inherently messy/chaotic, but one path to understanding the energy conversion in such plasmas is to study the spatial distribution of different magnetic field structures. The aim of this project is to develop algorithms that compare the correlations between structures present in the magnetic field and measures of energy conversion. This will provide insight into the fundamental phenomenon of plasma turbulence – relevant for understanding plasmas in space, the Earth's atmosphere, and lab fusion devices.
@@ -205,10 +233,13 @@ supervisors:
           This project could focus either on data analysis and processing, or on mathematical/statistical analysis, depending on the student's interest. It is suitable for students with interests in Physics or Mathematics.
       - title: "Properties of elementary heating events in solar coronal loops"
         description: |
-          One of the leading theories for how the plasma in "coronal loops" reaches such high temperatures is by a so-called "braiding" process where the surface motions cause a tangling of the magnetic field lines in the loops. This in turn leads to the formation of intense electric currents, which are required to convert stored magnetic energy to heat. The idea of this project would be to explore how these elementary heating events work in new, high-resolution simulations. This will involve developing algorithms to quantify the properties of the electric current "sheets" in the simulation data, and then looking at what the signatures of these processes would be in solar observations. This project is suitable for students with interests in Physics or Mathematics.
+          One of the leading theories for how the plasma in "coronal loops" reaches such high temperatures is by a so-called "braiding" process where the surface motions cause a tangling of the magnetic field lines in the loops. This in turn leads to the formation of intense electric currents, which are required to convert stored magnetic energy to heat. The idea of this project is to explore how these elementary heating events work in new, high-resolution simulations. This will involve developing algorithms to quantify the properties of the electric current "sheets" in the simulation data, and then looking at what the signatures of these processes would be in solar observations. This project is suitable for students with interests in Physics or Mathematics.
       - title: "Exploring the complexity of stellar magnetic fields"
         description: |
-          In recent years techniques have been developed to measure the magnetic field on the surfaces of stars. These magnetic fields are crucial for driving a range of phenomena like winds and flares that can affect the habitability of orbiting planets. The goal of this project would be to take the computational tools that we use for analysing the complexity of the Sun's magnetic field, and apply them to these stellar magnetic field data. This project is suitable for students with interests in Physics or Mathematics.
+          In recent years techniques have been developed to measure the magnetic field on the surfaces of stars. These magnetic fields are crucial for driving a range of phenomena like winds and flares that can affect the habitability of orbiting planets. The goal of this project is to take the computational tools that we use for analysing the complexity of the Sun's magnetic field, and apply them to these stellar magnetic field data. This project is suitable for students with interests in Physics or Mathematics.
+      - title: "The structure of the Sun's magnetic field and implications for understanding the solar wind"
+        description: |
+          The solar wind is a stream of plasma coming from the Sun in which the Earth is embedded. Its conditions around the Earth are called "space weather", and understanding/predicting this space weather is economically important due to its ability to disrupt communications, endanger astronauts, and damage power systems and satellites. The goal of this project is to analyse magnetic field structures in the Sun's atmosphere that are thought to be source regions for the slow, unsteady component of the solar wind that is poorly understood. This will involve working with new, high-resolution observations of the Sun's surface magnetic field from the latest NASA space missions. Using this data, the goal is to extrapolate to find the magnetic field in the Sun's atmosphere (which can't be measured directly), and then to analyse the structures present in this magnetic field. This will be a computational project that will involve writing codes/modifying existing codes to analyse and visualise these structures using, e.g., Python.
 
   - name: "Dr Lachlan Rogers"
     sort_name: "Rogers"
