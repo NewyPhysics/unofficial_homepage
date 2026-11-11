@@ -23,7 +23,7 @@ categories:
     note: "10 units from MATH2242, MATH3820 or PHYS2102. The options marked * are suggestions; you only need one."
   - key: elective
     label: "Electives"
-    note: "Suggested electives: PHYS2100 (Introduction to Astronomy) and MATH3205 (Fourier Analysis). Type your own choices into the empty elective boxes to plan your degree."
+    note: "Type your own choices into the empty elective boxes to plan your degree. Suggested electives: PHYS2100 (Introduction to Astronomy) and MATH3205 (Fourier Analysis)."
 
 years:
   - name: "Year 1"
