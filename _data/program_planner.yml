@@ -30,10 +30,17 @@ categories:
     note: "Some elective boxes show a suggested course. Click any elective box to type your own choice or pick from the suggestions."
 
 suggested_electives:
-  - { code: PHYS2100, name: "Introduction to Astronomy" }
+  - { code: CHEM1010, name: "Introductory Chemistry I" }
+  - { code: CHEM1020, name: "Introductory Chemistry II" }
+  - { code: CHEM2410, name: "Physical Chemistry" }
+  - { code: GEOS1050, name: "Earth Processes and Products" }
   - { code: MATH3205, name: "Fourier Analysis" }
+  - { code: PHYS2100, name: "Introduction to Astronomy" }
   - { code: PHYS3204, name: "Nanoscience" }
   - { code: SCIE3500, name: "Research Integrated Learning" }
+  - { code: STAT2000, name: "Applied Statistics and Research Methods" }
+  - { code: STAT2020, name: "Predictive Analytics" }
+  - { code: STAT3800, name: "Deterministic and Stochastic Optimisation" }
 
 years:
   - name: "Year 1"
