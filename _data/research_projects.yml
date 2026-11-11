@@ -191,7 +191,7 @@ supervisors:
     email: "peter.greer@health.nsw.gov.au"
     profile: "https://www.newcastle.edu.au/profile/peter-greer"
     group: "Medical Physics Research Group"
-    note: "Currently no projects available."
+    note: "Please contact directly for available projects."
     projects: []
 
   - name: "Conjoint Professor Joerg Lehmann"
