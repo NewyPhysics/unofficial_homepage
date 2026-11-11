@@ -61,7 +61,7 @@ title: Home
         </div>
 
         <div class="person-info">
-          <h3>{{ person.name }}</h3>
+          <h3>{% if person.official_url %}<a class="person-name-link" href="{{ person.official_url }}" target="_blank" rel="noopener noreferrer" title="University profile">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
 
           {% if person.role %}
           <p class="person-role">{{ person.role }}</p>
@@ -88,16 +88,7 @@ title: Home
           </p>
           {% endif %}
 
-          {% if person.official_url %}
-          <a
-            class="profile-link"
-            href="{{ person.official_url }}"
-            target="_blank"
-            rel="noopener noreferrer">
-            University profile
-            <span aria-hidden="true">↗</span>
-          </a>
-          {% endif %}
+
         </div>
 
       </article>
@@ -114,9 +105,8 @@ title: Home
       <article class="person-card">
         <div class="person-photo"><span class="photo-placeholder" aria-hidden="true">{{ name_parts[first_index] | slice: 0 }}{{ name_parts.last | slice: 0 }}</span></div>
         <div class="person-info">
-          <h3>{{ t.name }}</h3>
+          <h3>{% if t.profile %}<a class="person-name-link" href="{{ t.profile }}" target="_blank" rel="noopener noreferrer" title="University profile">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</h3>
           {% if t.title %}<p class="person-role">{{ t.title }}</p>{% endif %}
-          {% if t.profile %}<a class="profile-link" href="{{ t.profile }}" target="_blank" rel="noopener noreferrer">University profile <span aria-hidden="true">↗</span></a>{% endif %}
         </div>
       </article>
       {% endfor %}
