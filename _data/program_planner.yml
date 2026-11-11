@@ -20,7 +20,7 @@ categories:
     note: "PHYS1210, PHYS1220, MATH1110, MATH1120, PHYS2101, PHYS2203, PHYS2204, MATH2310, PHYS3101, PHYS3102 and PHYS3203."
   - key: directed
     label: "Directed"
-    note: "10 units from MATH2242, MATH3810 or PHYS2102. The options marked * are suggestions; you only need one."
+    note: "10 units from MATH2242, MATH3820 or PHYS2102. The options marked * are suggestions; you only need one."
   - key: elective
     label: "Electives"
     note: "Suggested electives: PHYS2100 (Introduction to Astronomy) and MATH3205 (Fourier Analysis). Type your own choices into the empty elective boxes to plan your degree."
@@ -52,7 +52,7 @@ years:
     semesters:
       - - { code: PHYS3101, type: major, name: "Statistical Mechanics" }
         - { code: PHYS3102, type: major, name: "Materials Physics" }
-        - { code: MATH3810, type: directed, option: true }
+        - { code: MATH3820, type: directed, option: true, name: "Numerical Methods" }
         - { type: elective }
       - - { code: PHYS3203, type: major, name: "Atomic and Nuclear Physics" }
         - { code: PHYS3204, type: elective, option: true, name: "Nanoscience" }
