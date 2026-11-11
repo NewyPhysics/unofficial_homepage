@@ -341,3 +341,10 @@ a.pp-cell:hover, a.pp-cell:focus-visible { transform:translateY(-2px); box-shado
 .person-card:target { border-color:var(--uon-blue); box-shadow:0 0 0 3px rgba(16,144,213,.3); }
 .people-subhead { margin:2.4rem 0 0; font-size:1.25rem; color:var(--ink-navy); scroll-margin-top:90px; }
 .supervisor-index { scroll-margin-top:90px; }
+
+/* Research-area icon on team cards */
+.team-card-head { display:flex; align-items:center; gap:.7rem; margin-bottom:.3rem; }
+.team-card-head h3 { margin:0; }
+.team-field { flex:none; display:grid; place-items:center; width:34px; height:34px; border-radius:9px; background:var(--accent); color:#fff; transition:transform .15s ease; }
+.team-field:hover { transform:scale(1.08); color:#fff; }
+.team-field .icon { width:20px; height:20px; }

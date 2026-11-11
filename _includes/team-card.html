@@ -1,6 +1,10 @@
 {% assign m = include.member %}
 <article class="team-card">
-  <h3>{{ m.name }}</h3>
+  {% assign area = nil %}{% if m.field %}{% for r in site.research %}{% if r.path contains m.field %}{% assign area = r %}{% endif %}{% endfor %}{% endif %}
+  <div class="team-card-head">
+    {% if area %}<a class="team-field" href="{{ area.url | relative_url }}" style="--accent: {{ area.accent }}" title="{{ area.title }}" aria-label="Research area: {{ area.title }}">{% include icon.html name=area.icon %}</a>{% endif %}
+    <h3>{{ m.name }}</h3>
+  </div>
   {% if include.alumni %}
     {% case m.role %}{% when "postdoc" %}{% assign label = "Postdoc" %}{% when "phd" %}{% assign label = "PhD" %}{% when "honours" %}{% assign label = "Honours" %}{% else %}{% assign label = "" %}{% endcase %}
     <p class="team-meta">{{ label }}{% if m.years %} · {{ m.years }}{% endif %}</p>

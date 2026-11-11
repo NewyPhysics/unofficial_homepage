@@ -7,6 +7,8 @@
 #   supervisors: list of supervisor file names from _people (e.g. schunker-hannah), so they link to their cards
 #   years:       optional, e.g. "2023–" or "2019–2023"
 #   project:     optional, a short project or thesis title
+#   field:       research area, shown as its icon: astrophysics, medical-physics,
+#                nanomaterials-and-organic-electronics or quantum-technology
 #   now:         optional, for alumni: where they are now
 #   title:       optional, job title (used for lab and technical staff)
 #   profile:     optional, link to their University profile
@@ -16,41 +18,49 @@
 
 - name: "Dr Angie Waszewski"
   role: postdoc
+  field: astrophysics
   status: current
   supervisors: [schunker-hannah]
 
 - name: "Dr Sahel Dey"
   role: postdoc
+  field: astrophysics
   status: current
   supervisors: [pontin-david]
 
 - name: "Dr Axel Raboonik"
   role: postdoc
+  field: astrophysics
   status: current
   supervisors: [pontin-david]
 
 - name: "Asha Lakshmi KV"
   role: phd
+  field: astrophysics
   status: current
   supervisors: [schunker-hannah]
 
 - name: "Lorenzo Martinelli"
   role: phd
+  field: astrophysics
   status: current
   supervisors: [schunker-hannah]
 
 - name: "Ellen Lu"
   role: phd
+  field: astrophysics
   status: current
   supervisors: [schunker-hannah]
 
 - name: "Dr Chloe Wilkins"
   role: phd
+  field: astrophysics
   status: past
   supervisors: [pontin-david]
 
 - name: "Dr William Roland-Batty"
   role: phd
+  field: astrophysics
   status: past
   supervisors: [schunker-hannah]
 
