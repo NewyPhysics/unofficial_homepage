@@ -9,12 +9,14 @@ a:hover { text-decoration:underline; }
 .logo h1 { margin:0; font-size:1.3rem; color:var(--uon-blue); }
 .navbar ul { list-style:none; display:flex; gap:1.2rem; margin:0; padding:1rem 0; flex-wrap:wrap; }
 .unofficial-notice { padding:.7rem 1rem; background:#fff4d6; border-bottom:1px solid #ead7a0; text-align:center; font-size:.9rem; }
-.hero { padding:7rem 0 6rem; background:var(--uon-blue); color:#fff; }
-.hero h1 { font-size:clamp(2.3rem,5vw,4.5rem); line-height:1.1; max-width:850px; }
+.hero { padding:2.6rem 0 2.2rem; background:var(--uon-blue); color:#fff; }
+.hero h1 { font-size:clamp(1.8rem,3.4vw,2.8rem); line-height:1.15; max-width:none; margin:.3rem 0 .8rem; }
+.hero .eyebrow { margin:0; font-size:.85rem; }
+.hero p { margin:0 0 .7rem; }
 .eyebrow { letter-spacing:.15em; font-weight:bold; }
 .unofficial-inline { max-width:800px; }
-.hero .lead { max-width:760px; font-size:1.15rem; }
-.hero-note { max-width:760px; opacity:.9; }
+.hero .lead { max-width:980px; font-size:1.08rem; }
+.hero-note { max-width:980px; opacity:.9; }
 .hero a:not(.btn) { color:#fff; text-decoration:underline; }
 .btn { display:inline-block; margin:.5rem .5rem .5rem 0; padding:.65rem 1.2rem; border-radius:3px; background:#fff; color:var(--uon-blue); font-weight:bold; }
 .btn.secondary { background:transparent; color:inherit; border:1px solid currentColor; }
@@ -31,7 +33,7 @@ a:hover { text-decoration:underline; }
 section[id] { scroll-margin-top:80px; }
 .empty-note { color:#5b6670; font-style:italic; }
 .footer a { color:#fff; }
-@media(max-width:800px){ .navbar ul{gap:.6rem; font-size:.9rem;} .hero{padding-top:4rem;} }
+@media(max-width:800px){ .navbar ul{gap:.6rem; font-size:.9rem;} .hero{padding-top:2rem;} }
 /* Academic profile grid: compact cards */
 .people-grid {
   display: grid;
